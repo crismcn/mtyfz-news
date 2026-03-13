@@ -28,7 +28,7 @@ jobs:
 
       - name: Run news generator
         env:
-          GEMINI_API_KEY: ${{ secrets.MODELSCOPE_API_KEY }}
+          MODELSCOPE_API_KEY: ${{ secrets.MODELSCOPE_API_KEY }}
         run: python aggregate_news.py
 
       - name: Commit and push generated files
