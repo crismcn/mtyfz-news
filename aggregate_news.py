@@ -39,7 +39,7 @@ DEFAULT_BRANCH = "master"
 MODEL_NAME = "ZhipuAI/GLM-5"
 REQUEST_TIMEOUT = 30
 PLAYWRIGHT_TIMEOUT_MS = 25000
-MAX_NEWS_ITEMS = 24
+MAX_NEWS_ITEMS = 36
 MIN_NEWS_ITEMS = 10
 MAX_IMAGE_DISCOVERY_ITEMS = 12
 MAX_IMAGES_PER_ARTICLE = 3
@@ -96,7 +96,7 @@ def fetch_feed() -> Any:
     response = requests.get(
         RSS_URL,
         timeout=REQUEST_TIMEOUT,
-        headers={"User-Agent": "daily-news-hub/1.0"},
+        headers={"User-Agent": "mtyfz-mews/1.0"},
     )
     response.raise_for_status()
     return feedparser.parse(response.content)
@@ -590,7 +590,7 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
         image_url,
         timeout=REQUEST_TIMEOUT,
         stream=True,
-        headers={"User-Agent": "daily-news-hub/1.0", "Referer": referer},
+        headers={"User-Agent": "mtyfz-news/1.0", "Referer": referer},
     )
     response.raise_for_status()
 
@@ -870,8 +870,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     }
 
     date_str = now.strftime("%Y-%m-%d")
-    json_file_name = f"Daily_News_{date_str}.json"
-    markdown_file_name = f"Daily_News_{date_str}.md"
+    json_file_name = f"News_{date_str}.json"
+    markdown_file_name = f"News_{date_str}.md"
 
     with open(json_file_name, "w", encoding="utf-8") as json_file:
         json.dump(final_output, json_file, ensure_ascii=False, indent=2)
