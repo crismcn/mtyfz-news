@@ -1,29 +1,29 @@
-name: Update News
+# name: Update News
 
-on:
-  schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '0 * * * *'
+#   workflow_dispatch:
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
+# jobs:
+#   update:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+#     steps:
+#       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
+#       - uses: actions/setup-node@v4
+#         with:
+#           node-version: 20
 
-      - run: npm install axios fast-xml-parser
+#       - run: npm install axios fast-xml-parser
 
-      - run: node script/fetchNews.js
+#       - run: node script/fetchNews.js
 
-      - name: commit
-        run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@github.com"
-          git add .
-          git commit -m "update news" || echo "no change"
-          git push
+#       - name: commit
+#         run: |
+#           git config --global user.name "bot"
+#           git config --global user.email "bot@github.com"
+#           git add .
+#           git commit -m "update news" || echo "no change"
+#           git push
