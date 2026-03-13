@@ -1,0 +1,29 @@
+name: Update News
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # 每30分钟
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install axios fast-xml-parser
+
+      - run: node script/fetchNews.js
+
+      - name: commit
+        run: |
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
+          git add .
+          git commit -m "update news" || echo "no change"
+          git push
