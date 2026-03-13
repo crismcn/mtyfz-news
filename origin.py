@@ -15,7 +15,6 @@ from urllib.parse import urlparse
 import feedparser
 import pytz
 import requests
-from openai import OpenAI
 
 try:
     from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
@@ -36,7 +35,7 @@ NEWS_SOURCE_URL = (
 )
 DEFAULT_REPOSITORY = "duguBoss/daily-news-hub"
 DEFAULT_BRANCH = "main"
-MODEL_NAME = "ZhipuAI/GLM-4.7-Flash"
+MODEL_NAME = "gemini-3.1-flash-lite-preview"
 REQUEST_TIMEOUT = 30
 PLAYWRIGHT_TIMEOUT_MS = 25000
 MAX_NEWS_ITEMS = 36
@@ -77,9 +76,9 @@ CHINA_RELATED_PATTERNS =[
 
 
 def require_api_key() -> str:
-    api_key = os.environ.get("MODELSCOPE_API_KEY")
+    api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("Missing MODELSCOPE_API_KEY. Set it in the environment or GitHub Secrets.")
+        raise ValueError("Missing GEMINI_API_KEY. Set it in the environment or GitHub Secrets.")
     return api_key
 
 
@@ -172,38 +171,68 @@ def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def call_gemini(api_key: str, prompt: str) -> str:
-    client = OpenAI(
-        base_url='https://api-inference.modelscope.cn/v1',
-        api_key=api_key,
+    url = (
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{MODEL_NAME}:generateContent?key={api_key}"
     )
-    response = client.chat.completions.create(
-        model=MODEL_NAME,
-        messages=[{"role": "user", "content": prompt}],
-        temperature=0.4,
-        top_p=0.9,
-        response_format={"type": "json_object"},
+    payload = {
+        "contents":[{"parts":[{"text": prompt}]}],
+        "generationConfig": {
+            "temperature": 0.4,
+            "topP": 0.9,
+            "responseMimeType": "application/json",
+        },
+        "safetySettings":[
+            {"category": "HARM_CATEGORY_HARASSMENT", "threshold": "BLOCK_LOW_AND_ABOVE"},
+            {"category": "HARM_CATEGORY_HATE_SPEECH", "threshold": "BLOCK_LOW_AND_ABOVE"},
+            {
+                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                "threshold": "BLOCK_LOW_AND_ABOVE",
+            },
+            {"category": "HARM_CATEGORY_DANGEROUS_CONTENT", "threshold": "BLOCK_LOW_AND_ABOVE"},
+        ],
+    }
+
+    response = requests.post(
+        url,
+        headers={"Content-Type": "application/json"},
+        json=payload,
+        timeout=REQUEST_TIMEOUT,
     )
-    return response.choices[0].message.content
+    if response.status_code != 200:
+        raise RuntimeError(
+            f"Gemini API request failed with status {response.status_code}: {response.text}"
+        )
+
+    result_json = response.json()
+    candidate = (result_json.get("candidates") or [{}])[0]
+    finish_reason = candidate.get("finishReason", "")
+    content = candidate.get("content") or {}
+    parts = content.get("parts") or[]
+
+    if finish_reason in {"SAFETY", "RECITATION", "BLOCKLIST"}:
+        raise RuntimeError(f"Gemini blocked the response with finishReason={finish_reason}: {result_json}")
+
+    try:
+        return parts[0]["text"]
+    except (KeyError, IndexError) as exc:
+        raise RuntimeError(f"Unexpected Gemini response shape: {result_json}") from exc
 
 
 def parse_model_json(raw_text: str) -> dict[str, Any]:
     cleaned_text = raw_text.strip()
-
-    # Some models (and older outputs) wrap JSON in markdown code fences.
-    # Try to strip those if present to recover the JSON.
     code_block_match = re.search(r"```json\s*(\{.*?\})\s*```", cleaned_text, flags=re.IGNORECASE | re.DOTALL)
     if code_block_match:
         cleaned_text = code_block_match.group(1).strip()
     else:
-        cleaned_text = re.sub(r"^```json\s*", "", cleaned_text, flags=re.IGNORECASE).strip()
+        cleaned_text = re.sub(r"^```json\s*", "", cleaned_text, flags=re.IGNORECASE)
         cleaned_text = re.sub(r"\s*```$", "", cleaned_text).strip()
 
     decoder = json.JSONDecoder()
     try:
         parsed, _ = decoder.raw_decode(cleaned_text)
         return parsed
-    except json.JSONDecodeError:
-        # Try to recover by extracting the first JSON object in the text.
+    except json.JSONDecodeError as exc:
         first_object_match = re.search(r"\{.*", cleaned_text, flags=re.DOTALL)
         if first_object_match:
             candidate = first_object_match.group(0)
@@ -212,7 +241,7 @@ def parse_model_json(raw_text: str) -> dict[str, Any]:
                 return parsed
             except json.JSONDecodeError:
                 pass
-        raise RuntimeError(f"Model response is not valid JSON: {cleaned_text}")
+        raise RuntimeError(f"Model response is not valid JSON: {cleaned_text}") from exc
 
 
 def build_article_translation_prompt(item: dict[str, Any]) -> str:
@@ -246,12 +275,7 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
             if not title_cn or not summary_cn:
                 raise ValueError("Missing translated fields.")
         except Exception as exc:
-            # 如果模型输出不是纯 JSON，打印一小段用于排查
-            snippet = raw_text[:800].replace("\n", " ") if 'raw_text' in locals() else "<no output>"
-            print(
-                f"Skipping article {item['index']} due to translation failure: {exc}. "
-                f"Response snippet: {snippet}"
-            )
+            print(f"Skipping article {item['index']} due to translation failure: {exc}")
             continue
 
         translated_articles.append(
