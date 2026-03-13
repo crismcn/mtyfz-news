@@ -34,12 +34,12 @@ NEWS_SOURCE_URL = (
     "CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKRFFTZ0FQAQ"
     "?hl=en-US&gl=US&ceid=US%3Aen"
 )
-DEFAULT_REPOSITORY = "duguBoss/daily-news-hub"
-DEFAULT_BRANCH = "main"
-MODEL_NAME = "ZhipuAI/GLM-4.7-Flash"
+DEFAULT_REPOSITORY = "crismcn/mtyfz-news"
+DEFAULT_BRANCH = "master"
+MODEL_NAME = "ZhipuAI/GLM-5"
 REQUEST_TIMEOUT = 30
 PLAYWRIGHT_TIMEOUT_MS = 25000
-MAX_NEWS_ITEMS = 36
+MAX_NEWS_ITEMS = 24
 MIN_NEWS_ITEMS = 10
 MAX_IMAGE_DISCOVERY_ITEMS = 12
 MAX_IMAGES_PER_ARTICLE = 3
@@ -171,7 +171,7 @@ def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
     }
 
 
-def call_gemini(api_key: str, prompt: str) -> str:
+def call_model(api_key: str, prompt: str) -> str:
     client = OpenAI(
         base_url='https://api-inference.modelscope.cn/v1',
         api_key=api_key,
@@ -188,31 +188,12 @@ def call_gemini(api_key: str, prompt: str) -> str:
 
 def parse_model_json(raw_text: str) -> dict[str, Any]:
     cleaned_text = raw_text.strip()
-
-    # Some models (and older outputs) wrap JSON in markdown code fences.
-    # Try to strip those if present to recover the JSON.
-    code_block_match = re.search(r"```json\s*(\{.*?\})\s*```", cleaned_text, flags=re.IGNORECASE | re.DOTALL)
-    if code_block_match:
-        cleaned_text = code_block_match.group(1).strip()
-    else:
-        cleaned_text = re.sub(r"^```json\s*", "", cleaned_text, flags=re.IGNORECASE).strip()
-        cleaned_text = re.sub(r"\s*```$", "", cleaned_text).strip()
-
     decoder = json.JSONDecoder()
     try:
         parsed, _ = decoder.raw_decode(cleaned_text)
         return parsed
-    except json.JSONDecodeError:
-        # Try to recover by extracting the first JSON object in the text.
-        first_object_match = re.search(r"\{.*", cleaned_text, flags=re.DOTALL)
-        if first_object_match:
-            candidate = first_object_match.group(0)
-            try:
-                parsed, _ = decoder.raw_decode(candidate)
-                return parsed
-            except json.JSONDecodeError:
-                pass
-        raise RuntimeError(f"Model response is not valid JSON: {cleaned_text}")
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"Model response is not valid JSON: {cleaned_text}") from exc
 
 
 def build_article_translation_prompt(item: dict[str, Any]) -> str:
@@ -239,19 +220,14 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
     for item in news_items:
         prompt = build_article_translation_prompt(item)
         try:
-            raw_text = call_gemini(api_key, prompt)
+            raw_text = call_model(api_key, prompt)
             translated = parse_model_json(raw_text)
             title_cn = normalize_whitespace(str(translated.get("title_cn", "")))
             summary_cn = normalize_whitespace(str(translated.get("summary_cn", "")))
             if not title_cn or not summary_cn:
                 raise ValueError("Missing translated fields.")
         except Exception as exc:
-            # 如果模型输出不是纯 JSON，打印一小段用于排查
-            snippet = raw_text[:800].replace("\n", " ") if 'raw_text' in locals() else "<no output>"
-            print(
-                f"Skipping article {item['index']} due to translation failure: {exc}. "
-                f"Response snippet: {snippet}"
-            )
+            print(f"Skipping article {item['index']} due to translation failure: {exc}")
             continue
 
         translated_articles.append(
@@ -295,7 +271,7 @@ def generate_metadata(api_key: str, translated_articles: list[dict[str, Any]]) -
 {articles_text}
 """
     try:
-        raw_text = call_gemini(api_key, prompt)
+        raw_text = call_model(api_key, prompt)
         return parse_model_json(raw_text)
     except Exception as exc:
         print(f"Failed to generate metadata via AI (Likely Rate Limit), using smart fallback. Error: {exc}")
