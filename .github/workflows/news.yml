@@ -2,7 +2,7 @@ name: Update News
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # 每30分钟
+    - cron: '* */1 * * *' # 每小时执行一次
   workflow_dispatch:
 
 jobs:
