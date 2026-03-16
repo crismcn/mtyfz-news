@@ -113,6 +113,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
     for entry in feed.entries:
         title = normalize_whitespace(entry.get("title", ""))
         summary = normalize_whitespace(re.sub(r"<[^>]+>", " ", entry.get("summary", "")))
+        pubDate = normalize_whitespace(entry.get("pubDate", ""))
         google_news_url = entry.get("link", "")
         combined = " ".join(part for part in[title, summary] if part)
 
@@ -132,6 +133,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
                 "image_paths":[],
                 "image_source": "",
                 "image_caption": "",
+                "pub_date": pubDate,
             }
         )
 
@@ -240,6 +242,7 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
                 "image_source": "",
                 "original_title": item["title"],
                 "original_url": item["resolved_url"] or item["google_news_url"],
+                "pub_date": item["pub_date"],
             }
         )
 
