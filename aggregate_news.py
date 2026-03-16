@@ -123,7 +123,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
             {
                 "index": len(items) + 1,
                 "title": title,
-                "summary": summary[:240],
+                "summary": summary[:520],
                 "google_news_url": google_news_url,
                 "resolved_url": "",
                 "image_url": "",
@@ -159,7 +159,7 @@ def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
             {
                 "source_index": item["index"],
                 "title_cn": item["title"],
-                "summary_cn": item["summary"][:88] or item["title"],
+                "summary_cn": item["summary"][:98] or item["title"],
             }
             for item in news_items
         ],
@@ -254,9 +254,9 @@ def generate_metadata(api_key: str, translated_articles: list[dict[str, Any]]) -
 要求：
 1. 语气要带有“突发”、“重磅”等实时新闻的紧迫感（即适度的“标题党”），必须基于事实制造悬念或强调其巨大影响。
 2. title：生成一个极具冲击力的主标题（必须是完整的一句话，严格控制在 32 字以内）。【极其重要】必须提取今天最震撼的核心事件（如“突发！XXX在某地遇袭”）。绝对禁止包含“福布斯”、“路透社”等媒体名字。绝对禁止使用“XXX等重磅要闻”、“新闻大盘点”等拼凑废话。
-3. seo_summary：生成一段极度凝练且极具吸引力的新闻摘要（必须是完整的句子，严格控制在 80 字以内）。直击最重磅的事件痛点，制造点击悬念，适合SEO抓取。绝不要凑字数。
-4. timeline：一句话概括今天新闻的整体节奏或主要脉络（30-80字）。
-5. risk_watch：一句话提示从今天新闻中观察到的值得重点关注的演变趋势或风险点（30-80字）。
+3. seo_summary：生成一段极度凝练且极具吸引力的新闻摘要（必须是完整的句子，严格控制在 100 字以内）。直击最重磅的事件痛点，制造点击悬念，适合SEO抓取。绝不要凑字数。
+4. timeline：一句话概括今天新闻的整体节奏或主要脉络（30-100字）。
+5. risk_watch：一句话提示从今天新闻中观察到的值得重点关注的演变趋势或风险点（30-100字）。
 6. 仅返回合法的 JSON 格式，禁止输出 markdown 代码块。
 
 输出 JSON 结构：
@@ -308,8 +308,8 @@ def build_ai_data_from_articles(
     # 摘要逻辑同理
     first_summary_raw = translated_articles[0]['summary_cn']
     smart_summary = f"重磅进展：{first_summary_raw}"
-    if len(smart_summary) > 80:
-        smart_summary = smart_summary[:78] + "..."
+    if len(smart_summary) > 100:
+        smart_summary = smart_summary[:98] + "..."
 
     title = metadata.get("title") or smart_title
     seo_summary = metadata.get("seo_summary") or smart_summary
@@ -319,8 +319,8 @@ def build_ai_data_from_articles(
     # 最后一道强制保险，保证 AI 生成的也严格不超字数
     if len(title) > 32:
         title = title[:31] + "…"
-    if len(seo_summary) > 80:
-        seo_summary = seo_summary[:78] + "..."
+    if len(seo_summary) > 100:
+        seo_summary = seo_summary[:98] + "..."
 
     cover_source_index = translated_articles[0]["source_index"]
     for item in news_items:
@@ -386,8 +386,8 @@ def validate_ai_data(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) 
             )
         )
     )
-    if len(seo_summary) > 80:
-        seo_summary = seo_summary[:78] + "..."
+    if len(seo_summary) > 100:
+        seo_summary = seo_summary[:98] + "..."
 
     intro_paragraphs = ensure_list_of_strings(
         ai_data.get("intro_paragraphs",[]), "intro_paragraphs", min_items=2
@@ -451,7 +451,7 @@ def validate_ai_data(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) 
                 {
                     "source_index": source_index,
                     "title_cn": item["title"],
-                    "summary_cn": item["summary"][:88] or item["title"],
+                    "summary_cn": item["summary"][:100] or item["title"],
                     "image_urls":[],
                     "image_caption": "",
                     "image_source": "",
