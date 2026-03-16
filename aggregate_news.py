@@ -83,6 +83,28 @@ def require_api_key() -> str:
     return api_key
 
 
+def require_wechat_token() -> str:
+    token = os.environ.get("WECHAT_ACCESS_TOKEN")
+    if not token:
+        raise ValueError("Missing WECHAT_ACCESS_TOKEN. Set it in the environment or GitHub Secrets.")
+    return token
+
+
+def upload_to_wechat(image_content: bytes, filename: str) -> str:
+    token = require_wechat_token()
+    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={token}&type=image"
+    files = {
+        "media": (filename, image_content, "image/jpeg")  # 假设是jpeg，可根据需要调整
+    }
+    response = requests.post(url, files=files)
+    response.raise_for_status()
+    result = response.json()
+    if "url" in result:
+        return result["url"]
+    else:
+        raise ValueError(f"Failed to upload image: {result}")
+
+
 def normalize_whitespace(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
@@ -585,7 +607,7 @@ def raw_asset_url(relative_path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
 
-def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str) -> tuple[str, str]:
+def download_and_upload_image(image_url: str, referer: str) -> str:
     response = requests.get(
         image_url,
         timeout=REQUEST_TIMEOUT,
@@ -600,12 +622,10 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     if len(content) < 15_000:
         raise ValueError("Downloaded image is too small.")
 
-    digest = hashlib.sha1(content).hexdigest()[:12]
-    filename = f"{file_stem}-{digest}{extension}"
-    target_dir.mkdir(parents=True, exist_ok=True)
-    relative_path = target_dir / filename
-    relative_path.write_bytes(content)
-    return str(relative_path.as_posix()), raw_asset_url(relative_path)
+    # 上传到微信
+    filename = f"image{extension}"
+    wechat_url = upload_to_wechat(content, filename)
+    return wechat_url
 
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
@@ -673,20 +693,16 @@ def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
 
             for image_index, candidate in enumerate(best_candidates, start=1):
                 try:
-                    image_path, image_url = download_image(
+                    wechat_url = download_and_upload_image(
                         image_url=candidate["src"],
-                        target_dir=target_dir,
-                        file_stem=f"{item['index']:02d}-{image_index}-{slugify(item['title'])}",
                         referer=item["resolved_url"],
                     )
                 except Exception:
                     continue
 
-                item["image_paths"].append(image_path)
-                item["image_urls"].append(image_url)
+                item["image_urls"].append(wechat_url)
                 if not item["image_url"]:
-                    item["image_url"] = image_url
-                    item["image_path"] = image_path
+                    item["image_url"] = wechat_url
                     item["image_source"] = candidate["src"]
                     item["image_caption"] = item["title"]
 
@@ -844,7 +860,7 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     current_time = now.strftime("%Y-%m-%d %H:%M:%S")
     cover_url = attach_article_images(ai_data, news_items)
     html_content = render_html(ai_data, news_items, cover_url, current_time)
-    markdown_content = render_markdown(ai_data, news_items, cover_url, current_time)
+    # markdown_content = render_markdown(ai_data, news_items, cover_url, current_time)
     peitu_urls = [
         article["image_urls"][0]
         for article in ai_data["articles"]
@@ -876,8 +892,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     with open(json_file_name, "w", encoding="utf-8") as json_file:
         json.dump(final_output, json_file, ensure_ascii=False, indent=2)
 
-    with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
-        markdown_file.write(markdown_content)
+    # with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
+    #     markdown_file.write(markdown_content)
 
     return json_file_name
 
