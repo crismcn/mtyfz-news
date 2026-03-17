@@ -655,7 +655,9 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     file_path = target_dir / filename
     file_path.write_bytes(content)
     # 上传到公众号素材库
+    print(f"upload_wechat_image: {file_path}")
     wechat_url = upload_wechat_image(file_path)
+    print(f"wechat_url: {wechat_url}")
     return str(file_path.as_posix()), wechat_url
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
