@@ -943,7 +943,6 @@ def main() -> None:
     output_file = save_outputs(ai_data, news_items)
 
     print(f"Generated daily briefing: {output_file}")
-    print(f"Generated OK!")
 
 
 if __name__ == "__main__":
