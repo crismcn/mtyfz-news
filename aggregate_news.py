@@ -115,13 +115,12 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] =[]
 
     for entry in feed.entries:
-         # 打印所有可用字段，看看 pubDate 在哪个键里
-        print(entry.get("id", ""))
-        print(entry.get("guid", ""))
+        # 打印所有可用字段，看看 pubDate 在哪个键里
+        print(entry.keys())
         title = normalize_whitespace(entry.get("title", ""))
         summary = normalize_whitespace(re.sub(r"<[^>]+>", " ", entry.get("summary", "")))
         google_news_url = entry.get("link", "")
-        guid = hashlib.md5(entry.get("guid", "").encode()).hexdigest()  # MD5 hash the GUID
+        guid = hashlib.md5(entry.get("id", "").encode()).hexdigest()  # MD5 hash the GUID
         pub_date = entry.get("published", "") or entry.get('published_parsed') or ''
         author = entry.get("source", "").get("title", "")
         combined = " ".join(part for part in[title, summary] if part)
