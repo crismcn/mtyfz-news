@@ -48,6 +48,10 @@ MIN_IMAGE_HEIGHT = 200
 SHANGHAI_TZ = pytz.timezone("Asia/Shanghai")
 ASSET_ROOT = Path("assets") / "generated"
 
+# Initialize global variables for WeChat access token
+ACCESS_TOKEN = None
+EXPIRE_AT = 0
+
 TOP_BANNER_URL = (
     "https://mmbiz.qpic.cn/mmbiz_gif/"
     "3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/"
@@ -585,7 +589,6 @@ def raw_asset_url(relative_path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
 def get_access_token() -> str:
-    global ACCESS_TOKEN, EXPIRE_AT
     APPID = os.environ.get('WECHAT_APPID')
     APPSECRET = os.environ.get('WECHAT_APPSECRET')
     print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
@@ -655,7 +658,6 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     file_path = target_dir / filename
     file_path.write_bytes(content)
     # 上传到公众号素材库
-    print(f"upload_wechat_image: {file_path}")
     wechat_url = upload_wechat_image(file_path)
     print(f"wechat_url: {wechat_url}")
     return str(file_path.as_posix()), wechat_url
@@ -848,7 +850,6 @@ def render_html(
         parts.append(
             f"<span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">{html.escape(tag)}</span>"
         )
-    parts.append("</section>")
     parts.append("</section>")
     parts.append(f"<img src=\"{BOTTOM_BANNER_URL}\" style=\"width:100%;display:block;\">")
     parts.append("</section>")
