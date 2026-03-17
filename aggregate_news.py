@@ -588,6 +588,7 @@ def get_access_token() -> str:
     global ACCESS_TOKEN, EXPIRE_AT
     APPID = os.environ.get('WECHAT_APPID')
     APPSECRET = os.environ.get('WECHAT_APPSECRET')
+    print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
     if ACCESS_TOKEN and EXPIRE_AT > time.time():
         return ACCESS_TOKEN
 
@@ -603,7 +604,7 @@ def get_access_token() -> str:
 
     ACCESS_TOKEN = data["access_token"]
     EXPIRE_AT = time.time() + 7200
-
+    print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
     return ACCESS_TOKEN
 
 def upload_wechat_image(file_path: Path) -> str:
