@@ -589,15 +589,15 @@ def raw_asset_url(relative_path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
 def get_access_token() -> str:
-    print(f"XXXXXXXXXXXXXXX global ACCESS_TOKEN, EXPIRE_AT XXXXXXXXXXXXXXX")
+    print(f"XXXXXXXXXXXXXXX get_access_token XXXXXXXXXXXXXXX")
     global ACCESS_TOKEN, EXPIRE_AT  # 添加这一行，声明要修改全局变量
-    print(f"get_access_token: ")
     APPID = os.environ.get('WECHAT_APPID')
     APPSECRET = os.environ.get('WECHAT_APPSECRET')
-    print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
+    print(f"ACCESS_TOKEN: {ACCESS_TOKEN}, {EXPIRE_AT}")
+
     if ACCESS_TOKEN and EXPIRE_AT > time.time():
         return ACCESS_TOKEN
-
+    print(f"APPID: {APPID}, {APPSECRET}")
     url = "https://api.weixin.qq.com/cgi-bin/token"
 
     res = requests.get(url, params={
@@ -607,6 +607,9 @@ def get_access_token() -> str:
     })
 
     data = res.json()
+
+    if "errcode" in data and data["errcode"] != 0:
+        raise Exception(f"WeChat access token failed: {data}")
 
     ACCESS_TOKEN = data["access_token"]
     EXPIRE_AT = time.time() + 7200
