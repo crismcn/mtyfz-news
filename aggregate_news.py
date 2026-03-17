@@ -611,11 +611,9 @@ def get_access_token() -> str:
     return ACCESS_TOKEN
 
 def upload_wechat_image(file_path: Path) -> str:
-    """
-    上传图片到公众号素材库
-    返回微信 CDN url
-    """
+    print(f"upload_wechat_image: {file_path}")
     access_token = get_access_token()
+    print(f"access_token: {access_token}")
     url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
 
     with open(file_path, "rb") as f:
