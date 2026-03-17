@@ -120,7 +120,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
         google_news_url = entry.get("link", "")
         guid = hashlib.md5(entry.get("guid", "").encode()).hexdigest()  # MD5 hash the GUID
         pub_date = entry.get("pubDate", "")
-        author = entry.get("source", "")
+        author = entry.get("source", "").get("title", "")
         combined = " ".join(part for part in[title, summary] if part)
 
         if not title or is_china_related(combined):
