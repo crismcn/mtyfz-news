@@ -632,7 +632,7 @@ def upload_wechat_image(file_path: Path) -> str:
     返回微信 CDN url
     """
     access_token = get_access_token()
-    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={ACCESS_TOKEN}&type=image"
+    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
 
     with open(file_path, "rb") as f:
         files = {
