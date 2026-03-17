@@ -727,8 +727,10 @@ def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
                 except Exception:
                     continue
 
-                item["image_paths"].append(image_path)
-                item["image_urls"].append(image_url)
+                if image_path not in item["image_paths"]:
+                    item["image_paths"].append(image_path)
+                if image_url not in item["image_urls"]:
+                    item["image_urls"].append(image_url)
                 if not item["image_url"]:
                     item["image_url"] = image_url
                     item["image_path"] = image_path
