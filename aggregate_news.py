@@ -922,8 +922,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     with open(json_file_name, "w", encoding="utf-8") as json_file:
         json.dump(final_output, json_file, ensure_ascii=False, indent=2)
 
-    with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
-        markdown_file.write(markdown_content)
+    # with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
+    #     markdown_file.write(markdown_content)
 
     return json_file_name
 
