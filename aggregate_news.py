@@ -948,10 +948,9 @@ def main() -> None:
     api_key = require_api_key()
     feed = fetch_feed()
     news_items = collect_news_items(feed)
-    print(f"Collected {len(news_items)} news items")
+    date_str = datetime.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d")
+    enrich_news_images(news_items, date_str)
     print(f"{news_items}")
-    # date_str = datetime.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d")
-    # enrich_news_images(news_items, date_str)
     # try:
     #     translated_articles = translate_news_items(api_key, news_items)
     #     ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
