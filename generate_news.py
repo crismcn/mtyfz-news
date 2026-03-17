@@ -36,7 +36,7 @@ NEWS_SOURCE_URL = (
 )
 DEFAULT_REPOSITORY = "crismcn/mtyfz-news"
 DEFAULT_BRANCH = "master"
-MODEL_NAME = "deepseek-ai/DeepSeek-V3.2"
+MODEL_NAME = "ZhipuAI/GLM-4.7-Flash"
 # "ZhipuAI/GLM-5"
 REQUEST_TIMEOUT = 30
 PLAYWRIGHT_TIMEOUT_MS = 25000
