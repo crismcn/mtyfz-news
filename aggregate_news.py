@@ -591,15 +591,14 @@ def get_access_token() -> str:
     res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"})
 
     data = res.json()
-    if "access_token" not in data or not data["access_token"]:
+    if "data" not in data or "access_token" not in data["data"] or not data["data"]["access_token"]:
         raise Exception(f"get_access_token failed: {data}")
-    ACCESS_TOKEN = data["access_token"]
-    print(f"get_access_token: {ACCESS_TOKEN}")
+    
+    ACCESS_TOKEN = data["data"]["access_token"]
     return ACCESS_TOKEN
 
 
-def upload_wechat_image(file_path: Path) -> str:
-    access_token = get_access_token()
+def upload_wechat_image(file_path: Path, access_token: str) -> str:
     url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
 
     with open(file_path, "rb") as f:
@@ -616,7 +615,7 @@ def upload_wechat_image(file_path: Path) -> str:
     return data["url"]
 
 
-def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str) -> tuple[str, str]:
+def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str, access_token: str) -> tuple[str, str]:
     response = requests.get(
         image_url,
         timeout=REQUEST_TIMEOUT,
@@ -643,18 +642,16 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     file_path = target_dir / filename
     file_path.write_bytes(content)
     # 上传到公众号素材库
-    wechat_url = ""
-    # wechat_url = upload_wechat_image(file_path)
-    # print(f"wechat_url: {wechat_url}")
+    wechat_url = upload_wechat_image(file_path, access_token)
+    print(f"wechat_url: {wechat_url}")
     return str(file_path.as_posix()), wechat_url
 
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
-    get_access_token()
     if not PLAYWRIGHT_AVAILABLE:
         print("Playwright is not installed. Skipping article image discovery.")
         return
-
+    access_token = get_access_token()
     target_dir = ASSET_ROOT / date_str
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
@@ -720,6 +717,7 @@ def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
                         target_dir=target_dir,
                         file_stem=f"{item['index']:02d}-{image_index}-{slugify(item['title'])}",
                         referer=item["resolved_url"],
+                        access_token=access_token
                     )
                 except Exception:
                     continue
