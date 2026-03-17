@@ -114,6 +114,9 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
         title = normalize_whitespace(entry.get("title", ""))
         summary = normalize_whitespace(re.sub(r"<[^>]+>", " ", entry.get("summary", "")))
         google_news_url = entry.get("link", "")
+        guid = hashlib.md5(entry.get("id", "").encode()).hexdigest()  # MD5 hash the GUID
+        pub_date = entry.get("published", "") or entry.get('published_parsed') or ''
+        author = entry.get("source", "").get("title", "")
         combined = " ".join(part for part in[title, summary] if part)
 
         if not title or is_china_related(combined):
@@ -121,6 +124,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
 
         items.append(
             {
+                "guid": guid,
                 "index": len(items) + 1,
                 "title": title,
                 "summary": summary[:240],
@@ -132,6 +136,8 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
                 "image_paths":[],
                 "image_source": "",
                 "image_caption": "",
+                "pub_date": pub_date,
+                "author": author,
             }
         )
 
@@ -144,6 +150,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
         )
 
     return items
+
 
 
 def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
@@ -584,8 +591,44 @@ def raw_asset_url(relative_path: Path) -> str:
     normalized = relative_path.as_posix()
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
+def publish_global_news(data: Any) -> bool:
+    WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
+    url = "https://news.crism.cn/api/v1/wechat/refresh_global_news"
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"}, json={"data": f"{data}"})
+    data = res.json()
+    return True
 
-def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str) -> tuple[str, str]:
+def get_access_token() -> str:
+    WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
+    url = "https://news.crism.cn/api/v1/wechat/get_upload_token"
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"})
+
+    data = res.json()
+    if "data" not in data or "access_token" not in data["data"] or not data["data"]["access_token"]:
+        raise Exception(f"get_access_token failed: {data}")
+    
+    ACCESS_TOKEN = data["data"]["access_token"]
+    return ACCESS_TOKEN
+
+
+def upload_wechat_image(file_path: Path, access_token: str) -> str:
+    url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
+
+    with open(file_path, "rb") as f:
+        files = {
+            "media": (file_path.name, f, "image/jpeg")
+        }
+
+        res = requests.post(url, files=files, timeout=REQUEST_TIMEOUT)
+        data = res.json()
+
+    if "errcode" in data and data["errcode"] != 0:
+        raise Exception(f"WeChat upload failed: {data}")
+
+    return data["url"]
+
+
+def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str, access_token: str) -> tuple[str, str]:
     response = requests.get(
         image_url,
         timeout=REQUEST_TIMEOUT,
@@ -600,19 +643,27 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     if len(content) < 15_000:
         raise ValueError("Downloaded image is too small.")
 
+    # digest = hashlib.sha1(content).hexdigest()[:12]
+    # filename = f"{file_stem}-{digest}{extension}"
+    # target_dir.mkdir(parents=True, exist_ok=True)
+    # relative_path = target_dir / filename
+    # relative_path.write_bytes(content)
+    # return str(relative_path.as_posix()), raw_asset_url(relative_path)
     digest = hashlib.sha1(content).hexdigest()[:12]
     filename = f"{file_stem}-{digest}{extension}"
     target_dir.mkdir(parents=True, exist_ok=True)
-    relative_path = target_dir / filename
-    relative_path.write_bytes(content)
-    return str(relative_path.as_posix()), raw_asset_url(relative_path)
+    file_path = target_dir / filename
+    file_path.write_bytes(content)
+    # 上传到公众号素材库
+    wechat_url = upload_wechat_image(file_path, access_token)
+    return str(file_path.as_posix()), wechat_url
 
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
     if not PLAYWRIGHT_AVAILABLE:
         print("Playwright is not installed. Skipping article image discovery.")
         return
-
+    access_token = get_access_token()
     target_dir = ASSET_ROOT / date_str
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
@@ -678,12 +729,15 @@ def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
                         target_dir=target_dir,
                         file_stem=f"{item['index']:02d}-{image_index}-{slugify(item['title'])}",
                         referer=item["resolved_url"],
+                        access_token=access_token
                     )
                 except Exception:
                     continue
 
-                item["image_paths"].append(image_path)
-                item["image_urls"].append(image_url)
+                if image_path not in item["image_paths"]:
+                    item["image_paths"].append(image_path)
+                if image_url not in item["image_urls"]:
+                    item["image_urls"].append(image_url)
                 if not item["image_url"]:
                     item["image_url"] = image_url
                     item["image_path"] = image_path
@@ -797,7 +851,6 @@ def render_html(
             f"<span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">{html.escape(tag)}</span>"
         )
     parts.append("</section>")
-    parts.append("</section>")
     parts.append(f"<img src=\"{BOTTOM_BANNER_URL}\" style=\"width:100%;display:block;\">")
     parts.append("</section>")
     return "".join(parts)
@@ -868,7 +921,7 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
         "image_count": sum(len(item["image_urls"]) for item in news_items),
         "sources": news_items,
     }
-
+    publish_global_news(final_output)
     date_str = now.strftime("%Y-%m-%d")
     json_file_name = f"News_{date_str}.json"
     markdown_file_name = f"News_{date_str}.md"
@@ -876,8 +929,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     with open(json_file_name, "w", encoding="utf-8") as json_file:
         json.dump(final_output, json_file, ensure_ascii=False, indent=2)
 
-    with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
-        markdown_file.write(markdown_content)
+    # with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
+    #     markdown_file.write(markdown_content)
 
     return json_file_name
 
@@ -895,6 +948,7 @@ def main() -> None:
         print(f"Falling back to local summary generation: {exc}")
         ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
     output_file = save_outputs(ai_data, news_items)
+
     print(f"Generated daily briefing: {output_file}")
 
 

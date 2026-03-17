@@ -48,10 +48,6 @@ MIN_IMAGE_HEIGHT = 200
 SHANGHAI_TZ = pytz.timezone("Asia/Shanghai")
 ASSET_ROOT = Path("assets") / "generated"
 
-# Initialize global variables for WeChat access token
-ACCESS_TOKEN = None
-EXPIRE_AT = 0
-
 TOP_BANNER_URL = (
     "https://mmbiz.qpic.cn/mmbiz_gif/"
     "3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/"
@@ -115,8 +111,6 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
     items: list[dict[str, Any]] =[]
 
     for entry in feed.entries:
-        # 打印所有可用字段，看看 pubDate 在哪个键里
-        print(entry.keys())
         title = normalize_whitespace(entry.get("title", ""))
         summary = normalize_whitespace(re.sub(r"<[^>]+>", " ", entry.get("summary", "")))
         google_news_url = entry.get("link", "")
@@ -156,6 +150,7 @@ def collect_news_items(feed: Any) -> list[dict[str, Any]]:
         )
 
     return items
+
 
 
 def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
@@ -244,6 +239,7 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
 
         translated_articles.append(
             {
+                "guid": item["guid"],
                 "source_index": item["index"],
                 "title_cn": title_cn,
                 "summary_cn": summary_cn,
@@ -252,6 +248,8 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
                 "image_source": "",
                 "original_title": item["title"],
                 "original_url": item["resolved_url"] or item["google_news_url"],
+                "pub_date": item["pub_date"],
+                "author": item["author"],
             }
         )
 
@@ -596,35 +594,27 @@ def raw_asset_url(relative_path: Path) -> str:
     normalized = relative_path.as_posix()
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
+def publish_global_news(data: Any) -> bool:
+    WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
+    url = "https://news.crism.cn/api/v1/wechat/refresh_global_news"
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"}, json={"data": f"{data}"})
+    data = res.json()
+    return True
+
 def get_access_token() -> str:
-    print(f"XXXXXXXXXXXXXXX get_access_token XXXXXXXXXXXXXXX")
-    global ACCESS_TOKEN, EXPIRE_AT  # 添加这一行，声明要修改全局变量
-    APPID = os.environ.get('WECHAT_APPID')
-    APPSECRET = os.environ.get('WECHAT_APPSECRET')
-    print(f"ACCESS_TOKEN: {ACCESS_TOKEN}, {EXPIRE_AT}")
-    print(f"APPID: {APPID}, {APPSECRET}")
-    if ACCESS_TOKEN and EXPIRE_AT > time.time():
-        return ACCESS_TOKEN
-
-    url = "https://api.weixin.qq.com/cgi-bin/token"
-
-    res = requests.get(url, params={
-        "grant_type": "client_credential",
-        "appid": APPID,
-        "secret": APPSECRET
-    })
+    WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
+    url = "https://news.crism.cn/api/v1/wechat/get_upload_token"
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"})
 
     data = res.json()
-
-    ACCESS_TOKEN = data["access_token"]
-    EXPIRE_AT = time.time() + 7200
-    print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
+    if "data" not in data or "access_token" not in data["data"] or not data["data"]["access_token"]:
+        raise Exception(f"get_access_token failed: {data}")
+    
+    ACCESS_TOKEN = data["data"]["access_token"]
     return ACCESS_TOKEN
 
-def upload_wechat_image(file_path: Path) -> str:
-    print(f"upload_wechat_image: {file_path}")
-    access_token = get_access_token()
-    print(f"access_token: {access_token}")
+
+def upload_wechat_image(file_path: Path, access_token: str) -> str:
     url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
 
     with open(file_path, "rb") as f:
@@ -640,7 +630,8 @@ def upload_wechat_image(file_path: Path) -> str:
 
     return data["url"]
 
-def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str) -> tuple[str, str]:
+
+def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str, access_token: str) -> tuple[str, str]:
     response = requests.get(
         image_url,
         timeout=REQUEST_TIMEOUT,
@@ -667,15 +658,15 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     file_path = target_dir / filename
     file_path.write_bytes(content)
     # 上传到公众号素材库
-    wechat_url = upload_wechat_image(file_path)
-    print(f"wechat_url: {wechat_url}")
+    wechat_url = upload_wechat_image(file_path, access_token)
     return str(file_path.as_posix()), wechat_url
+
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
     if not PLAYWRIGHT_AVAILABLE:
         print("Playwright is not installed. Skipping article image discovery.")
         return
-
+    access_token = get_access_token()
     target_dir = ASSET_ROOT / date_str
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
@@ -741,12 +732,15 @@ def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
                         target_dir=target_dir,
                         file_stem=f"{item['index']:02d}-{image_index}-{slugify(item['title'])}",
                         referer=item["resolved_url"],
+                        access_token=access_token
                     )
                 except Exception:
                     continue
 
-                item["image_paths"].append(image_path)
-                item["image_urls"].append(image_url)
+                if image_path not in item["image_paths"]:
+                    item["image_paths"].append(image_path)
+                if image_url not in item["image_urls"]:
+                    item["image_urls"].append(image_url)
                 if not item["image_url"]:
                     item["image_url"] = image_url
                     item["image_path"] = image_path
@@ -930,7 +924,7 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
         "image_count": sum(len(item["image_urls"]) for item in news_items),
         "sources": news_items,
     }
-
+    publish_global_news(final_output)
     date_str = now.strftime("%Y-%m-%d")
     json_file_name = f"News_{date_str}.json"
     markdown_file_name = f"News_{date_str}.md"
@@ -938,8 +932,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     with open(json_file_name, "w", encoding="utf-8") as json_file:
         json.dump(final_output, json_file, ensure_ascii=False, indent=2)
 
-    with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
-        markdown_file.write(markdown_content)
+    # with open(markdown_file_name, "w", encoding="utf-8") as markdown_file:
+    #     markdown_file.write(markdown_content)
 
     return json_file_name
 
@@ -950,16 +944,14 @@ def main() -> None:
     news_items = collect_news_items(feed)
     date_str = datetime.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d")
     enrich_news_images(news_items, date_str)
-    print(f"{news_items}")
-    # try:
-    #     translated_articles = translate_news_items(api_key, news_items)
-    #     ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
-    # except Exception as exc:
-    #     print(f"Falling back to local summary generation: {exc}")
-    #     ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
-    # output_file = save_outputs(ai_data, news_items)
-    # print(f"Generated daily briefing: {output_file}")
-    print(f"Generated OK!")
+    try:
+        translated_articles = translate_news_items(api_key, news_items)
+        ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
+    except Exception as exc:
+        print(f"Falling back to local summary generation: {exc}")
+        ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
+    output_file = save_outputs(ai_data, news_items)
+    print(f"Generated daily briefing: {output_file}")
 
 
 if __name__ == "__main__":
