@@ -589,20 +589,13 @@ def raw_asset_url(relative_path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
 def get_access_token() -> str:
-    APPID = os.environ.get('WECHAT_APPID')
-    APPSECRET = os.environ.get('WECHAT_APPSECRET')
-
-    url = "https://api.weixin.qq.com/cgi-bin/token"
-    res = requests.get(url, params={
-        "grant_type": "client_credential",
-        "appid": APPID,
-        "secret": APPSECRET
-    })
+    WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
+    url = "https://news.crism.cn/api/v1/wechat/get_upload_token"
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"})
 
     data = res.json()
-
-    if "errcode" in data and data["errcode"] != 0:
-        raise Exception(f"WeChat access token failed: {data}")
+    if "access_token" not in data:
+        raise Exception(f"get_access_token failed: {data}")
 
     ACCESS_TOKEN = data["access_token"]
     EXPIRE_AT = time.time() + 7200
