@@ -584,6 +584,12 @@ def raw_asset_url(relative_path: Path) -> str:
     normalized = relative_path.as_posix()
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
+def publish_global_news(data: Any) -> bool:
+    WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
+    url = "https://news.crism.cn/api/v1/wechat/refresh_global_news"
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"}, json={"data": f"{data}"})
+    data = res.json()
+    return true
 
 def get_access_token() -> str:
     WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
@@ -643,7 +649,6 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     file_path.write_bytes(content)
     # 上传到公众号素材库
     wechat_url = upload_wechat_image(file_path, access_token)
-    print(f"wechat_url: {wechat_url}")
     return str(file_path.as_posix()), wechat_url
 
 
@@ -927,6 +932,7 @@ def main() -> None:
     news_items = collect_news_items(feed)
     date_str = datetime.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d")
     enrich_news_images(news_items, date_str)
+    publish_global_news(news_items)
     # try:
     #     translated_articles = translate_news_items(api_key, news_items)
     #     ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
