@@ -589,17 +589,10 @@ def raw_asset_url(relative_path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
 def get_access_token() -> str:
-    print(f"XXXXXXXXXXXXXXX get_access_token XXXXXXXXXXXXXXX")
-    global ACCESS_TOKEN, EXPIRE_AT  # 添加这一行，声明要修改全局变量
     APPID = os.environ.get('WECHAT_APPID')
     APPSECRET = os.environ.get('WECHAT_APPSECRET')
-    print(f"ACCESS_TOKEN: {ACCESS_TOKEN}, {EXPIRE_AT}")
 
-    if ACCESS_TOKEN and EXPIRE_AT > time.time():
-        return ACCESS_TOKEN
-    print(f"APPID: {APPID}, {APPSECRET}")
     url = "https://api.weixin.qq.com/cgi-bin/token"
-
     res = requests.get(url, params={
         "grant_type": "client_credential",
         "appid": APPID,
@@ -617,9 +610,7 @@ def get_access_token() -> str:
     return ACCESS_TOKEN
 
 def upload_wechat_image(file_path: Path) -> str:
-    print(f"upload_wechat_image: {file_path}")
     access_token = get_access_token()
-    print(f"access_token: {access_token}")
     url = f"https://api.weixin.qq.com/cgi-bin/material/add_material?access_token={access_token}&type=image"
 
     with open(file_path, "rb") as f:
@@ -662,11 +653,13 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     file_path = target_dir / filename
     file_path.write_bytes(content)
     # 上传到公众号素材库
-    wechat_url = upload_wechat_image(file_path)
-    print(f"wechat_url: {wechat_url}")
+    wechat_url = ""
+    # wechat_url = upload_wechat_image(file_path)
+    # print(f"wechat_url: {wechat_url}")
     return str(file_path.as_posix()), wechat_url
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
+    get_access_token()
     if not PLAYWRIGHT_AVAILABLE:
         print("Playwright is not installed. Skipping article image discovery.")
         return
