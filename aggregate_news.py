@@ -642,16 +642,19 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     if len(content) < 15_000:
         raise ValueError("Downloaded image is too small.")
 
+    # digest = hashlib.sha1(content).hexdigest()[:12]
+    # filename = f"{file_stem}-{digest}{extension}"
+    # target_dir.mkdir(parents=True, exist_ok=True)
+    # relative_path = target_dir / filename
+    # relative_path.write_bytes(content)
+    # return str(relative_path.as_posix()), raw_asset_url(relative_path)
     digest = hashlib.sha1(content).hexdigest()[:12]
     filename = f"{file_stem}-{digest}{extension}"
     target_dir.mkdir(parents=True, exist_ok=True)
-    relative_path = target_dir / filename
-    relative_path.write_bytes(content)
-
+    file_path = target_dir / filename
+    file_path.write_bytes(content)
     # 上传到公众号素材库
     wechat_url = upload_wechat_image(file_path)
-
-    # return str(relative_path.as_posix()), raw_asset_url(relative_path)
     return str(file_path.as_posix()), wechat_url
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
@@ -934,14 +937,15 @@ def main() -> None:
     news_items = collect_news_items(feed)
     date_str = datetime.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d")
     enrich_news_images(news_items, date_str)
-    try:
-        # translated_articles = translate_news_items(api_key, news_items)
-        # ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
-    except Exception as exc:
-        print(f"Falling back to local summary generation: {exc}")
-        ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
-    output_file = save_outputs(ai_data, news_items)
-    print(f"Generated daily briefing: {output_file}")
+    # try:
+    #     translated_articles = translate_news_items(api_key, news_items)
+    #     ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
+    # except Exception as exc:
+    #     print(f"Falling back to local summary generation: {exc}")
+    #     ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
+    # output_file = save_outputs(ai_data, news_items)
+    # print(f"Generated daily briefing: {output_file}")
+    print(f"Generated OK!")
 
 
 if __name__ == "__main__":
