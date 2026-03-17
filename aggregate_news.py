@@ -47,7 +47,6 @@ MIN_IMAGE_WIDTH = 360
 MIN_IMAGE_HEIGHT = 200
 SHANGHAI_TZ = pytz.timezone("Asia/Shanghai")
 ASSET_ROOT = Path("assets") / "generated"
-TOKEN_CACHE = Path("wechat_token.json")
 
 TOP_BANNER_URL = (
     "https://mmbiz.qpic.cn/mmbiz_gif/"
@@ -585,48 +584,27 @@ def raw_asset_url(relative_path: Path) -> str:
     normalized = relative_path.as_posix()
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
-
-def get_access_token()  -> str:
-    """
-    获取并缓存微信 access_token
-    """
+def get_access_token() -> str:
+    global ACCESS_TOKEN, EXPIRE_AT
     APPID = os.environ.get('WECHAT_APPID')
     APPSECRET = os.environ.get('WECHAT_APPSECRET')
-    # 如果缓存存在
-    if TOKEN_CACHE.exists():
-        data = json.loads(TOKEN_CACHE.read_text())
+    if ACCESS_TOKEN and EXPIRE_AT > time.time():
+        return ACCESS_TOKEN
 
-        # token未过期
-        if data["expire_at"] > time.time():
-            return data["access_token"]
-
-    # 重新获取
     url = "https://api.weixin.qq.com/cgi-bin/token"
 
-    params = {
+    res = requests.get(url, params={
         "grant_type": "client_credential",
         "appid": APPID,
-        "secret": APPSECRET,
-    }
+        "secret": APPSECRET
+    })
 
-    res = requests.get(url, params=params, timeout=30)
     data = res.json()
 
-    if "access_token" not in data:
-        raise Exception(f"Get token failed: {data}")
+    ACCESS_TOKEN = data["access_token"]
+    EXPIRE_AT = time.time() + 7200
 
-    access_token = data["access_token"]
-
-    # 保存缓存（提前200秒过期）
-    cache_data = {
-        "access_token": access_token,
-        "expire_at": time.time() + 7000,
-    }
-
-    TOKEN_CACHE.write_text(json.dumps(cache_data))
-
-    return access_token
-
+    return ACCESS_TOKEN
 
 def upload_wechat_image(file_path: Path) -> str:
     """
@@ -963,13 +941,6 @@ def main() -> None:
         print(f"Falling back to local summary generation: {exc}")
         ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
     output_file = save_outputs(ai_data, news_items)
-
-        # 保存缓存（提前200秒过期）
-    clear_cache_data = {
-        "access_token": "NO_TOKEN",
-        "expire_at": time.time(),
-    }
-    TOKEN_CACHE.write_text(json.dumps(clear_cache_data))
     print(f"Generated daily briefing: {output_file}")
 
 
