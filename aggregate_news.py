@@ -47,6 +47,7 @@ MIN_IMAGE_WIDTH = 360
 MIN_IMAGE_HEIGHT = 200
 SHANGHAI_TZ = pytz.timezone("Asia/Shanghai")
 ASSET_ROOT = Path("assets") / "generated"
+TOKEN_CACHE = Path("wechat_token.json")
 
 TOP_BANNER_URL = (
     "https://mmbiz.qpic.cn/mmbiz_gif/"
@@ -584,6 +585,7 @@ def raw_asset_url(relative_path: Path) -> str:
     normalized = relative_path.as_posix()
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
+
 def get_access_token()  -> str:
     """
     获取并缓存微信 access_token
@@ -961,6 +963,13 @@ def main() -> None:
         print(f"Falling back to local summary generation: {exc}")
         ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
     output_file = save_outputs(ai_data, news_items)
+
+        # 保存缓存（提前200秒过期）
+    clear_cache_data = {
+        "access_token": "NO_TOKEN",
+        "expire_at": time.time(),
+    }
+    TOKEN_CACHE.write_text(json.dumps(clear_cache_data))
     print(f"Generated daily briefing: {output_file}")
 
 
