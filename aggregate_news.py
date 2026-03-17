@@ -589,6 +589,9 @@ def raw_asset_url(relative_path: Path) -> str:
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
 def get_access_token() -> str:
+    print(f"XXXXXXXXXXXXXXX global ACCESS_TOKEN, EXPIRE_AT XXXXXXXXXXXXXXX")
+    global ACCESS_TOKEN, EXPIRE_AT  # 添加这一行，声明要修改全局变量
+    print(f"get_access_token: ")
     APPID = os.environ.get('WECHAT_APPID')
     APPSECRET = os.environ.get('WECHAT_APPSECRET')
     print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
