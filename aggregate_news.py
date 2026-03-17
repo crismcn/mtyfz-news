@@ -589,7 +589,7 @@ def publish_global_news(data: Any) -> bool:
     url = "https://news.crism.cn/api/v1/wechat/refresh_global_news"
     res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"}, json={"data": f"{data}"})
     data = res.json()
-    return true
+    return True
 
 def get_access_token() -> str:
     WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
@@ -914,7 +914,7 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
         "image_count": sum(len(item["image_urls"]) for item in news_items),
         "sources": news_items,
     }
-
+    publish_global_news(final_output)
     date_str = now.strftime("%Y-%m-%d")
     json_file_name = f"News_{date_str}.json"
     markdown_file_name = f"News_{date_str}.md"
@@ -934,15 +934,15 @@ def main() -> None:
     news_items = collect_news_items(feed)
     date_str = datetime.datetime.now(SHANGHAI_TZ).strftime("%Y-%m-%d")
     enrich_news_images(news_items, date_str)
-    publish_global_news(news_items)
-    # try:
-    #     translated_articles = translate_news_items(api_key, news_items)
-    #     ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
-    # except Exception as exc:
-    #     print(f"Falling back to local summary generation: {exc}")
-    #     ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
-    # output_file = save_outputs(ai_data, news_items)
-    # print(f"Generated daily briefing: {output_file}")
+    try:
+        translated_articles = translate_news_items(api_key, news_items)
+        ai_data = build_ai_data_from_articles(api_key, translated_articles, news_items)
+    except Exception as exc:
+        print(f"Falling back to local summary generation: {exc}")
+        ai_data = validate_ai_data(build_fallback_ai_data(news_items), news_items)
+    output_file = save_outputs(ai_data, news_items)
+
+    print(f"Generated daily briefing: {output_file}")
     print(f"Generated OK!")
 
 
