@@ -48,10 +48,6 @@ MIN_IMAGE_HEIGHT = 200
 SHANGHAI_TZ = pytz.timezone("Asia/Shanghai")
 ASSET_ROOT = Path("assets") / "generated"
 
-# Initialize global variables for WeChat access token
-ACCESS_TOKEN = None
-EXPIRE_AT = 0
-
 TOP_BANNER_URL = (
     "https://mmbiz.qpic.cn/mmbiz_gif/"
     "3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/"
@@ -588,19 +584,19 @@ def raw_asset_url(relative_path: Path) -> str:
     normalized = relative_path.as_posix()
     return f"https://raw.githubusercontent.com/{repository}/{branch}/{normalized}"
 
+
 def get_access_token() -> str:
     WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
     url = "https://news.crism.cn/api/v1/wechat/get_upload_token"
     res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"})
 
     data = res.json()
-    if "access_token" not in data:
+    if "access_token" not in data or not data["access_token"]:
         raise Exception(f"get_access_token failed: {data}")
-
     ACCESS_TOKEN = data["access_token"]
-    EXPIRE_AT = time.time() + 7200
-    print(f"get_access_token: {ACCESS_TOKEN}, {EXPIRE_AT}")
+    print(f"get_access_token: {ACCESS_TOKEN}")
     return ACCESS_TOKEN
+
 
 def upload_wechat_image(file_path: Path) -> str:
     access_token = get_access_token()
@@ -618,6 +614,7 @@ def upload_wechat_image(file_path: Path) -> str:
         raise Exception(f"WeChat upload failed: {data}")
 
     return data["url"]
+
 
 def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str) -> tuple[str, str]:
     response = requests.get(
@@ -650,6 +647,7 @@ def download_image(image_url: str, target_dir: Path, file_stem: str, referer: st
     # wechat_url = upload_wechat_image(file_path)
     # print(f"wechat_url: {wechat_url}")
     return str(file_path.as_posix()), wechat_url
+
 
 def enrich_news_images(news_items: list[dict[str, Any]], date_str: str) -> None:
     get_access_token()
