@@ -76,6 +76,36 @@ CHINA_RELATED_PATTERNS =[
 ]
 
 
+# ================== 限流器 ==================
+class RateLimiter:
+    def __init__(self, max_calls: int, period: float):
+        self.max_calls = max_calls
+        self.period = period
+        self.calls = deque()
+        self.lock = threading.Lock()
+
+    def acquire(self):
+        while True:
+            with self.lock:
+                now = time.time()
+
+                # 清理过期请求
+                while self.calls and now - self.calls[0] > self.period:
+                    self.calls.popleft()
+
+                if len(self.calls) < self.max_calls:
+                    self.calls.append(now)
+                    return
+
+                wait_time = self.period - (now - self.calls[0])
+
+            time.sleep(wait_time)
+
+
+# 👇 全局唯一实例（关键点）
+rate_limiter = RateLimiter(max_calls=12, period=60)
+
+
 def require_api_key() -> str:
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
@@ -178,6 +208,9 @@ def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def call_gemini(api_key: str, prompt: str) -> str:
+    # 👇 限流控制（必须在请求前）
+    rate_limiter.acquire()
+    
     url = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL_NAME}:generateContent?key={api_key}"
