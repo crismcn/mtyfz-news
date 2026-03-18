@@ -12,7 +12,8 @@ import time
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
-
+import threading
+from collections import deque
 import feedparser
 import pytz
 import requests
@@ -210,7 +211,7 @@ def build_fallback_ai_data(news_items: list[dict[str, Any]]) -> dict[str, Any]:
 def call_gemini(api_key: str, prompt: str) -> str:
     # 👇 限流控制（必须在请求前）
     rate_limiter.acquire()
-    
+
     url = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
         f"{MODEL_NAME}:generateContent?key={api_key}"
