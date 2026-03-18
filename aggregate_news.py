@@ -1014,8 +1014,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
     }
     publish_global_news(final_output)
     date_str = now.strftime("%Y-%m-%d")
-    json_file_name = f"Daily_News_{date_str}.json"
-    markdown_file_name = f"Daily_News_{date_str}.md"
+    json_file_name = f"News_{date_str}.json"
+    markdown_file_name = f"News_{date_str}.md"
 
     with open(json_file_name, "w", encoding="utf-8") as json_file:
         json.dump(final_output, json_file, ensure_ascii=False, indent=2)
@@ -1029,8 +1029,8 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
 def clean_old_files(days_to_keep: int = 7) -> None:
     cutoff_date = datetime.datetime.now(SHANGHAI_TZ) - datetime.timedelta(days=days_to_keep)
 
-    for file_path in Path(".").glob("Daily_News_*.md"):
-        file_date_str = file_path.stem.replace("Daily_News_", "")
+    for file_path in Path(".").glob("News_*.md"):
+        file_date_str = file_path.stem.replace("News_", "")
         try:
             file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").replace(tzinfo=SHANGHAI_TZ)
             if file_date < cutoff_date:
@@ -1039,8 +1039,8 @@ def clean_old_files(days_to_keep: int = 7) -> None:
         except ValueError:
             continue
 
-    for file_path in Path(".").glob("Daily_News_*.json"):
-        file_date_str = file_path.stem.replace("Daily_News_", "")
+    for file_path in Path(".").glob("News_*.json"):
+        file_date_str = file_path.stem.replace("News_", "")
         try:
             file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").replace(tzinfo=SHANGHAI_TZ)
             if file_date < cutoff_date:
