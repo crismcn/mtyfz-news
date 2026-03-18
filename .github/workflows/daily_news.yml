@@ -30,7 +30,10 @@ jobs:
         env:
           MODELSCOPE_API_KEY: ${{ secrets.MODELSCOPE_API_KEY }}
           WECHAT_OPENID: ${{ secrets.WECHAT_OPENID }}
-        run: python generate_news.py
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+        run: python aggregate_news.py
+        # run: python generate_news.py
 
       - name: Commit and push generated files
         run: |
