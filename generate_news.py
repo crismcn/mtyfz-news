@@ -627,8 +627,10 @@ def upload_wechat_image(file_path: Path, access_token: str) -> str:
 
     if "errcode" in data and data["errcode"] != 0:
         raise Exception(f"WeChat upload failed: {data}")
-
-    return data["url"]
+    media_id = data["media_id"]
+    image_url = data["url"]
+    wechat_image = f"{url}&media_id={media_id}"
+    return wechat_image
 
 
 def download_image(image_url: str, target_dir: Path, file_stem: str, referer: str, access_token: str) -> tuple[str, str]:
