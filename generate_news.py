@@ -239,7 +239,7 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
 
         translated_articles.append(
             {
-                "guid": item["guid"],
+                "guid": item["guid"] or "",
                 "source_index": item["index"],
                 "title_cn": title_cn,
                 "summary_cn": summary_cn,
@@ -248,8 +248,8 @@ def translate_news_items(api_key: str, news_items: list[dict[str, Any]]) -> list
                 "image_source": "",
                 "original_title": item["title"],
                 "original_url": item["resolved_url"] or item["google_news_url"],
-                "pub_date": item["pub_date"],
-                "author": item["author"],
+                "pub_date": item["pub_date"] or "",
+                "author": item["author"] or "",
             }
         )
 
@@ -440,6 +440,7 @@ def validate_ai_data(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) 
         seen_indexes.add(source_index)
         articles.append(
             {
+                "guid": "",
                 "source_index": source_index,
                 "title_cn": title_cn,
                 "summary_cn": summary_cn,
@@ -448,6 +449,8 @@ def validate_ai_data(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) 
                 "image_source": "",
                 "original_title": "",
                 "original_url": "",
+                "pub_date": "",
+                "author": "",
             }
         )
 
@@ -459,6 +462,7 @@ def validate_ai_data(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) 
             item = news_by_index[source_index]
             articles.append(
                 {
+                    "guid": item["guid"] or "",
                     "source_index": source_index,
                     "title_cn": item["title"],
                     "summary_cn": item["summary"][:255] or item["title"],
@@ -467,6 +471,8 @@ def validate_ai_data(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) 
                     "image_source": "",
                     "original_title": item["title"],
                     "original_url": item["resolved_url"] or item["google_news_url"],
+                    "pub_date": item["pub_date"] or "",
+                    "author": item["author"] or "",
                 }
             )
     articles.sort(key=lambda article: article["source_index"])
