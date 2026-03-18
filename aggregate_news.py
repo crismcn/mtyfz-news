@@ -716,7 +716,7 @@ def upload_wechat_image(file_path: Path, access_token: str) -> str:
         raise Exception(f"WeChat upload failed: {data}")
     media_id = data["media_id"]
     image_url = data["url"]
-    wechat_image = f"{url}&media_id={media_id}"
+    wechat_image = f"{image_url}&media_id={media_id}"
     return wechat_image
 
 
