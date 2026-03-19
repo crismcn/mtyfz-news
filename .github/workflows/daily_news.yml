@@ -3,6 +3,7 @@ name: Daily Global News Generator
 on:
   schedule:
     - cron: '0 4,10,16,22 * * *'
+    # 北京时间 6、12、18、0 运行一次，每天4次。注意 GitHub 队列无法保证精确执行时间，此处仅为示意。
     # - cron:  '17 21 * * *'
   workflow_dispatch:
 
