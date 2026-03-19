@@ -2,7 +2,7 @@ name: Daily Global News Generator
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 4,10,16,22 * * *'
     # - cron:  '17 21 * * *'
   workflow_dispatch:
 
