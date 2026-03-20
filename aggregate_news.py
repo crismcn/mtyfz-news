@@ -1019,7 +1019,10 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
         "image_count": sum(len(item["image_urls"]) for item in news_items),
         "sources": news_items,
     }
-    publish_global_news(final_output)
+    publish_params = {
+        "articles": ai_data["articles"]
+    }
+    publish_global_news(publish_params)
     date_str = now.strftime("%Y-%m-%d")
     json_file_name = f"News_{date_str}.json"
     markdown_file_name = f"News_{date_str}.md"
