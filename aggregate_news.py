@@ -686,7 +686,7 @@ def publish_global_news(data: Any) -> bool:
     WECHAT_OPENID = os.environ.get('WECHAT_OPENID')
     print(" ------------------- Publish Global News ------------------- ")
     url = "https://news.crism.cn/api/v1/wechat/refresh_global_news"
-    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"}, json={"data": data })
+    res = requests.post(url, headers={"openId": f"{WECHAT_OPENID}"}, json={"data": f"{data}" })
     res_data = res.json()
     print(res_data)
     return True
