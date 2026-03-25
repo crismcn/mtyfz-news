@@ -1037,12 +1037,14 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
 
 
 def clean_old_files(days_to_keep: int = 7) -> None:
-    cutoff_date = datetime.datetime.now(SHANGHAI_TZ) - datetime.timedelta(days=days_to_keep)
+    # 使用日期而不是时间戳对比
+    cutoff_date = datetime.datetime.now(SHANGHAI_TZ).date() - datetime.timedelta(days=days_to_keep)
 
     for file_path in Path(".").glob("News_*.md"):
         file_date_str = file_path.stem.replace("News_", "")
         try:
-            file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").replace(tzinfo=SHANGHAI_TZ)
+            # 直接解析为 date 对象，避免时区问题
+            file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").date()
             if file_date < cutoff_date:
                 file_path.unlink()
                 print(f"Deleted old file: {file_path}")
@@ -1052,7 +1054,7 @@ def clean_old_files(days_to_keep: int = 7) -> None:
     for file_path in Path(".").glob("News_*.json"):
         file_date_str = file_path.stem.replace("News_", "")
         try:
-            file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").replace(tzinfo=SHANGHAI_TZ)
+            file_date = datetime.datetime.strptime(file_date_str, "%Y-%m-%d").date()
             if file_date < cutoff_date:
                 file_path.unlink()
                 print(f"Deleted old file: {file_path}")
@@ -1061,6 +1063,16 @@ def clean_old_files(days_to_keep: int = 7) -> None:
 
     assets_dir = Path("assets") / "generated"
     if assets_dir.exists():
+        for date_dir in assets_dir.iterdir():
+            if date_dir.is_dir():
+                try:
+                    # 同样使用 date 对象
+                    dir_date = datetime.datetime.strptime(date_dir.name, "%Y-%m-%d").date()
+                    if dir_date < cutoff_date:
+                        shutil.rmtree(date_dir)
+                        print(f"Deleted old directory: {date_dir}")
+                except ValueError:
+                    continue
         for date_dir in assets_dir.iterdir():
             if date_dir.is_dir():
                 try:
