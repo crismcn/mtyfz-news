@@ -1076,7 +1076,7 @@ def clean_old_files(days_to_keep: int = 7) -> None:
         for date_dir in assets_dir.iterdir():
             if date_dir.is_dir():
                 try:
-                    dir_date = datetime.datetime.strptime(date_dir.name, "%Y-%m-%d").replace(tzinfo=SHANGHAI_TZ)
+                    dir_date = datetime.datetime.strptime(date_dir.name, "%Y-%m-%d").date()
                     if dir_date < cutoff_date:
                         shutil.rmtree(date_dir)
                         print(f"Deleted old directory: {date_dir}")
