@@ -1020,7 +1020,7 @@ def save_outputs(ai_data: dict[str, Any], news_items: list[dict[str, Any]]) -> s
         "sources": news_items,
     }
     publish_params = {
-        "articles": ai_data["articles"]
+        "articles": [article for article in ai_data["articles"] if article.get("image_urls")]
     }
     publish_global_news(publish_params)
     date_str = now.strftime("%Y-%m-%d")
