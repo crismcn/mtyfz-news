@@ -1,286 +1,355 @@
 {
-  "title": "突发！伊朗宣布关闭霍尔木兹海峡，全球能源供应面临断供危机。",
-  "seo_summary": "伊朗以黎巴嫩停火协议遭破坏为由封锁霍尔木兹海峡，特朗普威胁若60天内无协议将强行收费，全球能源航...",
+  "title": "突发重磅！波兰总统撤销泽连斯基荣誉称号，缘起乌克兰特种部队更名…",
+  "seo_summary": "重磅进展：因乌克兰特种部队更名引发争议，波兰总统撤销了授予泽连斯基的荣誉称号。随后，泽连斯基归还...",
   "url": "https://news.google.com/topics/CAAqKggKIiRDQkFTRlFvSUwyMHZNRGx1YlY4U0JXVnVMVWRDR2dKRFFTZ0FQAQ?hl=en-US&gl=US&ceid=US%3Aen",
-  "cover": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODpK1kiaLL2Dz9T7UibF5OS4noNs95UOFeP8Gg2MKPDtPkDVs4COA7ZstiaTagv77icGcxPz0gAkAVkVfL8XlAMlicPfHpCkJE8BEGU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQJdvdcV2FIkVkrqHYFXfMDhtDUe9HAnfpNfgv923Mgh",
+  "cover": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCreE5NZK3aw3ydthLa2O964kz6u8nnvicPsV5h0un6UMkvkXtIGeZc3rvfYw1dk3ojF1sEicLLxvrZticchv04rAU6XklLpB1ZsU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW_O5ii-xkFramV9vIqYgxdMR_4GyDu8jlWLctDAqI0I",
   "peitu_url": [
-    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODpK1kiaLL2Dz9T7UibF5OS4noNs95UOFeP8Gg2MKPDtPkDVs4COA7ZstiaTagv77icGcxPz0gAkAVkVfL8XlAMlicPfHpCkJE8BEGU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQJdvdcV2FIkVkrqHYFXfMDhtDUe9HAnfpNfgv923Mgh",
-    "http://mmbiz.qpic.cn/mmbiz_png/79uC8IloHOB6ke6ETqYicAFaiaBDA9jHfbTAucwpmaZm81Zwos0Zd7o9AxBfCCDtibzJQexGiadFd4UUups9PcxxxaUSJuNgqDtJlcKP5Eh3CibM/0?wx_fmt=png&media_id=6pMyx5iVnuzGNvPxaGYLse9vBrC2SCvf4hwmorE5iIc0OzlESsZLeg2wbj9WU-UH",
-    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAXSnFib4qCmDXlXibUK2YUlMIq4esHWsicEr2gjSQ4OIrE2BUibR2smp7MF2KQUOV2vI32QDV6cDCa8xI9A913nNEsGAeLET4VJRw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsRAwoI-8kPGbIkFZdH5q4EBYY_EnRfBDAynPc1xvruct",
-    "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCD7WT4ZLHOUe8ict6Pwf7S6FNwibREg2Thce6TRy5t8M1ACia5dLnNvPj7LvDOZPx78jqVsZO3R6pbxAXuKZcIbibe8VYVDm2N698/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdoxit3XsAFPyJsE5TFcr3dq3TnG9hYaRxftUJjeJi5B",
-    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCicaIz6LyGdibGrIxkzZbnyjauomFwcRUI9q53ltQNqcia1ibL8VAzv7KT1HEBYlvbXmR4MRRbOXgY0E9J7agiaFhOwmJicqPgJsXgQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdlQ8CKnsYvp_6uX-Z2SWnV8VGtvUX9E3zl1B3UFU1i-",
-    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOA8HTHPDHiavAy7d93daYShSBqaaicHA0FP7C5sGf9XCvXwM63jSYiaUQasIH39AkXGicvb7LmVDkhjlDlDR16wf3CzDjlwSciaEvhM/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsaRi5TQlrhDfPVjrODzMDBM16W_uW23pmERNJTY4tZfU",
-    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODZO7aWMPhQ9tLfnSmkicibkdl5ITgqOicApFmGZIvj30JCzALuYoOzIFicRHvHA0RUzia0yEjs6w1d5pKx1avECvQ1OQnicciaFzicGLE/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZr-ejqPdX6u01aQ4OD2a9YXTJJtU38zeyXjgHVd0bMU",
-    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAD07qy1LOKCzCPTchq6Hbm0wPaABb1bfAeXGvkVkCX7AFibRW4n3R6DXc7y2ZBB6eMBCfQpia1mXh92oC31YibJVhhO1IewJK0pI/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdB2-eZ2BWJzgRutblLLmGzA0nXwrsHQ499qzx5W8dK_"
+    "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCreE5NZK3aw3ydthLa2O964kz6u8nnvicPsV5h0un6UMkvkXtIGeZc3rvfYw1dk3ojF1sEicLLxvrZticchv04rAU6XklLpB1ZsU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW_O5ii-xkFramV9vIqYgxdMR_4GyDu8jlWLctDAqI0I",
+    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBHLreESLYkfebYamYMtiaxjGczo3egfjNaR8QuKzwkg4Z32rRmds0F3V194WOlcrahxB2cy70GZG4ucxicHRicJwD1Wh24uFcZIQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscvxlqIiydFXH2-2xzvB69QR9TOk_IRRDjpzshTv1-aI",
+    "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODNARfNzPUjmawib8xV6OTMZnNaKw5Ihfhicq1UoWcPujrKnDUwMp08nnr8MwjrAibsIPYFj922HXLsxD9Yuicrn4LJcViajaNIU848/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsU3vSJoSedWUc9kIEFil92X6V3bVA8zZOVpHrWM9RDmf",
+    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODH5hPLHH0lLice13xtIGoQLHJqI9HiaY8TEfe98aYkb1oCnfw03CTzdzLVIfWcwQcjr2kCb1D7dRW0ua72WrsD3G2sRibSpiaYSGo/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZDKgEPJEbhY_bUWNIm3cXkfzIhBFCRpaWkYuculwFAG",
+    "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOBjbjadPCm8yqTM9icq4EFhj0ZZuCQibRj8XB2jIxwylBID4455aQ46GKbB14N6t6bgoxIplNKcLwNnqLQFJMUosGzA8VLHosbMY/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZL83PDByf2gMzQu5wuEiiCi3S3ZKUKk-PNV9eZEVn6L",
+    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCdpxRhWUTuVBr0qibd5qibQJtibjEib53eEhvP3g9oP6UvC0LxEKPTJNqH32Lah1N69VFiaibSzmodQtLgibruHoIia3r2UYS4cn6HtqU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscYh52_4cJtWxzC4crI3fNcSH5u8u-lhsFawqA4C5cu5",
+    "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqduvoqhH35JX0FOyL8DnP3pJgbXBRdiaAN7iaxAxoibU3897xZrXia6qUqcxdqicgChBhPTnRNT8ECXeRHVweicqsGqNXaDELaoz4E/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsVjGkVXyKLPls1yv0ew6tMyx5nFkWqsyICSt0iCkOM-9",
+    "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAAkeUsKK56JnIma3hcCD9XS9ChMJfX0y1DaxBHSGUDgaUeuseojWUiaaKI5WvQ4ibUv9k2ICcMgbXRNrBoSFDaAyvcciatK4kh0M/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLseqlVC-VXmV6r-_y-LH4U8Hio6swZUXQrqCKaUuKMsfp",
+    "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAA8CGOCr5CtHDklsyQRCP6ic9BR2HGnbQomp2vic1jd4NOmJbazNkNnCIsCxicjeB25USq5dBm6Xb5txjNaK3R329Od7gbkKNloc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsV3FX_Fbfij1mMGcaON-UcxK9qsMZ1BjZzoH63ubAzRZ"
   ],
-  "wechat_html": "<section style=\"margin:0;padding:0;background:#ffffff;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif\" style=\"width:100%;display:block;\"><section style=\"max-width:760px;margin:0 auto;padding:2px;\"><section style=\"margin:12px 0 16px 0;padding:2px 2px 8px 2px;border-bottom:2px solid #1e293b;\"><div style=\"font-size:12px;letter-spacing:2px;color:#b59f7b;text-transform:uppercase;margin-bottom:4px;font-weight:600;\">Global Briefing</div><h1 style=\"margin:0;font-size:26px;line-height:1.4;color:#0f172a;font-weight:bold;letter-spacing:0.5px;\">突发！伊朗宣布关闭霍尔木兹海峡，全球能源供应面临断供危机。</h1></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">伊朗称因黎巴嫩停火协议遭破坏，霍尔木兹海峡已关闭</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODpK1kiaLL2Dz9T7UibF5OS4noNs95UOFeP8Gg2MKPDtPkDVs4COA7ZstiaTagv77icGcxPz0gAkAVkVfL8XlAMlicPfHpCkJE8BEGU/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsQJdvdcV2FIkVkrqHYFXfMDhtDUe9HAnfpNfgv923Mgh\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">伊朗宣布关闭霍尔木兹海峡，理由是以色列持续对黎巴嫩发动空袭并违反停火协议。目前该地区航运活动已显著减少，相关局势进展仍待进一步核实。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">多米尼加共和国一海滨度假村发生大火致一名游客死亡</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">多米尼加共和国一家豪华海滨度假村近日发生严重火灾，造成一名意大利游客死亡，约1700名住客被紧急疏散。目前相关部门正在调查事故原因，受灾区域已采取安全管控措施。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">乌克兰总统泽连斯基证实对俄罗斯秋明州炼油设施发动无人机袭击</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">乌克兰总统泽连斯基确认乌方对俄罗斯秋明州炼油设施实施了无人机打击。近期乌克兰加大了对俄境内能源基础设施的袭击力度，导致莫斯科等地炼油厂发生火灾及剧烈爆炸。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">苏格兰爱丁堡发生疑似反穆斯林袭击事件，造成五人受伤</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_png/79uC8IloHOB6ke6ETqYicAFaiaBDA9jHfbTAucwpmaZm81Zwos0Zd7o9AxBfCCDtibzJQexGiadFd4UUups9PcxxxaUSJuNgqDtJlcKP5Eh3CibM/0?wx_fmt=png&amp;media_id=6pMyx5iVnuzGNvPxaGYLse9vBrC2SCvf4hwmorE5iIc0OzlESsZLeg2wbj9WU-UH\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">苏格兰爱丁堡街头发生一起持械袭击事件，导致五人受伤。目前警方已逮捕一名涉案男子，反恐警察正介入调查，初步怀疑该事件涉及反穆斯林动机。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">菲律宾总统马科斯与普京会谈后，俄罗斯释放24名菲律宾公民</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAXSnFib4qCmDXlXibUK2YUlMIq4esHWsicEr2gjSQ4OIrE2BUibR2smp7MF2KQUOV2vI32QDV6cDCa8xI9A913nNEsGAeLET4VJRw/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsRAwoI-8kPGbIkFZdH5q4EBYY_EnRfBDAynPc1xvruct\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据美联社报道，在菲律宾总统马科斯与俄罗斯总统普京进行沟通后，俄方已释放了24名被扣押的菲律宾公民。目前相关人员的获释情况及后续安排已成为国际关注焦点。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">波兰总统撤销泽连斯基最高荣誉，起因系乌克兰特种部队更名事件</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据《华盛顿邮报》及BBC报道，波兰总统因乌克兰一支特种部队更名事件，决定撤销授予乌克兰总统泽连斯基的最高荣誉。泽连斯基随后归还了该奖项，双方就此事件引发的外交关注做出回应。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">尽管已与黎巴嫩真主党达成停火协议，以色列仍持续发动空袭</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCD7WT4ZLHOUe8ict6Pwf7S6FNwibREg2Thce6TRy5t8M1ACia5dLnNvPj7LvDOZPx78jqVsZO3R6pbxAXuKZcIbibe8VYVDm2N698/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsdoxit3XsAFPyJsE5TFcr3dq3TnG9hYaRxftUJjeJi5B\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">尽管以色列与黎巴嫩真主党已达成停火协议，但双方冲突仍在持续。近期以色列继续对黎巴嫩境内目标发动空袭，且有以色列国防军士兵在真主党的袭击中丧生，局势依然紧张。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">英国贝德福德发生致命火车相撞事故，造成九人重伤</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCicaIz6LyGdibGrIxkzZbnyjauomFwcRUI9q53ltQNqcia1ibL8VAzv7KT1HEBYlvbXmR4MRRbOXgY0E9J7agiaFhOwmJicqPgJsXgQ/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsdlQ8CKnsYvp_6uX-Z2SWnV8VGtvUX9E3zl1B3UFU1i-\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">英国贝德福德发生一起严重火车相撞事故，导致多人伤亡。目前事故已造成九人重伤，总计约一百人受伤。英国警方已介入调查此次致命碰撞事故的具体原因。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">极右翼准军事组织阴影笼罩哥伦比亚总统大选决胜轮</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOA8HTHPDHiavAy7d93daYShSBqaaicHA0FP7C5sGf9XCvXwM63jSYiaUQasIH39AkXGicvb7LmVDkhjlDlDR16wf3CzDjlwSciaEvhM/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsaRi5TQlrhDfPVjrODzMDBM16W_uW23pmERNJTY4tZfU\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">哥伦比亚总统大选进入决胜轮，极右翼准军事组织的历史影响再次成为舆论焦点。候选人的政治立场与相关背景引发广泛讨论，选民对国家安全与政治稳定的担忧持续上升。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">西班牙首相夫人因涉嫌腐败将面临审判并被限制出境</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据《纽约时报》及《卫报》报道，西班牙首相桑切斯的夫人贝戈尼亚·戈麦斯因涉嫌腐败被法院传唤出庭受审，并被禁止离开西班牙境内。目前该案件正在进一步司法程序中。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">特朗普威胁若60天内未达成伊朗协议，美国将对霍尔木兹海峡征收通行费</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODZO7aWMPhQ9tLfnSmkicibkdl5ITgqOicApFmGZIvj30JCzALuYoOzIFicRHvHA0RUzia0yEjs6w1d5pKx1avECvQ1OQnicciaFzicGLE/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsZr-ejqPdX6u01aQ4OD2a9YXTJJtU38zeyXjgHVd0bMU\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">美联社报道，美国前总统特朗普威胁称，若60天内无法与伊朗达成最终协议，美国将对通过霍尔木兹海峡的船只征收通行费，并强调伊朗不得在该海峡收费。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">“北方之王”伯纳姆赢得补选，将挑战英国首相苏纳克</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAD07qy1LOKCzCPTchq6Hbm0wPaABb1bfAeXGvkVkCX7AFibRW4n3R6DXc7y2ZBB6eMBCfQpia1mXh92oC31YibJVhhO1IewJK0pI/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsdB2-eZ2BWJzgRutblLLmGzA0nXwrsHQ499qzx5W8dK_\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">在梅克菲尔德选区补选中获胜后，安迪·伯纳姆的支持者对其挑战英国首相职位的信心大增。此次胜利为伯纳姆角逐英国首相之位扫清了障碍，并引发了政界对其未来政治动向的广泛关注。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">奉献一生的修女们步入晚年，谁来为她们提供养老照护？</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">美国国家公共电台（NPR）报道称，许多修女在奉献一生服务他人后，步入晚年时面临养老照护资源匮乏的困境，引发社会对宗教团体成员晚年生活保障问题的关注。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">欧洲多地遭遇高温热浪侵袭，法国政府宣布限制酒精消费</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">西欧地区正面临新一轮高温天气，气温预计将达到40摄氏度。受此影响，法国政府已采取措施限制酒精消费，以应对极端高温带来的公共健康与安全挑战。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">英国一名3岁男童被男子扔进鳄鱼池，目前伤势危急但稳定</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据警方通报，一名男子在英国某动物园将一名3岁男童扔进鳄鱼池。男童随后被其父母救出，目前在医院接受治疗，伤势处于危急但稳定的状态，相关调查正在进行中。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">乌克兰无人机袭击俄炼油厂导致俄罗斯多地出现燃油短缺</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据《华尔街日报》报道，乌克兰无人机近期频繁袭击俄罗斯炼油设施，导致俄罗斯国内燃油供应出现大范围短缺，相关能源基础设施受损情况引发外界关注。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">特朗普谈及伊朗协议分歧时称以色列听从其指令</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">针对伊朗核协议的分歧，特朗普声称以色列会听从其指示。与此同时，美国情报官员警告称，以色列可能会破坏该和平协议的达成，引发外界对美以关系的关注。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">乌克兰采用新型无人机战略打击俄罗斯后勤补给线</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据CNN报道，乌克兰近期调整军事策略，通过大规模使用无人机精准打击俄罗斯的燃油及武器补给线，对俄军后勤保障能力造成了显著破坏，引发国际社会关注。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">伊朗外交部副部长表示已准备好与美国推进协议进程</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">伊朗外交部副部长对外表示，伊朗已准备好在与美国的协议中向前推进。与此同时，黎巴嫩局势成为美伊协议的薄弱环节，当地村民在返乡后发现房屋已成废墟。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:16px 2px;padding:14px;background:#0f172a;border-top:3px solid #b59f7b;border-radius:2px;\"><div style=\"font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#b59f7b;margin-bottom:8px;font-weight:600;\">Risk Watch</div><p style=\"margin:0 0 6px 0;font-size:15px;line-height:1.8;color:#e2e8f0;text-align:justify;\"><strong>趋势：</strong>中东局势急剧恶化，伊朗封锁海峡与乌克兰加大对俄能源设施打击力度，导致全球地缘政治与能源安全链条全面紧绷。</p><p style=\"margin:0;font-size:15px;line-height:1.8;color:#e2e8f0;text-align:justify;\"><strong>关注：</strong>需警惕霍尔木兹海峡封锁引发的全球油价飙升，以及美伊在协议博弈中擦枪走火导致局部冲突升级的风险。</p></section><section style=\"margin:12px 2px 0 2px;padding-top:12px;border-top:1px dashed #cbd5e1;\"><div style=\"font-size:12px;letter-spacing:1px;color:#64748b;text-transform:uppercase;margin-bottom:8px;\">Keywords</div><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">国际新闻</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">全球经济</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">地缘局势</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">科技商业</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">突发要闻</span></section></section><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif\" style=\"width:100%;display:block;\"></section>",
+  "wechat_html": "<section style=\"margin:0;padding:0;background:#ffffff;\"><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzXgUR7FJnf11qGIo8nmKt6RxibXrb5s4RFb9UZ9UOHQy7fqQyI377Licw/0?wx_fmt=gif\" style=\"width:100%;display:block;\"><section style=\"max-width:760px;margin:0 auto;padding:2px;\"><section style=\"margin:12px 0 16px 0;padding:2px 2px 8px 2px;border-bottom:2px solid #1e293b;\"><div style=\"font-size:12px;letter-spacing:2px;color:#b59f7b;text-transform:uppercase;margin-bottom:4px;font-weight:600;\">Global Briefing</div><h1 style=\"margin:0;font-size:26px;line-height:1.4;color:#0f172a;font-weight:bold;letter-spacing:0.5px;\">突发重磅！波兰总统撤销泽连斯基荣誉称号，缘起乌克兰特种部队更名…</h1></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">波兰总统撤销泽连斯基荣誉称号，缘起乌克兰特种部队更名事件</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">因乌克兰特种部队更名引发争议，波兰总统撤销了授予泽连斯基的荣誉称号。随后，泽连斯基归还了该波兰最高荣誉勋章，两国间的外交摩擦进一步加深。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">乌克兰无人机袭击俄罗斯秋明炼油厂，泽连斯基称距离达两千公里</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCreE5NZK3aw3ydthLa2O964kz6u8nnvicPsV5h0un6UMkvkXtIGeZc3rvfYw1dk3ojF1sEicLLxvrZticchv04rAU6XklLpB1ZsU/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsW_O5ii-xkFramV9vIqYgxdMR_4GyDu8jlWLctDAqI0I\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">乌克兰总统泽连斯基表示，乌军无人机成功袭击了位于俄罗斯秋明地区、距离边境约两千公里的炼油厂。此次行动被视为乌克兰利用新型无人机战略打击俄方后勤补给线的一部分。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">美国反驳伊朗关于关闭霍尔木兹海峡的声明，谈判代表抵达瑞士</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBHLreESLYkfebYamYMtiaxjGczo3egfjNaR8QuKzwkg4Z32rRmds0F3V194WOlcrahxB2cy70GZG4ucxicHRicJwD1Wh24uFcZIQ/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLscvxlqIiydFXH2-2xzvB69QR9TOk_IRRDjpzshTv1-aI\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">针对伊朗声称关闭霍尔木兹海峡的报道，美国予以反驳。与此同时，相关谈判代表已抵达瑞士进行会谈，以应对地区局势及停火协议相关争议。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">菲律宾总统马科斯与普京会谈后，俄罗斯释放24名菲律宾公民</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODNARfNzPUjmawib8xV6OTMZnNaKw5Ihfhicq1UoWcPujrKnDUwMp08nnr8MwjrAibsIPYFj922HXLsxD9Yuicrn4LJcViajaNIU848/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsU3vSJoSedWUc9kIEFil92X6V3bVA8zZOVpHrWM9RDmf\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">在菲律宾总统马科斯与俄罗斯总统普京进行会谈后，俄罗斯政府已正式释放了24名被扣押的菲律宾公民。美联社报道确认了这一外交进展，相关人员获释标志着两国在相关议题上的沟通取得成效。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">加沙地带遭以色列袭击致九人死亡，其中包括一名儿童及一名记者</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据医疗官员消息，以色列在加沙地带的军事行动造成九人死亡，遇难者包括一名儿童和一名半岛电视台摄影记者。目前相关伤亡情况已得到多方媒体报道与确认。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">哥伦比亚长期内部冲突成为总统大选的核心议题</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODH5hPLHH0lLice13xtIGoQLHJqI9HiaY8TEfe98aYkb1oCnfw03CTzdzLVIfWcwQcjr2kCb1D7dRW0ua72WrsD3G2sRibSpiaYSGo/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsZDKgEPJEbhY_bUWNIm3cXkfzIhBFCRpaWkYuculwFAG\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">哥伦比亚总统大选进入决选阶段，该国长期存在的残酷内部冲突成为竞选的核心议题。候选人的政治立场与国家安全政策引发广泛关注，选民正面临关键抉择。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">以色列与黎巴嫩真主党冲突持续，多次停火协议未能平息战火</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">尽管此前已达成多次停火协议，以色列与黎巴嫩真主党之间的军事冲突仍在持续。在周五针对以军坦克的一次袭击中，以色列国防军士兵纳夫·哈布舒什不幸丧生，这是该事件中确认的第四名遇难者。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">多米尼加共和国一豪华海滩度假村发生大火致一名意大利游客死亡</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOBjbjadPCm8yqTM9icq4EFhj0ZZuCQibRj8XB2jIxwylBID4455aQ46GKbB14N6t6bgoxIplNKcLwNnqLQFJMUosGzA8VLHosbMY/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsZL83PDByf2gMzQu5wuEiiCi3S3ZKUKk-PNV9eZEVn6L\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">多米尼加共和国一家豪华海滩度假村近日发生严重火灾，导致一名意大利籍游客不幸丧生。事故发生后，当地紧急疏散了约1700名住客，目前相关部门正对起火原因展开调查。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">法国发布红色高温预警，禁止在音乐节活动期间饮酒</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCdpxRhWUTuVBr0qibd5qibQJtibjEib53eEhvP3g9oP6UvC0LxEKPTJNqH32Lah1N69VFiaibSzmodQtLgibruHoIia3r2UYS4cn6HtqU/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLscYh52_4cJtWxzC4crI3fNcSH5u8u-lhsFawqA4C5cu5\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">受极端高温天气影响，法国政府宣布在红色预警区域内禁止音乐节等活动提供酒精饮料。目前西欧多国正面临新一轮热浪侵袭，相关部门已采取措施以应对高温带来的健康风险。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">社交媒体禁令背后的深层社会影响与全球趋势分析</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqduvoqhH35JX0FOyL8DnP3pJgbXBRdiaAN7iaxAxoibU3897xZrXia6qUqcxdqicgChBhPTnRNT8ECXeRHVweicqsGqNXaDELaoz4E/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsVjGkVXyKLPls1yv0ew6tMyx5nFkWqsyICSt0iCkOM-9\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">近期全球范围内社交媒体禁令呈上升趋势。BBC与卫报等媒体分析指出，此类禁令不仅限于平台管控，更折射出数字时代下家长对青少年心理健康、屏幕依赖及社会治理的深层担忧。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">西班牙法官裁定：首相夫人贝戈尼亚·戈麦斯须接受腐败审判</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAAkeUsKK56JnIma3hcCD9XS9ChMJfX0y1DaxBHSGUDgaUeuseojWUiaaKI5WvQ4ibUv9k2ICcMgbXRNrBoSFDaAyvcciatK4kh0M/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLseqlVC-VXmV6r-_y-LH4U8Hio6swZUXQrqCKaUuKMsfp\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">西班牙法官正式裁定首相桑切斯的夫人贝戈尼亚·戈麦斯因涉嫌腐败需出庭受审。法院已对其采取限制措施，禁止其在调查期间离开西班牙。此案引发了关于政治透明度与司法独立性的广泛关注。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">特朗普声称因以色列人尊重他，自己能控制以军在黎巴嫩的行动</h2><section style=\"margin:0 0 10px 0;\"><img src=\"http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAA8CGOCr5CtHDklsyQRCP6ic9BR2HGnbQomp2vic1jd4NOmJbazNkNnCIsCxicjeB25USq5dBm6Xb5txjNaK3R329Od7gbkKNloc/0?wx_fmt=jpeg&amp;media_id=6pMyx5iVnuzGNvPxaGYLsV3FX_Fbfij1mMGcaON-UcxK9qsMZ1BjZzoH63ubAzRZ\" style=\"width:100%;display:block;border-radius:4px;border:1px solid #f1f5f9;\"></section><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">美国前总统特朗普表示，由于以色列人对其抱有尊重，他有能力控制以色列国防军在黎巴嫩的军事行动。此言论引发外界关注，同时有情报显示以色列可能破坏伊朗和平协议。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">数万名阿尔巴尼亚民众参与“火烈鸟革命”抗议活动</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">数万名阿尔巴尼亚抗议者走上街头参与“火烈鸟革命”，要求总理辞职。此次抗议活动与贾里德·库什纳在当地的豪华房地产开发项目引发的社会不满情绪密切相关。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">英国首相斯塔默被传准备辞职，官方消息人士否认并称其专注工作</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">针对有关英国首相斯塔默准备辞职的媒体报道，相关消息人士予以否认，并明确表示斯塔默目前仍专注于履行其首相职责，并未考虑离职事宜。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">英国贝德福德发生列车相撞事故，造成至少一人死亡多人受伤</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">英国贝德福德发生一起严重列车相撞事故，目前已造成至少一人死亡，另有百余人受伤，其中九人伤势危急。救援工作正在进行中，相关部门已介入调查事故原因。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">苏格兰爱丁堡发生疑似反穆斯林袭击事件，一名男子被捕</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">苏格兰爱丁堡发生一起疑似针对穆斯林的袭击事件，造成5人受伤。当地警方已逮捕一名男子，目前反恐部门正对该事件展开调查，具体案情仍在进一步核实中。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">教皇方济各访问帕维亚：称城市既是礼物也是一项任务</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">教皇方济各近日访问意大利帕维亚，在圣奥古斯丁遗迹前祈祷并参观卡布里尼修女出生地。教皇强调圣奥古斯丁的思想启示，并表示城市的发展既是上天的礼物，也是需要共同承担的任务。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">英国按摩诊所经营者因男性顾客行为不当实施禁入令</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据BBC报道，一名按摩诊所经营者表示，由于部分男性顾客存在不当行为，她已决定禁止大多数男性进入其诊所接受服务。该事件引发了关于服务行业安全与边界问题的讨论。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">特朗普称伊朗不得在霍尔木兹海峡收费，并暗示美国可能实施收费</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">美国前总统特朗普表示，若60天内无法与伊朗达成最终协议，美国可能在霍尔木兹海峡向过往船只征收通行费，并强调伊朗不得在该海峡收费。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">育碧游戏公司联合创始人克劳德·吉列莫特在法国坠机事故中身亡</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">据CBS新闻及纽约时报报道，育碧公司联合创始人克劳德·吉列莫特在法国发生的一起飞机坠毁事故中不幸遇难。该事件已得到相关媒体确认，具体事故细节目前正在调查中。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">英国一名3岁男童被男子扔进鳄鱼池，目前伤势危急但稳定</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">英国剑桥郡一家动物园发生恶性事件，一名3岁男童被男子扔进鳄鱼池并遭袭击。目前男童伤势危急但趋于稳定，涉事男子已被英国警方逮捕，相关调查正在进行中。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">Anthropic与Google DeepMind高管出席G7峰会，呼吁组建AI联盟</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">Anthropic与Google DeepMind首席执行官在G7峰会期间会见各国领导人，共同呼吁建立由美国主导的人工智能国际联盟，以应对全球AI治理挑战。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">非洲与加勒比国家正式要求就跨大西洋奴隶贸易道歉</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">非洲与加勒比国家领导人联合要求就跨大西洋奴隶贸易进行正式道歉并支付赔偿。巴巴多斯总理已宣布相关奴隶制赔偿宣言，旨在推动历史正义与经济补偿进程。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">伊朗副外长表示已准备好与美国推进协议相关谈判</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">伊朗外交部副部长对外表示，伊朗方面已准备好与美国就相关协议推进后续工作。与此同时，黎巴嫩局势持续动荡，当地村民在冲突后返回家园发现房屋已成废墟。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:0 0 18px 0;padding:0 2px 14px 2px;border-bottom:1px solid #f1f5f9;\"><h2 style=\"margin:0 0 12px 0;padding-left:10px;border-left:4px solid #b59f7b;font-size:20px;line-height:1.5;color:#1e293b;letter-spacing:0.5px;\">巴西蹦极事故致游客坠亡，警方再逮捕三名相关教练</h2><p style=\"margin:0 0 6px 0;line-height:1.8;color:#334155;font-size:16px;letter-spacing:0.5px;text-align:justify;\">巴西发生一起蹦极死亡事故，因操作员未正确固定安全绳导致游客坠亡。目前，当地警方已针对该事件再次逮捕三名相关教练，案件调查工作仍在持续进行中。</p><div style=\"margin-top:8px;text-align:right;\"><span style=\"display:inline-block;font-size:11px;letter-spacing:1px;color:#94a3b8;text-transform:uppercase;border-bottom:1px solid #f1f5f9;padding-bottom:2px;\">Global Watch</span></div></section><section style=\"margin:16px 2px;padding:14px;background:#0f172a;border-top:3px solid #b59f7b;border-radius:2px;\"><div style=\"font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#b59f7b;margin-bottom:8px;font-weight:600;\">Risk Watch</div><p style=\"margin:0 0 6px 0;font-size:15px;line-height:1.8;color:#e2e8f0;text-align:justify;\"><strong>趋势：</strong>当天国际新闻节奏密集，多板块地缘与市场信息交替成为核心焦点。</p><p style=\"margin:0;font-size:15px;line-height:1.8;color:#e2e8f0;text-align:justify;\"><strong>关注：</strong>请高度警惕重大事件演变对全球供应链、能源定价及市场预期的传导。</p></section><section style=\"margin:12px 2px 0 2px;padding-top:12px;border-top:1px dashed #cbd5e1;\"><div style=\"font-size:12px;letter-spacing:1px;color:#64748b;text-transform:uppercase;margin-bottom:8px;\">Keywords</div><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">国际新闻</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">全球经济</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">地缘局势</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">科技商业</span><span style=\"display:inline-block;margin:0 8px 8px 0;padding:4px 10px;border:1px solid #e2e8f0;border-radius:2px;background:#f8fafc;color:#475569;font-size:12px;letter-spacing:0.5px;\">突发要闻</span></section></section><img src=\"https://mmbiz.qpic.cn/mmbiz_gif/3hAJnwuyZuicicZkgJBUCCaricdibomDBrTzk57DCmhVC16o9ILH0Tn1YPEiarfLRRQSVFN2mJdeYibGnBPialPIzvojw/0?wx_fmt=gif\" style=\"width:100%;display:block;\"></section>",
   "intro_paragraphs": [
-    "本期内容共整理 19 条国际新闻，覆盖安全、经济、产业、能源与突发事件等方向，统一转写为简体中文。",
+    "本期内容共整理 25 条国际新闻，覆盖安全、经济、产业、能源与突发事件等方向，统一转写为简体中文。",
     "每条新闻均尽量保留关键事实与最新进展，并在可抓取时附上已下载到 GitHub 的图片地址，便于直接用于前端或内容分发。"
   ],
   "articles": [
     {
-      "guid": "fe7eda52586e010b6b4f1a9645f127e7",
-      "source_index": 1,
-      "title_cn": "伊朗称因黎巴嫩停火协议遭破坏，霍尔木兹海峡已关闭",
-      "summary_cn": "伊朗宣布关闭霍尔木兹海峡，理由是以色列持续对黎巴嫩发动空袭并违反停火协议。目前该地区航运活动已显著减少，相关局势进展仍待进一步核实。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODpK1kiaLL2Dz9T7UibF5OS4noNs95UOFeP8Gg2MKPDtPkDVs4COA7ZstiaTagv77icGcxPz0gAkAVkVfL8XlAMlicPfHpCkJE8BEGU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQJdvdcV2FIkVkrqHYFXfMDhtDUe9HAnfpNfgv923Mgh",
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODKx0iaEuZIicEGnkNrIFOS1bibzIuBSjBHbw13YFXKduax9gibkRJDaPktqpCWCon07blIVgLoufKIkrnJycvOSsQKGJm2rG65ryw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQuDSC_igPsZC_BsscIhSaOx-6BDENKnMZPsy_4qhZ8v",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBkvNMzPasSWKicXYxOSfzbYiaID6K8AdrnnvcmKpfqfUKia0bHevM7MX9pBqEX17r5XYAI7iaNib49ut0kc7ciaC9S3pnpicRYe5fM14/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsYyuKOgYmawjK2N42vYC9KlktChlP0IZ8vAh7StPFnPH"
-      ],
-      "image_caption": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon - NBC News",
-      "image_source": "https://www.nbcnews.com/world/iran/israel-continues-lebanon-strikes-fresh-ceasefire-rcna350952",
-      "original_title": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon - NBC News",
-      "original_url": "https://www.nbcnews.com/world/iran/israel-continues-lebanon-strikes-fresh-ceasefire-rcna350952",
-      "pub_date": "Sat, 20 Jun 2026 20:52:16 GMT",
-      "author": "NBC News"
-    },
-    {
-      "guid": "1c48b81713e6c0e73e3a8f86cbf1d079",
-      "source_index": 2,
-      "title_cn": "多米尼加共和国一海滨度假村发生大火致一名游客死亡",
-      "summary_cn": "多米尼加共和国一家豪华海滨度假村近日发生严重火灾，造成一名意大利游客死亡，约1700名住客被紧急疏散。目前相关部门正在调查事故原因，受灾区域已采取安全管控措施。",
-      "image_urls": [],
-      "image_caption": "Huge Blaze Ravages Dominican Republic Beach Resort - The New York Times",
-      "image_source": "https://www.nytimes.com/2026/06/20/world/americas/dominican-republic-fire.html",
-      "original_title": "Huge Blaze Ravages Dominican Republic Beach Resort - The New York Times",
-      "original_url": "https://www.nytimes.com/2026/06/20/world/americas/dominican-republic-fire.html",
-      "pub_date": "Sat, 20 Jun 2026 20:56:53 GMT",
-      "author": "The New York Times"
-    },
-    {
-      "guid": "3a98f86e96138a696d9191015f738bff",
-      "source_index": 3,
-      "title_cn": "乌克兰总统泽连斯基证实对俄罗斯秋明州炼油设施发动无人机袭击",
-      "summary_cn": "乌克兰总统泽连斯基确认乌方对俄罗斯秋明州炼油设施实施了无人机打击。近期乌克兰加大了对俄境内能源基础设施的袭击力度，导致莫斯科等地炼油厂发生火灾及剧烈爆炸。",
-      "image_urls": [],
-      "image_caption": "Ukraine's Zelenskiy confirms drone strike on refining facilities in Russia's Tyumen region - Reuters",
-      "image_source": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
-      "original_title": "Ukraine's Zelenskiy confirms drone strike on refining facilities in Russia's Tyumen region - Reuters",
-      "original_url": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
-      "pub_date": "Sat, 20 Jun 2026 19:16:10 GMT",
-      "author": "Reuters"
-    },
-    {
-      "guid": "63a9461f68026c516f7c404485f88da1",
-      "source_index": 4,
-      "title_cn": "苏格兰爱丁堡发生疑似反穆斯林袭击事件，造成五人受伤",
-      "summary_cn": "苏格兰爱丁堡街头发生一起持械袭击事件，导致五人受伤。目前警方已逮捕一名涉案男子，反恐警察正介入调查，初步怀疑该事件涉及反穆斯林动机。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_png/79uC8IloHOB6ke6ETqYicAFaiaBDA9jHfbTAucwpmaZm81Zwos0Zd7o9AxBfCCDtibzJQexGiadFd4UUups9PcxxxaUSJuNgqDtJlcKP5Eh3CibM/0?wx_fmt=png&media_id=6pMyx5iVnuzGNvPxaGYLse9vBrC2SCvf4hwmorE5iIc0OzlESsZLeg2wbj9WU-UH"
-      ],
-      "image_caption": "Five injured in suspected anti-Muslim attacks after armed man roamed Edinburgh streets - BBC",
-      "image_source": "https://www.bbc.com/news/articles/cx2xg6lwz5jo",
-      "original_title": "Five injured in suspected anti-Muslim attacks after armed man roamed Edinburgh streets - BBC",
-      "original_url": "https://www.bbc.com/news/articles/cx2xg6lwz5jo",
-      "pub_date": "Sat, 20 Jun 2026 17:27:34 GMT",
-      "author": "BBC"
-    },
-    {
-      "guid": "4d160a99b36ade4e6ffa15b7ba6a676c",
-      "source_index": 5,
-      "title_cn": "菲律宾总统马科斯与普京会谈后，俄罗斯释放24名菲律宾公民",
-      "summary_cn": "据美联社报道，在菲律宾总统马科斯与俄罗斯总统普京进行沟通后，俄方已释放了24名被扣押的菲律宾公民。目前相关人员的获释情况及后续安排已成为国际关注焦点。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAXSnFib4qCmDXlXibUK2YUlMIq4esHWsicEr2gjSQ4OIrE2BUibR2smp7MF2KQUOV2vI32QDV6cDCa8xI9A913nNEsGAeLET4VJRw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsRAwoI-8kPGbIkFZdH5q4EBYY_EnRfBDAynPc1xvruct"
-      ],
-      "image_caption": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
-      "image_source": "https://apnews.com/article/philippines-russia-putin-marcos-3b0b29e187338047c5f01671b348399c",
-      "original_title": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
-      "original_url": "https://apnews.com/article/philippines-russia-putin-marcos-3b0b29e187338047c5f01671b348399c",
-      "pub_date": "Sat, 20 Jun 2026 16:12:00 GMT",
-      "author": "AP News"
-    },
-    {
       "guid": "2c6720a694ac7ebbfe88fde1da835f8e",
-      "source_index": 6,
-      "title_cn": "波兰总统撤销泽连斯基最高荣誉，起因系乌克兰特种部队更名事件",
-      "summary_cn": "据《华盛顿邮报》及BBC报道，波兰总统因乌克兰一支特种部队更名事件，决定撤销授予乌克兰总统泽连斯基的最高荣誉。泽连斯基随后归还了该奖项，双方就此事件引发的外交关注做出回应。",
+      "source_index": 1,
+      "title_cn": "波兰总统撤销泽连斯基荣誉称号，缘起乌克兰特种部队更名事件",
+      "summary_cn": "因乌克兰特种部队更名引发争议，波兰总统撤销了授予泽连斯基的荣誉称号。随后，泽连斯基归还了该波兰最高荣誉勋章，两国间的外交摩擦进一步加深。",
       "image_urls": [],
       "image_caption": "Polish president strips Zelensky of honor after special forces unit’s renaming - The Washington Post",
       "image_source": "chrome-error://chromewebdata/",
       "original_title": "Polish president strips Zelensky of honor after special forces unit’s renaming - The Washington Post",
       "original_url": "chrome-error://chromewebdata/",
-      "pub_date": "Sat, 20 Jun 2026 22:28:44 GMT",
+      "pub_date": "Sun, 21 Jun 2026 03:57:15 GMT",
       "author": "The Washington Post"
     },
     {
-      "guid": "806dd662926ef522db7f9f63dbdb276a",
-      "source_index": 7,
-      "title_cn": "尽管已与黎巴嫩真主党达成停火协议，以色列仍持续发动空袭",
-      "summary_cn": "尽管以色列与黎巴嫩真主党已达成停火协议，但双方冲突仍在持续。近期以色列继续对黎巴嫩境内目标发动空袭，且有以色列国防军士兵在真主党的袭击中丧生，局势依然紧张。",
+      "guid": "d1d509cb770513abfddd6f393ffc8486",
+      "source_index": 2,
+      "title_cn": "乌克兰无人机袭击俄罗斯秋明炼油厂，泽连斯基称距离达两千公里",
+      "summary_cn": "乌克兰总统泽连斯基表示，乌军无人机成功袭击了位于俄罗斯秋明地区、距离边境约两千公里的炼油厂。此次行动被视为乌克兰利用新型无人机战略打击俄方后勤补给线的一部分。",
       "image_urls": [
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCD7WT4ZLHOUe8ict6Pwf7S6FNwibREg2Thce6TRy5t8M1ACia5dLnNvPj7LvDOZPx78jqVsZO3R6pbxAXuKZcIbibe8VYVDm2N698/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdoxit3XsAFPyJsE5TFcr3dq3TnG9hYaRxftUJjeJi5B",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBr3hdXRiaEuKpWrTNxr5SNrV01XBnAtJgSYLvDpqbzFE7BwvvFEia5iaXhSN0Ficb2A29d7VF2boxlLriaKaicjN2GDSVKX8gIbNpc4/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsfG1O8tu6p8D3636_szfUEfrjYQpp_4GZtUkJ6xrUbc-",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODwbOOlMI4ICBWOtynjiaHXH150CQHeyQWzzNNHoMPiciaYYHiaMIx9ZiaxGchHZ08kRgQS8sicDyfy5GsytXp2goVDH9rhnQXlwfdAc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLseriJhC5SmigyT2M3lYSJxNT6g8-Q7CLSdtPvSpyScpe"
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCreE5NZK3aw3ydthLa2O964kz6u8nnvicPsV5h0un6UMkvkXtIGeZc3rvfYw1dk3ojF1sEicLLxvrZticchv04rAU6XklLpB1ZsU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW_O5ii-xkFramV9vIqYgxdMR_4GyDu8jlWLctDAqI0I",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODyeLF82sZrI5D7uZsOprnYf5wqsfqmOofvUJYQic6Licdd7kaIIjkZ0MeeQ4luMS2BMqwCh478EsxM6t3elGImc163nrCIo3Xs4/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW2jcUGrr-GYyB9z71SyESdJLa5e39d5NuhDY2GP4ZHw",
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCibSbhW2EvLTmu3jOeg5fnQ3cGGqkW2tURBrKibJBcsXvQialRp3ndeyqvjgZkskCDQkDzZEIQsJfI1BsereoypPp3f5GDSrRPCw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsXPUxSsod02k6LB_2CAri_FoVG6g67Aw3tOJ0vOJiNCH"
       ],
-      "image_caption": "Israel continues strikes in Lebanon despite ceasefire with Hezbollah - politico.eu",
-      "image_source": "https://www.politico.eu/article/israel-strikes-lebanon-ceasefire-hezbollah/",
-      "original_title": "Israel continues strikes in Lebanon despite ceasefire with Hezbollah - politico.eu",
-      "original_url": "https://www.politico.eu/article/israel-strikes-lebanon-ceasefire-hezbollah/",
-      "pub_date": "Sat, 20 Jun 2026 13:24:00 GMT",
-      "author": "politico.eu"
+      "image_caption": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy - The Guardian",
+      "image_source": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+      "original_title": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy - The Guardian",
+      "original_url": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+      "pub_date": "Sun, 21 Jun 2026 03:19:00 GMT",
+      "author": "The Guardian"
+    },
+    {
+      "guid": "bca21c10388f11f3b462be9f385ec9af",
+      "source_index": 3,
+      "title_cn": "美国反驳伊朗关于关闭霍尔木兹海峡的声明，谈判代表抵达瑞士",
+      "summary_cn": "针对伊朗声称关闭霍尔木兹海峡的报道，美国予以反驳。与此同时，相关谈判代表已抵达瑞士进行会谈，以应对地区局势及停火协议相关争议。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBHLreESLYkfebYamYMtiaxjGczo3egfjNaR8QuKzwkg4Z32rRmds0F3V194WOlcrahxB2cy70GZG4ucxicHRicJwD1Wh24uFcZIQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscvxlqIiydFXH2-2xzvB69QR9TOk_IRRDjpzshTv1-aI",
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAvYMwwGwGKIHs9fZKJUW04Tkgw5kxp7JrPxAjbyzD1MMd835TfiboDn3NVwYbnZZuJHjRGiaRYHWOoP49egrpqWTibpzJHYBaaA8/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsXMl7m8ojwFp5hmZARblXls3Cl41XQKxY-zvtiwoQFtn"
+      ],
+      "image_caption": "US disputes Iranian claims about closing Strait of Hormuz as negotiators arrive in Switzerland - The Detroit News",
+      "image_source": "https://www.detroitnews.com/story/news/world/2026/06/20/iran-close-strait-of-hormuz-truce-violations-u-s-israel/90627179007/",
+      "original_title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators arrive in Switzerland - The Detroit News",
+      "original_url": "https://www.detroitnews.com/story/news/world/2026/06/20/iran-close-strait-of-hormuz-truce-violations-u-s-israel/90627179007/",
+      "pub_date": "Sun, 21 Jun 2026 01:01:00 GMT",
+      "author": "The Detroit News"
+    },
+    {
+      "guid": "4d160a99b36ade4e6ffa15b7ba6a676c",
+      "source_index": 4,
+      "title_cn": "菲律宾总统马科斯与普京会谈后，俄罗斯释放24名菲律宾公民",
+      "summary_cn": "在菲律宾总统马科斯与俄罗斯总统普京进行会谈后，俄罗斯政府已正式释放了24名被扣押的菲律宾公民。美联社报道确认了这一外交进展，相关人员获释标志着两国在相关议题上的沟通取得成效。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODNARfNzPUjmawib8xV6OTMZnNaKw5Ihfhicq1UoWcPujrKnDUwMp08nnr8MwjrAibsIPYFj922HXLsxD9Yuicrn4LJcViajaNIU848/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsU3vSJoSedWUc9kIEFil92X6V3bVA8zZOVpHrWM9RDmf"
+      ],
+      "image_caption": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
+      "image_source": "https://apnews.com/article/philippines-russia-putin-marcos-3b0b29e187338047c5f01671b348399c",
+      "original_title": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
+      "original_url": "https://apnews.com/article/philippines-russia-putin-marcos-3b0b29e187338047c5f01671b348399c",
+      "pub_date": "Sat, 20 Jun 2026 23:29:00 GMT",
+      "author": "AP News"
+    },
+    {
+      "guid": "6545a5a223b6deda3d6ef0f3047775b4",
+      "source_index": 5,
+      "title_cn": "加沙地带遭以色列袭击致九人死亡，其中包括一名儿童及一名记者",
+      "summary_cn": "据医疗官员消息，以色列在加沙地带的军事行动造成九人死亡，遇难者包括一名儿童和一名半岛电视台摄影记者。目前相关伤亡情况已得到多方媒体报道与确认。",
+      "image_urls": [],
+      "image_caption": "Israeli fire kills nine people in Gaza, including a child and journalist, medics say - Reuters",
+      "image_source": "https://www.reuters.com/world/middle-east/israeli-fire-kills-five-people-gaza-including-child-medics-say-2026-06-20/",
+      "original_title": "Israeli fire kills nine people in Gaza, including a child and journalist, medics say - Reuters",
+      "original_url": "https://www.reuters.com/world/middle-east/israeli-fire-kills-five-people-gaza-including-child-medics-say-2026-06-20/",
+      "pub_date": "Sat, 20 Jun 2026 22:38:38 GMT",
+      "author": "Reuters"
+    },
+    {
+      "guid": "d381132303852a679ceb352dadae0e0b",
+      "source_index": 6,
+      "title_cn": "哥伦比亚长期内部冲突成为总统大选的核心议题",
+      "summary_cn": "哥伦比亚总统大选进入决选阶段，该国长期存在的残酷内部冲突成为竞选的核心议题。候选人的政治立场与国家安全政策引发广泛关注，选民正面临关键抉择。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODH5hPLHH0lLice13xtIGoQLHJqI9HiaY8TEfe98aYkb1oCnfw03CTzdzLVIfWcwQcjr2kCb1D7dRW0ua72WrsD3G2sRibSpiaYSGo/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZDKgEPJEbhY_bUWNIm3cXkfzIhBFCRpaWkYuculwFAG"
+      ],
+      "image_caption": "Colombia's brutal internal conflict is defining its presidential election - BBC",
+      "image_source": "https://www.bbc.com/news/articles/cvgqv8q1ndpo",
+      "original_title": "Colombia's brutal internal conflict is defining its presidential election - BBC",
+      "original_url": "https://www.bbc.com/news/articles/cvgqv8q1ndpo",
+      "pub_date": "Sat, 20 Jun 2026 23:17:51 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "6dffaf900afcf56e8c50e98e315f337c",
+      "source_index": 7,
+      "title_cn": "以色列与黎巴嫩真主党冲突持续，多次停火协议未能平息战火",
+      "summary_cn": "尽管此前已达成多次停火协议，以色列与黎巴嫩真主党之间的军事冲突仍在持续。在周五针对以军坦克的一次袭击中，以色列国防军士兵纳夫·哈布舒什不幸丧生，这是该事件中确认的第四名遇难者。",
+      "image_urls": [],
+      "image_caption": "Israel and Hezbollah Are Still Fighting, Several Cease-Fires Later - The New York Times",
+      "image_source": "https://www.nytimes.com/2026/06/20/world/middleeast/israel-hezbollah-fighting-cease-fire.html",
+      "original_title": "Israel and Hezbollah Are Still Fighting, Several Cease-Fires Later - The New York Times",
+      "original_url": "https://www.nytimes.com/2026/06/20/world/middleeast/israel-hezbollah-fighting-cease-fire.html",
+      "pub_date": "Sat, 20 Jun 2026 15:43:28 GMT",
+      "author": "The New York Times"
+    },
+    {
+      "guid": "726781b872ad61162f2a8874738f64a3",
+      "source_index": 8,
+      "title_cn": "多米尼加共和国一豪华海滩度假村发生大火致一名意大利游客死亡",
+      "summary_cn": "多米尼加共和国一家豪华海滩度假村近日发生严重火灾，导致一名意大利籍游客不幸丧生。事故发生后，当地紧急疏散了约1700名住客，目前相关部门正对起火原因展开调查。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOBjbjadPCm8yqTM9icq4EFhj0ZZuCQibRj8XB2jIxwylBID4455aQ46GKbB14N6t6bgoxIplNKcLwNnqLQFJMUosGzA8VLHosbMY/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZL83PDByf2gMzQu5wuEiiCi3S3ZKUKk-PNV9eZEVn6L",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqXLo9YibyKibMxlUaHWesib43iccicWd3bgibMD0wmPehPphZYjgibXxiaVh2a0RK3yvyfLFX6mdj78ibREfu4QXaqCyVFeIdh8icwZPwU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsTfEwLKxpTqeiO0ueMBhAqCxEwTwiUUHBX0ZLpzCV9qT",
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCxaHicNoJvf2Giaq2kSXg5aqrLta4oGpcKO7DU75s8YW5hfcCXj9FdOgLXJPqtAjBzmILOckedy1rspc1MAiaRJLzWibmvjNKzGoM/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdPP3oUsDAKqAl6CoAkZJZ1SDY4qHpmvu5QGZIuZzPOn"
+      ],
+      "image_caption": "Italian tourist killed in massive fire at Dominican Republic luxury beach resort - PBS",
+      "image_source": "https://www.pbs.org/newshour/world/italian-tourist-killed-in-massive-fire-at-dominican-republic-luxury-beach-resort",
+      "original_title": "Italian tourist killed in massive fire at Dominican Republic luxury beach resort - PBS",
+      "original_url": "https://www.pbs.org/newshour/world/italian-tourist-killed-in-massive-fire-at-dominican-republic-luxury-beach-resort",
+      "pub_date": "Sat, 20 Jun 2026 22:11:20 GMT",
+      "author": "PBS"
+    },
+    {
+      "guid": "d48d84e4758142480f40be669713b809",
+      "source_index": 9,
+      "title_cn": "法国发布红色高温预警，禁止在音乐节活动期间饮酒",
+      "summary_cn": "受极端高温天气影响，法国政府宣布在红色预警区域内禁止音乐节等活动提供酒精饮料。目前西欧多国正面临新一轮热浪侵袭，相关部门已采取措施以应对高温带来的健康风险。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCdpxRhWUTuVBr0qibd5qibQJtibjEib53eEhvP3g9oP6UvC0LxEKPTJNqH32Lah1N69VFiaibSzmodQtLgibruHoIia3r2UYS4cn6HtqU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscYh52_4cJtWxzC4crI3fNcSH5u8u-lhsFawqA4C5cu5"
+      ],
+      "image_caption": "France bans alcohol consumption at music festival events under red headwave alert - BBC",
+      "image_source": "https://www.bbc.com/news/articles/cgmdw4vn7y2o",
+      "original_title": "France bans alcohol consumption at music festival events under red headwave alert - BBC",
+      "original_url": "https://www.bbc.com/news/articles/cgmdw4vn7y2o",
+      "pub_date": "Sun, 21 Jun 2026 00:29:51 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "882e0e2163521f25ea6fb054816ccc0c",
+      "source_index": 10,
+      "title_cn": "社交媒体禁令背后的深层社会影响与全球趋势分析",
+      "summary_cn": "近期全球范围内社交媒体禁令呈上升趋势。BBC与卫报等媒体分析指出，此类禁令不仅限于平台管控，更折射出数字时代下家长对青少年心理健康、屏幕依赖及社会治理的深层担忧。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqduvoqhH35JX0FOyL8DnP3pJgbXBRdiaAN7iaxAxoibU3897xZrXia6qUqcxdqicgChBhPTnRNT8ECXeRHVweicqsGqNXaDELaoz4E/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsVjGkVXyKLPls1yv0ew6tMyx5nFkWqsyICSt0iCkOM-9"
+      ],
+      "image_caption": "Why the social media ban is about so much more than social media - BBC",
+      "image_source": "https://www.bbc.com/news/articles/c1jy512r19ro",
+      "original_title": "Why the social media ban is about so much more than social media - BBC",
+      "original_url": "https://www.bbc.com/news/articles/c1jy512r19ro",
+      "pub_date": "Sat, 20 Jun 2026 23:18:12 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "3dd84788addba9f515673dca5119c44e",
+      "source_index": 11,
+      "title_cn": "西班牙法官裁定：首相夫人贝戈尼亚·戈麦斯须接受腐败审判",
+      "summary_cn": "西班牙法官正式裁定首相桑切斯的夫人贝戈尼亚·戈麦斯因涉嫌腐败需出庭受审。法院已对其采取限制措施，禁止其在调查期间离开西班牙。此案引发了关于政治透明度与司法独立性的广泛关注。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAAkeUsKK56JnIma3hcCD9XS9ChMJfX0y1DaxBHSGUDgaUeuseojWUiaaKI5WvQ4ibUv9k2ICcMgbXRNrBoSFDaAyvcciatK4kh0M/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLseqlVC-VXmV6r-_y-LH4U8Hio6swZUXQrqCKaUuKMsfp",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBMS6YiapxYAcO3icMJ7dbj7a2skLnuicIDe8CV0DwZVYPT24gicGiaevSIiaw8hsickwG86NNAyUQWlOwnLNhuq1Xeo1YJM3iabeKWweQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsajgzvQDAwCxK54tyccYhHU7i9PhG7aaA_qVzhBYG4k-"
+      ],
+      "image_caption": "Spain: PM's wife must face corruption trial, judge rules - dw.com",
+      "image_source": "https://www.dw.com/en/spain-pms-wife-must-face-corruption-trial-judge-rules/a-77638811",
+      "original_title": "Spain: PM's wife must face corruption trial, judge rules - dw.com",
+      "original_url": "https://www.dw.com/en/spain-pms-wife-must-face-corruption-trial-judge-rules/a-77638811",
+      "pub_date": "Sat, 20 Jun 2026 20:26:04 GMT",
+      "author": "dw.com"
+    },
+    {
+      "guid": "1ec7eb0c70e4ba6ebab4f2b0c968258c",
+      "source_index": 12,
+      "title_cn": "特朗普声称因以色列人尊重他，自己能控制以军在黎巴嫩的行动",
+      "summary_cn": "美国前总统特朗普表示，由于以色列人对其抱有尊重，他有能力控制以色列国防军在黎巴嫩的军事行动。此言论引发外界关注，同时有情报显示以色列可能破坏伊朗和平协议。",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAA8CGOCr5CtHDklsyQRCP6ic9BR2HGnbQomp2vic1jd4NOmJbazNkNnCIsCxicjeB25USq5dBm6Xb5txjNaK3R329Od7gbkKNloc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsV3FX_Fbfij1mMGcaON-UcxK9qsMZ1BjZzoH63ubAzRZ",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOClPIG3lBB9AOM12aYuSEBpdZ3eyboFHib697rUicdUBZ2zVGWxHYOQibS2UxGXKvhKARVCicr06yuWHVMyoibfusTS7UffuRPosX2U/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLse2fj0SfOusfzJvqf5j2G3po-6Dfg2Ax1wPrLXB1c8ZM",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCwp0ibslsNibwp6jk9SkYc5GCtgUyiaiaP6xKiczl5M9wD93JIibsporfo74v5MAmGjoGQ0QyEWsDtRbAJIEnWXbzfwzX81WZ5u0sCc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscmzhvlXYJ82vESoK7qX2eGyjhNKyWNXlQpmwt1Ul39F"
+      ],
+      "image_caption": "Trump claims he can control IDF actions in Lebanon because Israelis respect him - The Times of Israel",
+      "image_source": "https://www.timesofisrael.com/trump-claims-he-can-control-idf-actions-in-lebanon-because-israelis-respect-him/",
+      "original_title": "Trump claims he can control IDF actions in Lebanon because Israelis respect him - The Times of Israel",
+      "original_url": "https://www.timesofisrael.com/trump-claims-he-can-control-idf-actions-in-lebanon-because-israelis-respect-him/",
+      "pub_date": "Sat, 20 Jun 2026 19:37:00 GMT",
+      "author": "The Times of Israel"
+    },
+    {
+      "guid": "1cddc9161fb40b73ec5c87a4ae3272c8",
+      "source_index": 13,
+      "title_cn": "数万名阿尔巴尼亚民众参与“火烈鸟革命”抗议活动",
+      "summary_cn": "数万名阿尔巴尼亚抗议者走上街头参与“火烈鸟革命”，要求总理辞职。此次抗议活动与贾里德·库什纳在当地的豪华房地产开发项目引发的社会不满情绪密切相关。",
+      "image_urls": [],
+      "image_caption": "Tens of thousands of Albanians join ‘Flamingo Revolution’ protest - Financial Times",
+      "image_source": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSUU3WWZlaFcxOE1KTU5wX3F5cGZrTlA5dU1sMXNvVXBJMlMySkZIbXdpb3JOTDNFdVFOcGVYTnFEbFM4WERZVWJfTGR3d1pxVUJsTGQwQ0w3Vzd5VlIzcDVzOXdHRWlGejBPQ1NHd2RUMGoxZU9mZFhnQ1l0MzA1TXVUVEY?oc=5",
+      "original_title": "Tens of thousands of Albanians join ‘Flamingo Revolution’ protest - Financial Times",
+      "original_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSUU3WWZlaFcxOE1KTU5wX3F5cGZrTlA5dU1sMXNvVXBJMlMySkZIbXdpb3JOTDNFdVFOcGVYTnFEbFM4WERZVWJfTGR3d1pxVUJsTGQwQ0w3Vzd5VlIzcDVzOXdHRWlGejBPQ1NHd2RUMGoxZU9mZFhnQ1l0MzA1TXVUVEY?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 18:29:41 GMT",
+      "author": "Financial Times"
+    },
+    {
+      "guid": "1e3025c9412edf6e41b76797280f3984",
+      "source_index": 14,
+      "title_cn": "英国首相斯塔默被传准备辞职，官方消息人士否认并称其专注工作",
+      "summary_cn": "针对有关英国首相斯塔默准备辞职的媒体报道，相关消息人士予以否认，并明确表示斯塔默目前仍专注于履行其首相职责，并未考虑离职事宜。",
+      "image_urls": [],
+      "image_caption": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job - CNBC",
+      "image_source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFRzR0JGMHNZRmtoY2RScW5kV05GQTBFT2pmTExFRnpxbmpwN1pwNkRnVHlseUpCemgtc0paSkVXcFp2cXhSZ2pfbDZjUkUxQS1LSzliMFJwR0pRMDhIMmVocXItcXlQcGw5NHVWUVU2bGlaSnFQdXljTTNvcjNZUml1eTNveWhDdElSLURXN3RLbDl1SmJ6Sjl2WUJrdExCcGZJS0JoNGgwUdIBrwFBVV95cUxObzg4OVZVeW9SOWlZM2Y0eVZySnFEM1c4V3V1MzB6MUxQdnRUaFFqd1FEZVJkVjJWZ0xNMTN1MnM5ZEVMTk5QNXRCdXBHQnhMd2tqTzY5WkJscGcyRjhTeDdORDFEQnJtb0ViQk5ETE5pLXBwb1pCaFNZQmt0QXNiZld2alBOMFVuSDZRSk5VR0FaSEhTTHMxU25KU1plSGxUUklFRnVDTnd6Yk9kMG5V?oc=5",
+      "original_title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job - CNBC",
+      "original_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFRzR0JGMHNZRmtoY2RScW5kV05GQTBFT2pmTExFRnpxbmpwN1pwNkRnVHlseUpCemgtc0paSkVXcFp2cXhSZ2pfbDZjUkUxQS1LSzliMFJwR0pRMDhIMmVocXItcXlQcGw5NHVWUVU2bGlaSnFQdXljTTNvcjNZUml1eTNveWhDdElSLURXN3RLbDl1SmJ6Sjl2WUJrdExCcGZJS0JoNGgwUdIBrwFBVV95cUxObzg4OVZVeW9SOWlZM2Y0eVZySnFEM1c4V3V1MzB6MUxQdnRUaFFqd1FEZVJkVjJWZ0xNMTN1MnM5ZEVMTk5QNXRCdXBHQnhMd2tqTzY5WkJscGcyRjhTeDdORDFEQnJtb0ViQk5ETE5pLXBwb1pCaFNZQmt0QXNiZld2alBOMFVuSDZRSk5VR0FaSEhTTHMxU25KU1plSGxUUklFRnVDTnd6Yk9kMG5V?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 22:44:41 GMT",
+      "author": "CNBC"
     },
     {
       "guid": "3638f011e1d00f600ec47282b6638a3e",
-      "source_index": 8,
-      "title_cn": "英国贝德福德发生致命火车相撞事故，造成九人重伤",
-      "summary_cn": "英国贝德福德发生一起严重火车相撞事故，导致多人伤亡。目前事故已造成九人重伤，总计约一百人受伤。英国警方已介入调查此次致命碰撞事故的具体原因。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCicaIz6LyGdibGrIxkzZbnyjauomFwcRUI9q53ltQNqcia1ibL8VAzv7KT1HEBYlvbXmR4MRRbOXgY0E9J7agiaFhOwmJicqPgJsXgQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdlQ8CKnsYvp_6uX-Z2SWnV8VGtvUX9E3zl1B3UFU1i-"
-      ],
+      "source_index": 15,
+      "title_cn": "英国贝德福德发生列车相撞事故，造成至少一人死亡多人受伤",
+      "summary_cn": "英国贝德福德发生一起严重列车相撞事故，目前已造成至少一人死亡，另有百余人受伤，其中九人伤势危急。救援工作正在进行中，相关部门已介入调查事故原因。",
+      "image_urls": [],
       "image_caption": "Nine people critically injured in fatal Bedford train crash - BBC",
-      "image_source": "https://www.bbc.com/news/articles/ce8j33e30neo",
+      "image_source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02LTN0UjFKY2s0VmpjekxHa3dqV2JmZlRDRGlGX0J5a1dSVVVWbGpCTHgzdjRrTDdPN19KWUUzRDRadGdLX2ZtZk1sZTUwcHB4bUNTR205MXlidw?oc=5",
       "original_title": "Nine people critically injured in fatal Bedford train crash - BBC",
-      "original_url": "https://www.bbc.com/news/articles/ce8j33e30neo",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02LTN0UjFKY2s0VmpjekxHa3dqV2JmZlRDRGlGX0J5a1dSVVVWbGpCTHgzdjRrTDdPN19KWUUzRDRadGdLX2ZtZk1sZTUwcHB4bUNTR205MXlidw?oc=5",
       "pub_date": "Sat, 20 Jun 2026 15:30:12 GMT",
       "author": "BBC"
     },
     {
-      "guid": "5aeda65b18388a4fc091b419c41e6e87",
-      "source_index": 9,
-      "title_cn": "极右翼准军事组织阴影笼罩哥伦比亚总统大选决胜轮",
-      "summary_cn": "哥伦比亚总统大选进入决胜轮，极右翼准军事组织的历史影响再次成为舆论焦点。候选人的政治立场与相关背景引发广泛讨论，选民对国家安全与政治稳定的担忧持续上升。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOA8HTHPDHiavAy7d93daYShSBqaaicHA0FP7C5sGf9XCvXwM63jSYiaUQasIH39AkXGicvb7LmVDkhjlDlDR16wf3CzDjlwSciaEvhM/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsaRi5TQlrhDfPVjrODzMDBM16W_uW23pmERNJTY4tZfU",
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODc13ibQwbibmytaic4FXCPAV1MV9XRVIn53ro8tsOMsjLUA0YI7xrrAYZJLUTmkE6UqvVd8y65cUZ8qiasrzj2oQWhUVaPYcU8Zx4/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsRlapXLP5pPT9MUd-ZcUye1otdbgkW-ze-IlwMLihjxZ",
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOARnQILiaQGkBicmAUeBDsQZjicPyG95UopyuTX466LEnN1gH1kYwMjfQjv7WTTnLTaZWicUsp6gbqByvkZYc6eANPBb2ETdZUKj1s/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQfPdAjFaALj_s5HFXT7DtznYezS9DO9TnG46gT9HtMp"
-      ],
-      "image_caption": "Ghost of far-right paramilitaries hovers over Colombia’s presidential runoff vote - The Guardian",
-      "image_source": "https://www.theguardian.com/world/2026/jun/20/colombia-presidential-election-paramilitary-militia-runoff",
-      "original_title": "Ghost of far-right paramilitaries hovers over Colombia’s presidential runoff vote - The Guardian",
-      "original_url": "https://www.theguardian.com/world/2026/jun/20/colombia-presidential-election-paramilitary-militia-runoff",
-      "pub_date": "Sat, 20 Jun 2026 12:01:00 GMT",
-      "author": "The Guardian"
-    },
-    {
-      "guid": "cae190cd4e7b315187e608bea319615a",
-      "source_index": 10,
-      "title_cn": "西班牙首相夫人因涉嫌腐败将面临审判并被限制出境",
-      "summary_cn": "据《纽约时报》及《卫报》报道，西班牙首相桑切斯的夫人贝戈尼亚·戈麦斯因涉嫌腐败被法院传唤出庭受审，并被禁止离开西班牙境内。目前该案件正在进一步司法程序中。",
+      "guid": "84e2e5dcac1a1b05e1011d5e87ea0ad3",
+      "source_index": 16,
+      "title_cn": "苏格兰爱丁堡发生疑似反穆斯林袭击事件，一名男子被捕",
+      "summary_cn": "苏格兰爱丁堡发生一起疑似针对穆斯林的袭击事件，造成5人受伤。当地警方已逮捕一名男子，目前反恐部门正对该事件展开调查，具体案情仍在进一步核实中。",
       "image_urls": [],
-      "image_caption": "Wife of Spanish Prime Minister to Stand Trial for Corruption - The New York Times",
-      "image_source": "https://www.nytimes.com/2026/06/20/world/europe/gomez-spain-trial-corruption.html",
-      "original_title": "Wife of Spanish Prime Minister to Stand Trial for Corruption - The New York Times",
-      "original_url": "https://www.nytimes.com/2026/06/20/world/europe/gomez-spain-trial-corruption.html",
-      "pub_date": "Sat, 20 Jun 2026 19:11:10 GMT",
+      "image_caption": "Man Is Arrested in Scotland After Rampage Leaves 5 Hurt - The New York Times",
+      "image_source": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcWxkSnpIakFERk41bEwtbmM3TGVFVkFpN3BKQ3JOQ2tJcm52dG01OHl3YUNtX2VlR3YtLVBRclVGbW0ySTN2QW9ScG1vSW0tSGpVcXFCbnNWd3BKSmNaLU5hMkh4MzNzckswMEt4TTlhUUNEUDlYX3pYTWhaMm9Uc0ZjUG1KTEo5b2lMdURFYng?oc=5",
+      "original_title": "Man Is Arrested in Scotland After Rampage Leaves 5 Hurt - The New York Times",
+      "original_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcWxkSnpIakFERk41bEwtbmM3TGVFVkFpN3BKQ3JOQ2tJcm52dG01OHl3YUNtX2VlR3YtLVBRclVGbW0ySTN2QW9ScG1vSW0tSGpVcXFCbnNWd3BKSmNaLU5hMkh4MzNzckswMEt4TTlhUUNEUDlYX3pYTWhaMm9Uc0ZjUG1KTEo5b2lMdURFYng?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 21:04:26 GMT",
       "author": "The New York Times"
     },
     {
-      "guid": "a6c54d4ce0c3afcdb137b2f95e2c28a4",
-      "source_index": 11,
-      "title_cn": "特朗普威胁若60天内未达成伊朗协议，美国将对霍尔木兹海峡征收通行费",
-      "summary_cn": "美联社报道，美国前总统特朗普威胁称，若60天内无法与伊朗达成最终协议，美国将对通过霍尔木兹海峡的船只征收通行费，并强调伊朗不得在该海峡收费。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODZO7aWMPhQ9tLfnSmkicibkdl5ITgqOicApFmGZIvj30JCzALuYoOzIFicRHvHA0RUzia0yEjs6w1d5pKx1avECvQ1OQnicciaFzicGLE/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZr-ejqPdX6u01aQ4OD2a9YXTJJtU38zeyXjgHVd0bMU"
-      ],
-      "image_caption": "Trump threatens to charge US tolls in Strait of Hormuz if final Iran deal not reached in 60 days - AP News",
-      "image_source": "https://apnews.com/article/iran-us-israel-lebanon-hezbollah-june-20-2026-6e23fb5f37e23427dbfc2bc80c59bda8",
-      "original_title": "Trump threatens to charge US tolls in Strait of Hormuz if final Iran deal not reached in 60 days - AP News",
-      "original_url": "https://apnews.com/article/iran-us-israel-lebanon-hezbollah-june-20-2026-6e23fb5f37e23427dbfc2bc80c59bda8",
-      "pub_date": "Sat, 20 Jun 2026 20:54:00 GMT",
-      "author": "AP News"
-    },
-    {
-      "guid": "140621c1c0255c77c397419d5e5efaec",
-      "source_index": 12,
-      "title_cn": "“北方之王”伯纳姆赢得补选，将挑战英国首相苏纳克",
-      "summary_cn": "在梅克菲尔德选区补选中获胜后，安迪·伯纳姆的支持者对其挑战英国首相职位的信心大增。此次胜利为伯纳姆角逐英国首相之位扫清了障碍，并引发了政界对其未来政治动向的广泛关注。",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAD07qy1LOKCzCPTchq6Hbm0wPaABb1bfAeXGvkVkCX7AFibRW4n3R6DXc7y2ZBB6eMBCfQpia1mXh92oC31YibJVhhO1IewJK0pI/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdB2-eZ2BWJzgRutblLLmGzA0nXwrsHQ499qzx5W8dK_",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBVxyx56WicVtY3T02Tia7O0hOHlfZRKmKicCWEm7ialxr5wVI0lMs9EIwhxZ3BxrHH88zA9yjuxXp7hpicqKx6tFHTUyqpY0w5h2KQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQ5vLhQLUNCCbHNCXqfMlSsIXfYjhwdO_Asq8kiL35cF"
-      ],
-      "image_caption": "'King of the North' Set to Challenge UK PM After Big Win - Newser",
-      "image_source": "https://www.newser.com/story/391349/king-of-the-north-set-to-challenge-uk-pm-after-big-win.html",
-      "original_title": "'King of the North' Set to Challenge UK PM After Big Win - Newser",
-      "original_url": "https://www.newser.com/story/391349/king-of-the-north-set-to-challenge-uk-pm-after-big-win.html",
-      "pub_date": "Fri, 19 Jun 2026 09:30:00 GMT",
-      "author": "Newser"
-    },
-    {
-      "guid": "5e557a9f300a178e83aade7089bea61f",
-      "source_index": 13,
-      "title_cn": "奉献一生的修女们步入晚年，谁来为她们提供养老照护？",
-      "summary_cn": "美国国家公共电台（NPR）报道称，许多修女在奉献一生服务他人后，步入晚年时面临养老照护资源匮乏的困境，引发社会对宗教团体成员晚年生活保障问题的关注。",
+      "guid": "cbd1a86e71a3785d0e10fcb21b177110",
+      "source_index": 17,
+      "title_cn": "教皇方济各访问帕维亚：称城市既是礼物也是一项任务",
+      "summary_cn": "教皇方济各近日访问意大利帕维亚，在圣奥古斯丁遗迹前祈祷并参观卡布里尼修女出生地。教皇强调圣奥古斯丁的思想启示，并表示城市的发展既是上天的礼物，也是需要共同承担的任务。",
       "image_urls": [],
-      "image_caption": "These nuns spent a lifetime helping others. In their last years, who will help them? - NPR",
-      "image_source": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxV3o4VW9BWVJBYVI0VGp3eTdaWE4wVDNRQ1pNTVZHa1lyRFF6X1NLSE5jek9rZ0lrMWtWbzdPMHg1VUlfTDZDMnBuU1NnbWZzUzFrUHVMMWgtdHVMZmp1Mkd3TnVKUXZrVS0tUDRVaU5WOE5fSEFUVzBn?oc=5",
-      "original_title": "These nuns spent a lifetime helping others. In their last years, who will help them? - NPR",
-      "original_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxV3o4VW9BWVJBYVI0VGp3eTdaWE4wVDNRQ1pNTVZHa1lyRFF6X1NLSE5jek9rZ0lrMWtWbzdPMHg1VUlfTDZDMnBuU1NnbWZzUzFrUHVMMWgtdHVMZmp1Mkd3TnVKUXZrVS0tUDRVaU5WOE5fSEFUVzBn?oc=5",
-      "pub_date": "Sat, 20 Jun 2026 10:45:09 GMT",
-      "author": "NPR"
+      "image_caption": "Pope in Pavia: \"The city is both a gift and a task\" - Vatican News",
+      "image_source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0EwRUFyZU1WOV9BRXYtbUF1R0pLRmxBUUdxVTlUUVJlbnZVa0Q4QVVHWERSSGhRNEhfYTZfckZ6RTlSbWdyemZ5Z0VjOEtNSjJzaWcwR0NycHpteF9XaGRDU1ZPMk5GLVlwWnluRWhmcnYxaldBMXpPX0dyd1IzVlozZFl3a2tXUDBxNkhaWHcyMFJIQ29fTWZ6QUc?oc=5",
+      "original_title": "Pope in Pavia: \"The city is both a gift and a task\" - Vatican News",
+      "original_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0EwRUFyZU1WOV9BRXYtbUF1R0pLRmxBUUdxVTlUUVJlbnZVa0Q4QVVHWERSSGhRNEhfYTZfckZ6RTlSbWdyemZ5Z0VjOEtNSjJzaWcwR0NycHpteF9XaGRDU1ZPMk5GLVlwWnluRWhmcnYxaldBMXpPX0dyd1IzVlozZFl3a2tXUDBxNkhaWHcyMFJIQ29fTWZ6QUc?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 16:14:03 GMT",
+      "author": "Vatican News"
     },
     {
-      "guid": "b896b32a564482689f0e81e1594b2f99",
-      "source_index": 14,
-      "title_cn": "欧洲多地遭遇高温热浪侵袭，法国政府宣布限制酒精消费",
-      "summary_cn": "西欧地区正面临新一轮高温天气，气温预计将达到40摄氏度。受此影响，法国政府已采取措施限制酒精消费，以应对极端高温带来的公共健康与安全挑战。",
+      "guid": "b5e641aacb05ff7ebf2d344076a13ecd",
+      "source_index": 18,
+      "title_cn": "英国按摩诊所经营者因男性顾客行为不当实施禁入令",
+      "summary_cn": "据BBC报道，一名按摩诊所经营者表示，由于部分男性顾客存在不当行为，她已决定禁止大多数男性进入其诊所接受服务。该事件引发了关于服务行业安全与边界问题的讨论。",
       "image_urls": [],
-      "image_caption": "Europe swelters under heatwave, France restricts alcohol consumption - Reuters",
-      "image_source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdEtVZWxoSnhzR3BkMnRVbjVlZ0tjdGduQXNpWDR1cVhXeDhsR21iUS1oT2pKS2dnYTRNaDg1TjJqSm42eURTRjB5dDZZZ2pxZzhXQVdsRVhVV180MHlJX3F4LWVDQjhHMmJjaXNud3d6NE5ENlBBd25LTmhhaG80ZEE0ZDU5U1M4VWgxdzM0N0NtaEZvaEtQWEdEVU53YWlkVnZrUE9NelYtaURsWW5SQ18wRHBxQ1RL?oc=5",
-      "original_title": "Europe swelters under heatwave, France restricts alcohol consumption - Reuters",
-      "original_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdEtVZWxoSnhzR3BkMnRVbjVlZ0tjdGduQXNpWDR1cVhXeDhsR21iUS1oT2pKS2dnYTRNaDg1TjJqSm42eURTRjB5dDZZZ2pxZzhXQVdsRVhVV180MHlJX3F4LWVDQjhHMmJjaXNud3d6NE5ENlBBd25LTmhhaG80ZEE0ZDU5U1M4VWgxdzM0N0NtaEZvaEtQWEdEVU53YWlkVnZrUE9NelYtaURsWW5SQ18wRHBxQ1RL?oc=5",
-      "pub_date": "Sat, 20 Jun 2026 22:01:10 GMT",
-      "author": "Reuters"
+      "image_caption": "'I've banned most men from my massage clinic because of their behaviour' - BBC",
+      "image_source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FcFNTRUFEOVhGQWVBTDV3OFU0QXdvREQ3eE5rc3NmeUxFUFhpYWJnbW1VQ0dKUjVrbFF3cC1xcTRfOWFTVzlSS0k1QUhkNnJZblhHdHRXUk5FZw?oc=5",
+      "original_title": "'I've banned most men from my massage clinic because of their behaviour' - BBC",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FcFNTRUFEOVhGQWVBTDV3OFU0QXdvREQ3eE5rc3NmeUxFUFhpYWJnbW1VQ0dKUjVrbFF3cC1xcTRfOWFTVzlSS0k1QUhkNnJZblhHdHRXUk5FZw?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 22:46:47 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "99c6a6359cfb297782981990ed78cb00",
+      "source_index": 19,
+      "title_cn": "特朗普称伊朗不得在霍尔木兹海峡收费，并暗示美国可能实施收费",
+      "summary_cn": "美国前总统特朗普表示，若60天内无法与伊朗达成最终协议，美国可能在霍尔木兹海峡向过往船只征收通行费，并强调伊朗不得在该海峡收费。",
+      "image_urls": [],
+      "image_caption": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might - Al Jazeera",
+      "image_source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXlmZWNTSGJHQkNpenFiQUpjS3U0T3FpdnRJdjR6YTRJcF83YkhUWTBfX1hWR2h0X19qX1lrWFVtTU5HUHdqbUN3SV91Ymx6UjhtWVRlYVNpOVhWaWtIUE9OMGh1aGRjYXAxaC02cWpBM2hic2tzWHFrODBaMEI5VDhBRUo3cFZhVGZLdlM4cVg2eVBPSTJ3MWxGOGhtQnFtODVCYzdpdDBGZnNub1pfejllVdIBuAFBVV95cUxQanU1MkNJc1U5UHJuMGFpY0tQMjNKbDhBNG04elFKUlp6bUR1UF9PQV93X1k3cWtrcDY3LUY5WHc5aEJiSFNwNW5OeHZVYXN3VmxJb3l0dVhEc21iMVJnQmdBaU50WjVYRTVsZm1mWGh6alJVSGhmTFd4M1M3U3lhSXFHUmFhYkt4clVYRk5Sc0tnbzdpdEhSVmJtLUVxTXROU3JwSUdJRzdxUDBHa0pla3FQNk45WGxn?oc=5",
+      "original_title": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might - Al Jazeera",
+      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXlmZWNTSGJHQkNpenFiQUpjS3U0T3FpdnRJdjR6YTRJcF83YkhUWTBfX1hWR2h0X19qX1lrWFVtTU5HUHdqbUN3SV91Ymx6UjhtWVRlYVNpOVhWaWtIUE9OMGh1aGRjYXAxaC02cWpBM2hic2tzWHFrODBaMEI5VDhBRUo3cFZhVGZLdlM4cVg2eVBPSTJ3MWxGOGhtQnFtODVCYzdpdDBGZnNub1pfejllVdIBuAFBVV95cUxQanU1MkNJc1U5UHJuMGFpY0tQMjNKbDhBNG04elFKUlp6bUR1UF9PQV93X1k3cWtrcDY3LUY5WHc5aEJiSFNwNW5OeHZVYXN3VmxJb3l0dVhEc21iMVJnQmdBaU50WjVYRTVsZm1mWGh6alJVSGhmTFd4M1M3U3lhSXFHUmFhYkt4clVYRk5Sc0tnbzdpdEhSVmJtLUVxTXROU3JwSUdJRzdxUDBHa0pla3FQNk45WGxn?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 22:01:11 GMT",
+      "author": "Al Jazeera"
+    },
+    {
+      "guid": "a1c2465011c2498710d1c89c904700ed",
+      "source_index": 20,
+      "title_cn": "育碧游戏公司联合创始人克劳德·吉列莫特在法国坠机事故中身亡",
+      "summary_cn": "据CBS新闻及纽约时报报道，育碧公司联合创始人克劳德·吉列莫特在法国发生的一起飞机坠毁事故中不幸遇难。该事件已得到相关媒体确认，具体事故细节目前正在调查中。",
+      "image_urls": [],
+      "image_caption": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash - CBS News",
+      "image_source": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUW5mSHlNUmFIbHNna0xEamxaZXhSeXp3d0RkSE85dWxtODFJOTc2WHFQYkJ3bldUQ3Buck9SYU9rRWp0UEpCbzQ5ZDdYc0Z6ZlhlbDY5eVZOX2Z3bDNBUndvZVhNREc3d3MxVUFkR29EUHNybC1vdkF5YkstRzdySi1CdGtKZThkRlE?oc=5",
+      "original_title": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash - CBS News",
+      "original_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUW5mSHlNUmFIbHNna0xEamxaZXhSeXp3d0RkSE85dWxtODFJOTc2WHFQYkJ3bldUQ3Buck9SYU9rRWp0UEpCbzQ5ZDdYc0Z6ZlhlbDY5eVZOX2Z3bDNBUndvZVhNREc3d3MxVUFkR29EUHNybC1vdkF5YkstRzdySi1CdGtKZThkRlE?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 16:34:59 GMT",
+      "author": "CBS News"
     },
     {
       "guid": "4640af2fc6edfd5d6ba6e571ca4c2310",
-      "source_index": 15,
+      "source_index": 21,
       "title_cn": "英国一名3岁男童被男子扔进鳄鱼池，目前伤势危急但稳定",
-      "summary_cn": "据警方通报，一名男子在英国某动物园将一名3岁男童扔进鳄鱼池。男童随后被其父母救出，目前在医院接受治疗，伤势处于危急但稳定的状态，相关调查正在进行中。",
+      "summary_cn": "英国剑桥郡一家动物园发生恶性事件，一名3岁男童被男子扔进鳄鱼池并遭袭击。目前男童伤势危急但趋于稳定，涉事男子已被英国警方逮捕，相关调查正在进行中。",
       "image_urls": [],
       "image_caption": "Boy, 3, ‘critical but stable’ after man throws him into crocodile pen - NewsNation",
       "image_source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazA3YlZjRDUxQUNuaFd5LVY1ekhPVUdmbTJHMEFGN0VrWU05YVhkUzd2X3Y5dlVxb1pHWjF6Q3dkT0liUWlBZjZ2aXZmSVF0bXI1ajRKX2pjYU5GdFNxc1o2Rnl5OG40MlNvQ3prQlFRcWZRUXlrN2p1al9fU3Vic2N4aE5RU0xr0gGOAUFVX3lxTE4xeG9lX3dLMks3Wm1qLTZIR1hpcUtMVW02ODIxZ0xkQ0dFLXBfRFpHRHNLSGdTaEdtd0pScEd4Z1BwQWlwRUhQdGFUdGJCVVBRdkp2Y0pZVldiWGZVT1BoWG1HUGx0NWQ2RkVMLXZ3ak9Qc3pzMDRjR1NwUWlqbFMwWmdDQjRiT2RhVnlmZUE?oc=5",
       "original_title": "Boy, 3, ‘critical but stable’ after man throws him into crocodile pen - NewsNation",
       "original_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazA3YlZjRDUxQUNuaFd5LVY1ekhPVUdmbTJHMEFGN0VrWU05YVhkUzd2X3Y5dlVxb1pHWjF6Q3dkT0liUWlBZjZ2aXZmSVF0bXI1ajRKX2pjYU5GdFNxc1o2Rnl5OG40MlNvQ3prQlFRcWZRUXlrN2p1al9fU3Vic2N4aE5RU0xr0gGOAUFVX3lxTE4xeG9lX3dLMks3Wm1qLTZIR1hpcUtMVW02ODIxZ0xkQ0dFLXBfRFpHRHNLSGdTaEdtd0pScEd4Z1BwQWlwRUhQdGFUdGJCVVBRdkp2Y0pZVldiWGZVT1BoWG1HUGx0NWQ2RkVMLXZ3ak9Qc3pzMDRjR1NwUWlqbFMwWmdDQjRiT2RhVnlmZUE?oc=5",
-      "pub_date": "Sat, 20 Jun 2026 21:37:01 GMT",
+      "pub_date": "Sun, 21 Jun 2026 03:28:49 GMT",
       "author": "NewsNation"
     },
     {
-      "guid": "bccaa2bf27cd905116a41a81a6485710",
-      "source_index": 16,
-      "title_cn": "乌克兰无人机袭击俄炼油厂导致俄罗斯多地出现燃油短缺",
-      "summary_cn": "据《华尔街日报》报道，乌克兰无人机近期频繁袭击俄罗斯炼油设施，导致俄罗斯国内燃油供应出现大范围短缺，相关能源基础设施受损情况引发外界关注。",
+      "guid": "78f8dad6538d5793d7ee442c583c6e43",
+      "source_index": 22,
+      "title_cn": "Anthropic与Google DeepMind高管出席G7峰会，呼吁组建AI联盟",
+      "summary_cn": "Anthropic与Google DeepMind首席执行官在G7峰会期间会见各国领导人，共同呼吁建立由美国主导的人工智能国际联盟，以应对全球AI治理挑战。",
       "image_urls": [],
-      "image_caption": "Russia Faces Spreading Fuel Shortages After Ukrainian Drones Pummel Refineries - WSJ",
-      "image_source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTklqRFIteUVPb1cyUzdEQ1YxYTBnQ21FWWhWbnJ1VVlNbGlzMzdWU0pqQ1JELUd4bjdEMXlhb1dXNEczMm5YQ1NrdWh0ZGV4ZU5tZWU5M3ZFOFJVdGsxVjJhbWg0YXo1ZWpFWVBCSE5nVjdRZVlKaHljTnRDNVhqWF9iblJkd0VxT3EybGR1SEZmQ0NRYWlGMWoxRF9QV3h1bDNIYk5WbjRBQ2ktS1pMVnJ1SQ?oc=5",
-      "original_title": "Russia Faces Spreading Fuel Shortages After Ukrainian Drones Pummel Refineries - WSJ",
-      "original_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTklqRFIteUVPb1cyUzdEQ1YxYTBnQ21FWWhWbnJ1VVlNbGlzMzdWU0pqQ1JELUd4bjdEMXlhb1dXNEczMm5YQ1NrdWh0ZGV4ZU5tZWU5M3ZFOFJVdGsxVjJhbWg0YXo1ZWpFWVBCSE5nVjdRZVlKaHljTnRDNVhqWF9iblJkd0VxT3EybGR1SEZmQ0NRYWlGMWoxRF9QV3h1bDNIYk5WbjRBQ2ktS1pMVnJ1SQ?oc=5",
-      "pub_date": "Sat, 20 Jun 2026 12:44:00 GMT",
-      "author": "WSJ"
+      "image_caption": "New global order: AI CEOs as heads of nation-states at G7 - Axios",
+      "image_source": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45WlV4dzAwenB0NjJubFM1d0VJSThjT1U3RjBZWkxYNDc4SzZkekRIS0dNczd4ejc2LVB6X1VlR3pfSVNiSW5VeHB0WDlYQlNzRnFlRnVEbFpYLXpRclkw?oc=5",
+      "original_title": "New global order: AI CEOs as heads of nation-states at G7 - Axios",
+      "original_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45WlV4dzAwenB0NjJubFM1d0VJSThjT1U3RjBZWkxYNDc4SzZkekRIS0dNczd4ejc2LVB6X1VlR3pfSVNiSW5VeHB0WDlYQlNzRnFlRnVEbFpYLXpRclkw?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 13:46:20 GMT",
+      "author": "Axios"
     },
     {
-      "guid": "4b613da8700e8df1f1190a1bf4588bfb",
-      "source_index": 17,
-      "title_cn": "特朗普谈及伊朗协议分歧时称以色列听从其指令",
-      "summary_cn": "针对伊朗核协议的分歧，特朗普声称以色列会听从其指示。与此同时，美国情报官员警告称，以色列可能会破坏该和平协议的达成，引发外界对美以关系的关注。",
+      "guid": "fa34cc678e40bf9e028658d4927c06a9",
+      "source_index": 23,
+      "title_cn": "非洲与加勒比国家正式要求就跨大西洋奴隶贸易道歉",
+      "summary_cn": "非洲与加勒比国家领导人联合要求就跨大西洋奴隶贸易进行正式道歉并支付赔偿。巴巴多斯总理已宣布相关奴隶制赔偿宣言，旨在推动历史正义与经济补偿进程。",
       "image_urls": [],
-      "image_caption": "‘They Do As I Say’ Trump Says Of Israel Amid Disagreement Over Iran Deal - Forbes",
-      "image_source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXAtSDBUcE5LZ2Zva2RUTDMwWnVSRXFEOHlyd2twQ09xa0ZhY1pqRzV6U0FfaFhyNmh6RF9aeTI3OGd6YlVvRUF4LWg4M29peDV2QXd6clFDX0JVc0pFdkVHLUZCcEItQzV3ZTlmU1A4LTRLSUFTM05PR2ZJMXRnVEFJVEoydGxsNWxrdWRYVlpDRVBxVk4tMmtJdWYyNWhCY1hGM3kzQ0xKYjhDbnpyaDZpc2ozU1l5cFBvUQ?oc=5",
-      "original_title": "‘They Do As I Say’ Trump Says Of Israel Amid Disagreement Over Iran Deal - Forbes",
-      "original_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXAtSDBUcE5LZ2Zva2RUTDMwWnVSRXFEOHlyd2twQ09xa0ZhY1pqRzV6U0FfaFhyNmh6RF9aeTI3OGd6YlVvRUF4LWg4M29peDV2QXd6clFDX0JVc0pFdkVHLUZCcEItQzV3ZTlmU1A4LTRLSUFTM05PR2ZJMXRnVEFJVEoydGxsNWxrdWRYVlpDRVBxVk4tMmtJdWYyNWhCY1hGM3kzQ0xKYjhDbnpyaDZpc2ozU1l5cFBvUQ?oc=5",
-      "pub_date": "Fri, 19 Jun 2026 19:20:27 GMT",
-      "author": "Forbes"
-    },
-    {
-      "guid": "2f786553c1950271a5b50dd051121bdf",
-      "source_index": 18,
-      "title_cn": "乌克兰采用新型无人机战略打击俄罗斯后勤补给线",
-      "summary_cn": "据CNN报道，乌克兰近期调整军事策略，通过大规模使用无人机精准打击俄罗斯的燃油及武器补给线，对俄军后勤保障能力造成了显著破坏，引发国际社会关注。",
-      "image_urls": [],
-      "image_caption": "No fuel, no weapons: How Ukraine’s new drone strategy is mauling Russian supply lines - CNN",
-      "image_source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONmx4a0Q4R21PeTY5THM2Skl2VTRUb1QwTU9UY2xCVUZ4N3ZmTTVQc3VrR2xMSDdTbTlWUEJ4SXN3OG1kWkhjTHNhVkxLaDJ5akVUWjB5QUxBcUMySzVCSXE5cGVwU3pDcFZpdXZTWmszOTNUdGZNSy04SnluT0ktSUx1cnRqdWtJOHhDb3VmUTJKdw?oc=5",
-      "original_title": "No fuel, no weapons: How Ukraine’s new drone strategy is mauling Russian supply lines - CNN",
-      "original_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONmx4a0Q4R21PeTY5THM2Skl2VTRUb1QwTU9UY2xCVUZ4N3ZmTTVQc3VrR2xMSDdTbTlWUEJ4SXN3OG1kWkhjTHNhVkxLaDJ5akVUWjB5QUxBcUMySzVCSXE5cGVwU3pDcFZpdXZTWmszOTNUdGZNSy04SnluT0ktSUx1cnRqdWtJOHhDb3VmUTJKdw?oc=5",
-      "pub_date": "Sat, 20 Jun 2026 04:01:26 GMT",
-      "author": "CNN"
+      "image_caption": "African and Caribbean nations call for formal apology for transatlantic slavery - BBC",
+      "image_source": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RZjUzZ0xKeWV6N3IzMC1oLWJCdjc2Y1E3NWR6TzY1NDVFc0tDcFljNThwbk83V3FoWHVCZjRzcWhLeFpiUU5FN2lFczFtYThvUnBGZE5CNWJrZw?oc=5",
+      "original_title": "African and Caribbean nations call for formal apology for transatlantic slavery - BBC",
+      "original_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RZjUzZ0xKeWV6N3IzMC1oLWJCdjc2Y1E3NWR6TzY1NDVFc0tDcFljNThwbk83V3FoWHVCZjRzcWhLeFpiUU5FN2lFczFtYThvUnBGZE5CNWJrZw?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 02:33:30 GMT",
+      "author": "BBC"
     },
     {
       "guid": "a10a316d7596d0ded45273864d62ec01",
-      "source_index": 19,
-      "title_cn": "伊朗外交部副部长表示已准备好与美国推进协议进程",
-      "summary_cn": "伊朗外交部副部长对外表示，伊朗已准备好在与美国的协议中向前推进。与此同时，黎巴嫩局势成为美伊协议的薄弱环节，当地村民在返乡后发现房屋已成废墟。",
+      "source_index": 24,
+      "title_cn": "伊朗副外长表示已准备好与美国推进协议相关谈判",
+      "summary_cn": "伊朗外交部副部长对外表示，伊朗方面已准备好与美国就相关协议推进后续工作。与此同时，黎巴嫩局势持续动荡，当地村民在冲突后返回家园发现房屋已成废墟。",
       "image_urls": [],
       "image_caption": "Iran deputy FM says ‘ready to move forward’ in deal with US - Al Jazeera",
       "image_source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzg0X0I0TmtWT1I1azgyaTloRng0VEdOVlBzSzJ6bWxNbXd0cldDWHhoTXp1bXZaZDg3OTItX2lXeElkVTRpQmVDVzJ5ejdrQ0dMY2RNM3drT1RFQVJ0ZU0wS1lnUmJPM3l2cEZvaHQ5d3lYUUJ2NWQwSHY2c3gyTnZ0ZWdMWGxJdWVGOTBoaEt2b0JSMGtSTjk2UV9UMm_SAaQBQVVfeXFMT25MQlVzaUVjNWpPYk55M2ZaZy1TMWltTGJFS05FRFV1Smh2Unl2NWVfUGlOU1RIRjJIWFdmNVRkSzRhOTl3XzVYa3V6SVljZ2NiN3Q4NWJXQUt0SE1hWW90WjFLS3BnY3pLcHA4aHQzdExRSUk2bzRtbG0wbTlpejNUZ2lsM0RHbE9SaktrQzEwWjRBTXNqcDVkYnpwSDJVVnNhQ1g?oc=5",
@@ -288,11 +357,24 @@
       "original_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzg0X0I0TmtWT1I1azgyaTloRng0VEdOVlBzSzJ6bWxNbXd0cldDWHhoTXp1bXZaZDg3OTItX2lXeElkVTRpQmVDVzJ5ejdrQ0dMY2RNM3drT1RFQVJ0ZU0wS1lnUmJPM3l2cEZvaHQ5d3lYUUJ2NWQwSHY2c3gyTnZ0ZWdMWGxJdWVGOTBoaEt2b0JSMGtSTjk2UV9UMm_SAaQBQVVfeXFMT25MQlVzaUVjNWpPYk55M2ZaZy1TMWltTGJFS05FRFV1Smh2Unl2NWVfUGlOU1RIRjJIWFdmNVRkSzRhOTl3XzVYa3V6SVljZ2NiN3Q4NWJXQUt0SE1hWW90WjFLS3BnY3pLcHA4aHQzdExRSUk2bzRtbG0wbTlpejNUZ2lsM0RHbE9SaktrQzEwWjRBTXNqcDVkYnpwSDJVVnNhQ1g?oc=5",
       "pub_date": "Fri, 19 Jun 2026 20:05:51 GMT",
       "author": "Al Jazeera"
+    },
+    {
+      "guid": "0e893b2633167ae29effd757d2af9f92",
+      "source_index": 25,
+      "title_cn": "巴西蹦极事故致游客坠亡，警方再逮捕三名相关教练",
+      "summary_cn": "巴西发生一起蹦极死亡事故，因操作员未正确固定安全绳导致游客坠亡。目前，当地警方已针对该事件再次逮捕三名相关教练，案件调查工作仍在持续进行中。",
+      "image_urls": [],
+      "image_caption": "3 more instructors arrested in harrowing death of bungee jumper without cord in Brazil - New York Post",
+      "image_source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0JZSVg0Tk5Fbk40WDN2S0dYQ0FmcjhyNFlhSERhdWFkSTlXV2haU3c0NjFRUGtncldnaGk2R0hwX2hDU3lOdl82TFBJcmtFZEhqLUdyUUk4NWRBMVEyWTU2blZCYUZFSVNLNDZvWEtZTGR0YVFGZ2YzemxiTW5HV19IWk9wVXhIcHJHUE9tekxiTWI5Wlk0cHQ1SDBjSHdKTXVpVlRpdWdoUk1wcFAtWm1wTFlVN242S0tSbnJMWU00d0NzYlZN?oc=5",
+      "original_title": "3 more instructors arrested in harrowing death of bungee jumper without cord in Brazil - New York Post",
+      "original_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0JZSVg0Tk5Fbk40WDN2S0dYQ0FmcjhyNFlhSERhdWFkSTlXV2haU3c0NjFRUGtncldnaGk2R0hwX2hDU3lOdl82TFBJcmtFZEhqLUdyUUk4NWRBMVEyWTU2blZCYUZFSVNLNDZvWEtZTGR0YVFGZ2YzemxiTW5HV19IWk9wVXhIcHJHUE9tekxiTWI5Wlk0cHQ1SDBjSHdKTXVpVlRpdWdoUk1wcFAtWm1wTFlVN242S0tSbnJMWU00d0NzYlZN?oc=5",
+      "pub_date": "Sat, 20 Jun 2026 21:58:57 GMT",
+      "author": "New York Post"
     }
   ],
   "editorial_notes": {
-    "timeline": "中东局势急剧恶化，伊朗封锁海峡与乌克兰加大对俄能源设施打击力度，导致全球地缘政治与能源安全链条全面紧绷。",
-    "risk_watch": "需警惕霍尔木兹海峡封锁引发的全球油价飙升，以及美伊在协议博弈中擦枪走火导致局部冲突升级的风险。"
+    "timeline": "当天国际新闻节奏密集，多板块地缘与市场信息交替成为核心焦点。",
+    "risk_watch": "请高度警惕重大事件演变对全球供应链、能源定价及市场预期的传导。"
   },
   "tags": [
     "国际新闻",
@@ -301,112 +383,16 @@
     "科技商业",
     "突发要闻"
   ],
-  "generated_at": "2026-06-21 06:52:12",
+  "generated_at": "2026-06-21 14:34:25",
   "is_daily_featured": true,
-  "source_count": 19,
-  "image_count": 15,
+  "source_count": 25,
+  "image_count": 17,
   "sources": [
     {
-      "guid": "fe7eda52586e010b6b4f1a9645f127e7",
-      "index": 1,
-      "title": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon - NBC News",
-      "summary": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon &nbsp;&nbsp; NBC News Iran claims the Strait of Hormuz is closed again. Few ships were leaving in the first place &nbsp;&nbsp; CNN Ira",
-      "google_news_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYWZLRUlHdXhuQXlwNkpEVUlGa2tQSEs5WmJzQUQwRFVzT3lsOG43LWNyOWNlQlFxM2VrQ2VaQVIwR0RGTWljb0JYSkFJeU9FZ3dERzdONnVrdmhXSlZpTjd4WFNnWno0OUdRV2QzbWVMSllVekxQel9PYkZhWlN0VHNkVGJyMGw4RVFkbk1lZ3ZKem14LWU0eWVn?oc=5",
-      "resolved_url": "https://www.nbcnews.com/world/iran/israel-continues-lebanon-strikes-fresh-ceasefire-rcna350952",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODpK1kiaLL2Dz9T7UibF5OS4noNs95UOFeP8Gg2MKPDtPkDVs4COA7ZstiaTagv77icGcxPz0gAkAVkVfL8XlAMlicPfHpCkJE8BEGU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQJdvdcV2FIkVkrqHYFXfMDhtDUe9HAnfpNfgv923Mgh",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODpK1kiaLL2Dz9T7UibF5OS4noNs95UOFeP8Gg2MKPDtPkDVs4COA7ZstiaTagv77icGcxPz0gAkAVkVfL8XlAMlicPfHpCkJE8BEGU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQJdvdcV2FIkVkrqHYFXfMDhtDUe9HAnfpNfgv923Mgh",
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODKx0iaEuZIicEGnkNrIFOS1bibzIuBSjBHbw13YFXKduax9gibkRJDaPktqpCWCon07blIVgLoufKIkrnJycvOSsQKGJm2rG65ryw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQuDSC_igPsZC_BsscIhSaOx-6BDENKnMZPsy_4qhZ8v",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBkvNMzPasSWKicXYxOSfzbYiaID6K8AdrnnvcmKpfqfUKia0bHevM7MX9pBqEX17r5XYAI7iaNib49ut0kc7ciaC9S3pnpicRYe5fM14/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsYyuKOgYmawjK2N42vYC9KlktChlP0IZ8vAh7StPFnPH"
-      ],
-      "image_path": "assets/generated/2026-06-21/01-1-iran-says-strait-of-hormuz-is-closed-over-ceasefire-violatio-b2231e40fecd.jpg",
-      "image_paths": [
-        "assets/generated/2026-06-21/01-1-iran-says-strait-of-hormuz-is-closed-over-ceasefire-violatio-b2231e40fecd.jpg",
-        "assets/generated/2026-06-21/01-2-iran-says-strait-of-hormuz-is-closed-over-ceasefire-violatio-930753e6262c.jpg",
-        "assets/generated/2026-06-21/01-3-iran-says-strait-of-hormuz-is-closed-over-ceasefire-violatio-62cade6a82da.jpg"
-      ],
-      "image_source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260620-lebanon-nd-20711a.jpg",
-      "image_caption": "Iran says Strait of Hormuz is closed over ceasefire violations after continued Israeli strikes in Lebanon - NBC News",
-      "pub_date": "Sat, 20 Jun 2026 20:52:16 GMT",
-      "author": "NBC News"
-    },
-    {
-      "guid": "1c48b81713e6c0e73e3a8f86cbf1d079",
-      "index": 2,
-      "title": "Huge Blaze Ravages Dominican Republic Beach Resort - The New York Times",
-      "summary": "Huge Blaze Ravages Dominican Republic Beach Resort &nbsp;&nbsp; The New York Times Woman killed, 1,700 evacuated in beach hotel fire in Dominican Republic &nbsp;&nbsp; CNN Italian tourist killed in massive fire at Dominican Republic luxury ",
-      "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWttTXdtTzd3VnVJNEg3UThvd1lnbEVmdlpIbWZSQnJWcXpjNWRmQ0xrb05ObHF1eU9jVVpITzNTaXRsVGFOQWE2c0NOcDU5X0tmeFR2WHc4NmF6Qk13RkF5bW5RZlY1YWdGUXdUN0NCajRaLUh2UFE4bUtCUF91bjRWMTk?oc=5",
-      "resolved_url": "https://www.nytimes.com/2026/06/20/world/americas/dominican-republic-fire.html",
-      "image_url": "",
-      "image_urls": [],
-      "image_path": "",
-      "image_paths": [],
-      "image_source": "",
-      "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 20:56:53 GMT",
-      "author": "The New York Times"
-    },
-    {
-      "guid": "3a98f86e96138a696d9191015f738bff",
-      "index": 3,
-      "title": "Ukraine's Zelenskiy confirms drone strike on refining facilities in Russia's Tyumen region - Reuters",
-      "summary": "Ukraine's Zelenskiy confirms drone strike on refining facilities in Russia's Tyumen region &nbsp;&nbsp; Reuters Massive blasts in Moscow shatter even Putin’s protective shell &nbsp;&nbsp; CNN Moscow refinery ablaze as Ukraine launches bigge",
-      "google_news_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYkZCVmhQT0VCLVhFWTMwWFpwd1E2R0NvNmgyLUU0S0pvOE51YTFNNVlhdnprZmxhWmE2dmoyZ3JNMVFOMHlfWm9ybEZBQVNvcXU4elozMGhwVzZOT1dId3ZDNGpTNC1nZUQ2SjdvRTAycXFXeGpwdGc4LXNkTXAwYXFfd3IzWWdJeERUY0xvZXhObEhXczdCcmYxOVFzZVpxa0hlX3U0MXlwc0FKSHJXZUlZSHRzTGJsa2hIRXNMWXg4WUZHR3c?oc=5",
-      "resolved_url": "https://www.reuters.com/business/energy/ukraines-zelenskiy-confirms-drone-strike-refining-facilities-russias-tyumen-2026-06-20/",
-      "image_url": "",
-      "image_urls": [],
-      "image_path": "",
-      "image_paths": [],
-      "image_source": "",
-      "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 19:16:10 GMT",
-      "author": "Reuters"
-    },
-    {
-      "guid": "63a9461f68026c516f7c404485f88da1",
-      "index": 4,
-      "title": "Five injured in suspected anti-Muslim attacks after armed man roamed Edinburgh streets - BBC",
-      "summary": "Five injured in suspected anti-Muslim attacks after armed man roamed Edinburgh streets &nbsp;&nbsp; BBC Man Arrested in Scotland After Rampage Leaves 5 Hurt, Police Say &nbsp;&nbsp; The New York Times Counterterror police investigate after ",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SbFVRLUNGNUd2UWlfM3B6Wkl4YlVIX3NhVFVaUUhDQ29TdmZ1OTgzUVdUdlBnVFlYT0VDQ1U2dVJRWnBaSU80blNnMFY3eTNuTnNzTHhYRExHdw?oc=5",
-      "resolved_url": "https://www.bbc.com/news/articles/cx2xg6lwz5jo",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_png/79uC8IloHOB6ke6ETqYicAFaiaBDA9jHfbTAucwpmaZm81Zwos0Zd7o9AxBfCCDtibzJQexGiadFd4UUups9PcxxxaUSJuNgqDtJlcKP5Eh3CibM/0?wx_fmt=png&media_id=6pMyx5iVnuzGNvPxaGYLse9vBrC2SCvf4hwmorE5iIc0OzlESsZLeg2wbj9WU-UH",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_png/79uC8IloHOB6ke6ETqYicAFaiaBDA9jHfbTAucwpmaZm81Zwos0Zd7o9AxBfCCDtibzJQexGiadFd4UUups9PcxxxaUSJuNgqDtJlcKP5Eh3CibM/0?wx_fmt=png&media_id=6pMyx5iVnuzGNvPxaGYLse9vBrC2SCvf4hwmorE5iIc0OzlESsZLeg2wbj9WU-UH"
-      ],
-      "image_path": "assets/generated/2026-06-21/04-1-five-injured-in-suspected-anti-muslim-attacks-after-armed-ma-b7f882527048.png",
-      "image_paths": [
-        "assets/generated/2026-06-21/04-1-five-injured-in-suspected-anti-muslim-attacks-after-armed-ma-b7f882527048.png"
-      ],
-      "image_source": "https://ichef.bbci.co.uk/news/1024/branded_news/47f9/live/2fa34ed0-6cb8-11f1-8546-8f19e4fe30f4.png",
-      "image_caption": "Five injured in suspected anti-Muslim attacks after armed man roamed Edinburgh streets - BBC",
-      "pub_date": "Sat, 20 Jun 2026 17:27:34 GMT",
-      "author": "BBC"
-    },
-    {
-      "guid": "4d160a99b36ade4e6ffa15b7ba6a676c",
-      "index": 5,
-      "title": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
-      "summary": "Russia frees 24 Filipinos after Marcos talks with Putin &nbsp;&nbsp; AP News See more headlines & perspectives on Google News",
-      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFhHVlNUWGZ4MkpKQXB4aVJma09jTHZSVVIzTDZ0SG44bTZDalFjT2F0emFEeHZhNjR6VVgzUUxNU0ctNFV3U2pBUmJQQm1lc1R0R243RzJRSl9kRmtvcTJLUXhjM0c3dmhXcElKcjhXT0dEcDY3MXZNbE9KNUUwSENrcTlLUUFBUlFIamNkSy1fTGRxYWc?oc=5",
-      "resolved_url": "https://apnews.com/article/philippines-russia-putin-marcos-3b0b29e187338047c5f01671b348399c",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAXSnFib4qCmDXlXibUK2YUlMIq4esHWsicEr2gjSQ4OIrE2BUibR2smp7MF2KQUOV2vI32QDV6cDCa8xI9A913nNEsGAeLET4VJRw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsRAwoI-8kPGbIkFZdH5q4EBYY_EnRfBDAynPc1xvruct",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAXSnFib4qCmDXlXibUK2YUlMIq4esHWsicEr2gjSQ4OIrE2BUibR2smp7MF2KQUOV2vI32QDV6cDCa8xI9A913nNEsGAeLET4VJRw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsRAwoI-8kPGbIkFZdH5q4EBYY_EnRfBDAynPc1xvruct"
-      ],
-      "image_path": "assets/generated/2026-06-21/05-1-russia-frees-24-filipinos-after-marcos-talks-with-putin-ap-n-d0e88991a9fb.jpg",
-      "image_paths": [
-        "assets/generated/2026-06-21/05-1-russia-frees-24-filipinos-after-marcos-talks-with-putin-ap-n-d0e88991a9fb.jpg"
-      ],
-      "image_source": "https://dims.apnews.com/dims4/default/8a39ae5/2147483647/strip/true/crop/7054x4700+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb3%2Faf%2F57c23d958d6a64dc5433bd717da6%2F44d138040db9418cb24d60a469d5e55d",
-      "image_caption": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
-      "pub_date": "Sat, 20 Jun 2026 16:12:00 GMT",
-      "author": "AP News"
-    },
-    {
       "guid": "2c6720a694ac7ebbfe88fde1da835f8e",
-      "index": 6,
+      "index": 1,
       "title": "Polish president strips Zelensky of honor after special forces unit’s renaming - The Washington Post",
-      "summary": "Polish president strips Zelensky of honor after special forces unit’s renaming &nbsp;&nbsp; The Washington Post Zelensky returns highest Polish honour after award stripped &nbsp;&nbsp; BBC Polish president strips Zelenskyy of honor over nam",
+      "summary": "Polish president strips Zelensky of honor after special forces unit’s renaming &nbsp;&nbsp; The Washington Post Zelenskyy returns Poland's highest honor as row deepens &nbsp;&nbsp; dw.com Zelensky returns highest Polish honour after award s",
       "google_news_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb3VmcFJkSmZSeEZGTTdiWEFfZjdrN1R5ZnBqLVp4d0p3VHRJbkc5UEFfbkJvY2ZuWHBLcW9lR2s4blVKSWhoNzZOMXl0VldnTmNCRHpRa3hyZ1Y1c0FFQzVfQXVnSHN2TkNjN19FQ2ZJYjdmcDNjT3BQYm1EMDJwMDRmdXhSMm43VTBCWE4yVHYtY3ZnVlhoUEdwam1yUzRlMDFVWjc5M1lEZlZJanlTOUdEdlhuRVAzY3BTOF9IcjU?oc=5",
       "resolved_url": "chrome-error://chromewebdata/",
       "image_url": "",
@@ -415,141 +401,307 @@
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 22:28:44 GMT",
+      "pub_date": "Sun, 21 Jun 2026 03:57:15 GMT",
       "author": "The Washington Post"
     },
     {
-      "guid": "806dd662926ef522db7f9f63dbdb276a",
-      "index": 7,
-      "title": "Israel continues strikes in Lebanon despite ceasefire with Hezbollah - politico.eu",
-      "summary": "Israel continues strikes in Lebanon despite ceasefire with Hezbollah &nbsp;&nbsp; politico.eu Israel and Hezbollah Are Still Fighting, Several Cease-Fires Later &nbsp;&nbsp; The New York Times Third of four IDF fatalities in Hezbollah attac",
-      "google_news_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNakZkMVRPbi1fYmtldlhKck41QXJ0aVhsem1seUZEaVpSM0hWRm1IczNpUjlaNDd5NzRra1R3ODBIXzE5c19oWHRqaUZNbVVLckR6RHdkbkVOUEZuTmxISHg1eUVHRU1vakxJSW9IbHFlMVV4QlNRcndSclpoajJHag?oc=5",
-      "resolved_url": "https://www.politico.eu/article/israel-strikes-lebanon-ceasefire-hezbollah/",
-      "image_url": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCD7WT4ZLHOUe8ict6Pwf7S6FNwibREg2Thce6TRy5t8M1ACia5dLnNvPj7LvDOZPx78jqVsZO3R6pbxAXuKZcIbibe8VYVDm2N698/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdoxit3XsAFPyJsE5TFcr3dq3TnG9hYaRxftUJjeJi5B",
+      "guid": "d1d509cb770513abfddd6f393ffc8486",
+      "index": 2,
+      "title": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy - The Guardian",
+      "summary": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy &nbsp;&nbsp; The Guardian No fuel, no weapons: How Ukraine’s new drone strategy is mauling Russian supply lines &nbsp;&nbsp; CNN Moscow residents ",
+      "google_news_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWEFaU2UzRklrZ3hoaUptWkp1NU4xcnQzSEJWOUhvM2ZJckoyb0p3MmJIdUFQRG9fdmxBVDZ6WGlnUGlGMl83OWxiUlNXN1JDdVp0QWVURWo5Mlp4ZldzWl9UMkl5OEZJdmIxdVltemtMUVFkZmRQSUxzMmZBeTJRRGFhVHVDVW44VXNoS0xhMUJXSmlLeGU3SXNSVjRtb2lVcjk3M21tYmpEczZBbHRpcWRIV3BHa0htMF9sUTdUVkdvVG1qajhSMldXMFlYSDA?oc=5",
+      "resolved_url": "https://www.theguardian.com/world/2026/jun/21/ukraine-war-briefing-drones-strike-russia-tyumen-oil-refinery-2000km-away-says-zelenskyy",
+      "image_url": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCreE5NZK3aw3ydthLa2O964kz6u8nnvicPsV5h0un6UMkvkXtIGeZc3rvfYw1dk3ojF1sEicLLxvrZticchv04rAU6XklLpB1ZsU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW_O5ii-xkFramV9vIqYgxdMR_4GyDu8jlWLctDAqI0I",
       "image_urls": [
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCD7WT4ZLHOUe8ict6Pwf7S6FNwibREg2Thce6TRy5t8M1ACia5dLnNvPj7LvDOZPx78jqVsZO3R6pbxAXuKZcIbibe8VYVDm2N698/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdoxit3XsAFPyJsE5TFcr3dq3TnG9hYaRxftUJjeJi5B",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBr3hdXRiaEuKpWrTNxr5SNrV01XBnAtJgSYLvDpqbzFE7BwvvFEia5iaXhSN0Ficb2A29d7VF2boxlLriaKaicjN2GDSVKX8gIbNpc4/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsfG1O8tu6p8D3636_szfUEfrjYQpp_4GZtUkJ6xrUbc-",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODwbOOlMI4ICBWOtynjiaHXH150CQHeyQWzzNNHoMPiciaYYHiaMIx9ZiaxGchHZ08kRgQS8sicDyfy5GsytXp2goVDH9rhnQXlwfdAc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLseriJhC5SmigyT2M3lYSJxNT6g8-Q7CLSdtPvSpyScpe"
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCreE5NZK3aw3ydthLa2O964kz6u8nnvicPsV5h0un6UMkvkXtIGeZc3rvfYw1dk3ojF1sEicLLxvrZticchv04rAU6XklLpB1ZsU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW_O5ii-xkFramV9vIqYgxdMR_4GyDu8jlWLctDAqI0I",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODyeLF82sZrI5D7uZsOprnYf5wqsfqmOofvUJYQic6Licdd7kaIIjkZ0MeeQ4luMS2BMqwCh478EsxM6t3elGImc163nrCIo3Xs4/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsW2jcUGrr-GYyB9z71SyESdJLa5e39d5NuhDY2GP4ZHw",
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCibSbhW2EvLTmu3jOeg5fnQ3cGGqkW2tURBrKibJBcsXvQialRp3ndeyqvjgZkskCDQkDzZEIQsJfI1BsereoypPp3f5GDSrRPCw/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsXPUxSsod02k6LB_2CAri_FoVG6g67Aw3tOJ0vOJiNCH"
       ],
-      "image_path": "assets/generated/2026-06-21/07-1-israel-continues-strikes-in-lebanon-despite-ceasefire-with-h-694730779933.jpg",
+      "image_path": "assets/generated/2026-06-21/02-1-ukraine-war-briefing-drones-strike-russia-s-tyumen-oil-refin-2ce4a695b7fb.jpg",
       "image_paths": [
-        "assets/generated/2026-06-21/07-1-israel-continues-strikes-in-lebanon-despite-ceasefire-with-h-694730779933.jpg",
-        "assets/generated/2026-06-21/07-2-israel-continues-strikes-in-lebanon-despite-ceasefire-with-h-134b5c2fe9c1.jpg",
-        "assets/generated/2026-06-21/07-3-israel-continues-strikes-in-lebanon-despite-ceasefire-with-h-4a217e9be7e6.jpg"
+        "assets/generated/2026-06-21/02-1-ukraine-war-briefing-drones-strike-russia-s-tyumen-oil-refin-2ce4a695b7fb.jpg",
+        "assets/generated/2026-06-21/02-2-ukraine-war-briefing-drones-strike-russia-s-tyumen-oil-refin-2ce4a695b7fb.jpg",
+        "assets/generated/2026-06-21/02-3-ukraine-war-briefing-drones-strike-russia-s-tyumen-oil-refin-d90bbf71bf41.jpg"
       ],
-      "image_source": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/06/20/GettyImages-2281746198-scaled.jpg",
-      "image_caption": "Israel continues strikes in Lebanon despite ceasefire with Hezbollah - politico.eu",
-      "pub_date": "Sat, 20 Jun 2026 13:24:00 GMT",
-      "author": "politico.eu"
+      "image_source": "https://i.guim.co.uk/img/media/8f2832cced918b3f44215903746b9e465977941e/29_0_4768_3815/master/4768.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=69b9f6710bb54e670027c478fb9aa457",
+      "image_caption": "Ukraine war briefing: Drones strike Russia’s Tyumen oil refinery 2,000km away, says Zelenskyy - The Guardian",
+      "pub_date": "Sun, 21 Jun 2026 03:19:00 GMT",
+      "author": "The Guardian"
+    },
+    {
+      "guid": "bca21c10388f11f3b462be9f385ec9af",
+      "index": 3,
+      "title": "US disputes Iranian claims about closing Strait of Hormuz as negotiators arrive in Switzerland - The Detroit News",
+      "summary": "US disputes Iranian claims about closing Strait of Hormuz as negotiators arrive in Switzerland &nbsp;&nbsp; The Detroit News Iran reportedly closes Strait of Hormuz again as Vance heads to Switzerland for talks &nbsp;&nbsp; CNBC New Strait ",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOU1cwMldYb3kxY1N1TWtoT25ONDk5Q1Rjb082eUROMUlWMURZT0ZUejk2YV80cmVvREQ0b0ZBY2Y0NU9HRUJjNVU3WDlJMHBVc3hoWjdXbDlTV1dXc09PRm1BZlJTcXE3ZG1VMXZvM3BlaDNHaW1fd2tvSGV5MzA2TlljQ1VtQ0N3YmViWVhiYnVpZ2Z5VGNpSDQ0c2RDZUE1M05uTERMaHFRVEN5T3VETWNiOW5TOWN1NHFTaVd1M19RQQ?oc=5",
+      "resolved_url": "https://www.detroitnews.com/story/news/world/2026/06/20/iran-close-strait-of-hormuz-truce-violations-u-s-israel/90627179007/",
+      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBHLreESLYkfebYamYMtiaxjGczo3egfjNaR8QuKzwkg4Z32rRmds0F3V194WOlcrahxB2cy70GZG4ucxicHRicJwD1Wh24uFcZIQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscvxlqIiydFXH2-2xzvB69QR9TOk_IRRDjpzshTv1-aI",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBHLreESLYkfebYamYMtiaxjGczo3egfjNaR8QuKzwkg4Z32rRmds0F3V194WOlcrahxB2cy70GZG4ucxicHRicJwD1Wh24uFcZIQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscvxlqIiydFXH2-2xzvB69QR9TOk_IRRDjpzshTv1-aI",
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAvYMwwGwGKIHs9fZKJUW04Tkgw5kxp7JrPxAjbyzD1MMd835TfiboDn3NVwYbnZZuJHjRGiaRYHWOoP49egrpqWTibpzJHYBaaA8/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsXMl7m8ojwFp5hmZARblXls3Cl41XQKxY-zvtiwoQFtn"
+      ],
+      "image_path": "assets/generated/2026-06-21/03-1-us-disputes-iranian-claims-about-closing-strait-of-hormuz-as-031430f43cbc.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/03-1-us-disputes-iranian-claims-about-closing-strait-of-hormuz-as-031430f43cbc.jpg",
+        "assets/generated/2026-06-21/03-2-us-disputes-iranian-claims-about-closing-strait-of-hormuz-as-c37568c52f1a.jpg"
+      ],
+      "image_source": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/06/18/PDTN/90602814007-20260617-t-191059-z-416607302-rc-2-pvla-9-x-0-so-rtrmadp-3-irancrisis.JPG?crop=6239,3511,x0,y324&width=3200&height=1801&format=pjpg&auto=webp",
+      "image_caption": "US disputes Iranian claims about closing Strait of Hormuz as negotiators arrive in Switzerland - The Detroit News",
+      "pub_date": "Sun, 21 Jun 2026 01:01:00 GMT",
+      "author": "The Detroit News"
+    },
+    {
+      "guid": "4d160a99b36ade4e6ffa15b7ba6a676c",
+      "index": 4,
+      "title": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
+      "summary": "Russia frees 24 Filipinos after Marcos talks with Putin &nbsp;&nbsp; AP News See more headlines & perspectives on Google News",
+      "google_news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFhHVlNUWGZ4MkpKQXB4aVJma09jTHZSVVIzTDZ0SG44bTZDalFjT2F0emFEeHZhNjR6VVgzUUxNU0ctNFV3U2pBUmJQQm1lc1R0R243RzJRSl9kRmtvcTJLUXhjM0c3dmhXcElKcjhXT0dEcDY3MXZNbE9KNUUwSENrcTlLUUFBUlFIamNkSy1fTGRxYWc?oc=5",
+      "resolved_url": "https://apnews.com/article/philippines-russia-putin-marcos-3b0b29e187338047c5f01671b348399c",
+      "image_url": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODNARfNzPUjmawib8xV6OTMZnNaKw5Ihfhicq1UoWcPujrKnDUwMp08nnr8MwjrAibsIPYFj922HXLsxD9Yuicrn4LJcViajaNIU848/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsU3vSJoSedWUc9kIEFil92X6V3bVA8zZOVpHrWM9RDmf",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODNARfNzPUjmawib8xV6OTMZnNaKw5Ihfhicq1UoWcPujrKnDUwMp08nnr8MwjrAibsIPYFj922HXLsxD9Yuicrn4LJcViajaNIU848/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsU3vSJoSedWUc9kIEFil92X6V3bVA8zZOVpHrWM9RDmf"
+      ],
+      "image_path": "assets/generated/2026-06-21/04-1-russia-frees-24-filipinos-after-marcos-talks-with-putin-ap-n-d0e88991a9fb.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/04-1-russia-frees-24-filipinos-after-marcos-talks-with-putin-ap-n-d0e88991a9fb.jpg"
+      ],
+      "image_source": "https://dims.apnews.com/dims4/default/8a39ae5/2147483647/strip/true/crop/7054x4700+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb3%2Faf%2F57c23d958d6a64dc5433bd717da6%2F44d138040db9418cb24d60a469d5e55d",
+      "image_caption": "Russia frees 24 Filipinos after Marcos talks with Putin - AP News",
+      "pub_date": "Sat, 20 Jun 2026 23:29:00 GMT",
+      "author": "AP News"
+    },
+    {
+      "guid": "6545a5a223b6deda3d6ef0f3047775b4",
+      "index": 5,
+      "title": "Israeli fire kills nine people in Gaza, including a child and journalist, medics say - Reuters",
+      "summary": "Israeli fire kills nine people in Gaza, including a child and journalist, medics say &nbsp;&nbsp; Reuters Israeli strikes kill six people in Gaza including Al Jazeera cameraman, officials say &nbsp;&nbsp; BBC Al Jazeera cameraman Ahmed Wish",
+      "google_news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQXh1R1JJaUtIaDA3MHZYeGswYnFtUDNvdm9PY00wMEs3ajlQSU1PNXpVTkNOalhsbGVaMVlzMHdkVWNRbDVhVTh6RDFvYk9PT29rNGRSdTJGTDE5cXhFVFQzcndvclRTbGhHYkh3S3FqNmNXMFdMWFdHcHRadVA3RFQwMGp6ZjJFYVhWOGNTWGEzVnFCMUdKdVk3N0FwNHZYVEVfRnJZUkx6Y2RaTU5MbEtHeC1yb28?oc=5",
+      "resolved_url": "https://www.reuters.com/world/middle-east/israeli-fire-kills-five-people-gaza-including-child-medics-say-2026-06-20/",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 22:38:38 GMT",
+      "author": "Reuters"
+    },
+    {
+      "guid": "d381132303852a679ceb352dadae0e0b",
+      "index": 6,
+      "title": "Colombia's brutal internal conflict is defining its presidential election - BBC",
+      "summary": "Colombia's brutal internal conflict is defining its presidential election &nbsp;&nbsp; BBC Trump Called Iván Cepeda a ‘Radical Left Marxist.’ Can He Be Colombia’s President? &nbsp;&nbsp; The New York Times Colombia’s runoff election expecte",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zYURGc2xfaW9YMnp3MDIxQVljZzk4YzNoTTBNQTdwTjRuWE1qcnpYUVRYWjZSX0NGSFQ4Yk82TllmeVE2em9rbjVGeVdvb3pYVzRDOW9oWEctUQ?oc=5",
+      "resolved_url": "https://www.bbc.com/news/articles/cvgqv8q1ndpo",
+      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODH5hPLHH0lLice13xtIGoQLHJqI9HiaY8TEfe98aYkb1oCnfw03CTzdzLVIfWcwQcjr2kCb1D7dRW0ua72WrsD3G2sRibSpiaYSGo/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZDKgEPJEbhY_bUWNIm3cXkfzIhBFCRpaWkYuculwFAG",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODH5hPLHH0lLice13xtIGoQLHJqI9HiaY8TEfe98aYkb1oCnfw03CTzdzLVIfWcwQcjr2kCb1D7dRW0ua72WrsD3G2sRibSpiaYSGo/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZDKgEPJEbhY_bUWNIm3cXkfzIhBFCRpaWkYuculwFAG"
+      ],
+      "image_path": "assets/generated/2026-06-21/06-1-colombia-s-brutal-internal-conflict-is-defining-its-presiden-9be8c8088729.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/06-1-colombia-s-brutal-internal-conflict-is-defining-its-presiden-9be8c8088729.jpg"
+      ],
+      "image_source": "https://ichef.bbci.co.uk/news/1024/branded_news/42c9/live/a7a4ecd0-6bf1-11f1-8631-5f302ec8cd09.jpg",
+      "image_caption": "Colombia's brutal internal conflict is defining its presidential election - BBC",
+      "pub_date": "Sat, 20 Jun 2026 23:17:51 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "6dffaf900afcf56e8c50e98e315f337c",
+      "index": 7,
+      "title": "Israel and Hezbollah Are Still Fighting, Several Cease-Fires Later - The New York Times",
+      "summary": "Israel and Hezbollah Are Still Fighting, Several Cease-Fires Later &nbsp;&nbsp; The New York Times Fourth IDF fatality in Friday’s Hezbollah attack on tank named as Staff Sgt. Nave Habshoosh &nbsp;&nbsp; The Times of Israel Israeli strikes ",
+      "google_news_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT2VhZ1VFZEtWUThOS3ZIcVBVWEF2alF5S2M3NXdvSGVZYUZtbUtvSVhXWnpLanl1T0p6aXNnUGV2amU0SWE4QWNXWHZqZjJtak9Ia19WTHRjQXoxYWtCQjZ3Vk1WVkdleEFxYXNFRVRKYWdsVWFxd1BtNC0zQXVIajJLa0JKZlZPOThqWlN2Q2tVWEt0LTU5Mg?oc=5",
+      "resolved_url": "https://www.nytimes.com/2026/06/20/world/middleeast/israel-hezbollah-fighting-cease-fire.html",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 15:43:28 GMT",
+      "author": "The New York Times"
+    },
+    {
+      "guid": "726781b872ad61162f2a8874738f64a3",
+      "index": 8,
+      "title": "Italian tourist killed in massive fire at Dominican Republic luxury beach resort - PBS",
+      "summary": "Italian tourist killed in massive fire at Dominican Republic luxury beach resort &nbsp;&nbsp; PBS Woman killed, 1,700 evacuated in beach hotel fire in Dominican Republic &nbsp;&nbsp; CNN Huge Blaze Ravages Dominican Republic Beach Resort &n",
+      "google_news_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM1pmcjJKeVV0R0M3ZmdiZDRkd0oyWVpwYXBRSEpRakYwQ0FSSDFuLVJFRWVtNnZ6MnU4WmJQVXlVakl6TUxwZ3p0TGk1anlEalFudktMUnZ6bXZIQkJmdm80YkZpS2wyRlVaeVNYQ0luNzNjTzF2VGRMdDdhV21VZnR3VWdWbW52cGpZX2JJZEI4T1RJRWFrTzM5QjcwbEM3RHZHcUxIVXVRT0pnZ243SHJmMmNfQdIBuwFBVV95cUxOaUhQRDNkdWlLdWJPTjRNeDQ3Q0s0U0JTUzJLTGFxc2YzbVBYMmF1eDFpbjBIT3c4bVplMFhWd3hMY0VPSUtYRG5UUWlqRUdnMFdRZlI3N3pWVlk2MHVtOGR5Y2lHbkV0UjJuWmdIZjFBMWxUdEszMGVReFpNUFdsT3ptbjFZbURYSEVndlZkZFZxSFp3TUYxMllNT3FiOFhpM0pld3dGVkxjeHp2UUJWOGRKcXFrQ0diQVE4?oc=5",
+      "resolved_url": "https://www.pbs.org/newshour/world/italian-tourist-killed-in-massive-fire-at-dominican-republic-luxury-beach-resort",
+      "image_url": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOBjbjadPCm8yqTM9icq4EFhj0ZZuCQibRj8XB2jIxwylBID4455aQ46GKbB14N6t6bgoxIplNKcLwNnqLQFJMUosGzA8VLHosbMY/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZL83PDByf2gMzQu5wuEiiCi3S3ZKUKk-PNV9eZEVn6L",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOBjbjadPCm8yqTM9icq4EFhj0ZZuCQibRj8XB2jIxwylBID4455aQ46GKbB14N6t6bgoxIplNKcLwNnqLQFJMUosGzA8VLHosbMY/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZL83PDByf2gMzQu5wuEiiCi3S3ZKUKk-PNV9eZEVn6L",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqXLo9YibyKibMxlUaHWesib43iccicWd3bgibMD0wmPehPphZYjgibXxiaVh2a0RK3yvyfLFX6mdj78ibREfu4QXaqCyVFeIdh8icwZPwU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsTfEwLKxpTqeiO0ueMBhAqCxEwTwiUUHBX0ZLpzCV9qT",
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOCxaHicNoJvf2Giaq2kSXg5aqrLta4oGpcKO7DU75s8YW5hfcCXj9FdOgLXJPqtAjBzmILOckedy1rspc1MAiaRJLzWibmvjNKzGoM/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdPP3oUsDAKqAl6CoAkZJZ1SDY4qHpmvu5QGZIuZzPOn"
+      ],
+      "image_path": "assets/generated/2026-06-21/08-1-italian-tourist-killed-in-massive-fire-at-dominican-republic-df8a89e0c6cb.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/08-1-italian-tourist-killed-in-massive-fire-at-dominican-republic-df8a89e0c6cb.jpg",
+        "assets/generated/2026-06-21/08-2-italian-tourist-killed-in-massive-fire-at-dominican-republic-2c1c44bb9912.jpg",
+        "assets/generated/2026-06-21/08-3-italian-tourist-killed-in-massive-fire-at-dominican-republic-cfeb2002baca.jpg"
+      ],
+      "image_source": "https://d3i6fh83elv35t.cloudfront.net/static/2026/06/2026-06-20T014945Z_1551628525_RC2DXLA3MEUX_RTRMADP_3_DOMINICAN-REPUBLIC-FIRE-1024x575.jpg",
+      "image_caption": "Italian tourist killed in massive fire at Dominican Republic luxury beach resort - PBS",
+      "pub_date": "Sat, 20 Jun 2026 22:11:20 GMT",
+      "author": "PBS"
+    },
+    {
+      "guid": "d48d84e4758142480f40be669713b809",
+      "index": 9,
+      "title": "France bans alcohol consumption at music festival events under red headwave alert - BBC",
+      "summary": "France bans alcohol consumption at music festival events under red headwave alert &nbsp;&nbsp; BBC Europe swelters under heatwave, France restricts alcohol consumption &nbsp;&nbsp; Reuters Western Europe Braces for Another Round of Heat &nb",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE82QkNxTGhwT0lZMFFxZ3FOcVU2Ri1hT0JDRklqbWFwWnN1MS14SVJVd1J5YksxZEY0UW9DYlB3UXVkNmpTS3JieVhfMmxzTE9DeHVoLVNGcmFSZw?oc=5",
+      "resolved_url": "https://www.bbc.com/news/articles/cgmdw4vn7y2o",
+      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCdpxRhWUTuVBr0qibd5qibQJtibjEib53eEhvP3g9oP6UvC0LxEKPTJNqH32Lah1N69VFiaibSzmodQtLgibruHoIia3r2UYS4cn6HtqU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscYh52_4cJtWxzC4crI3fNcSH5u8u-lhsFawqA4C5cu5",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCdpxRhWUTuVBr0qibd5qibQJtibjEib53eEhvP3g9oP6UvC0LxEKPTJNqH32Lah1N69VFiaibSzmodQtLgibruHoIia3r2UYS4cn6HtqU/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscYh52_4cJtWxzC4crI3fNcSH5u8u-lhsFawqA4C5cu5"
+      ],
+      "image_path": "assets/generated/2026-06-21/09-1-france-bans-alcohol-consumption-at-music-festival-events-und-e469f0a7e10f.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/09-1-france-bans-alcohol-consumption-at-music-festival-events-und-e469f0a7e10f.jpg"
+      ],
+      "image_source": "https://ichef.bbci.co.uk/news/1024/branded_news/1768/live/91e33450-6d00-11f1-9f29-21c4f4a06079.jpg",
+      "image_caption": "France bans alcohol consumption at music festival events under red headwave alert - BBC",
+      "pub_date": "Sun, 21 Jun 2026 00:29:51 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "882e0e2163521f25ea6fb054816ccc0c",
+      "index": 10,
+      "title": "Why the social media ban is about so much more than social media - BBC",
+      "summary": "Why the social media ban is about so much more than social media &nbsp;&nbsp; BBC Social media bans are trending. But it’s too late for my son and me | Dave Schilling &nbsp;&nbsp; The Guardian Take our phones too! Let’s add adults to the so",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WVE9mUkNQd1V0S1M3bkNFZzdjcDlsM1lvNi1oVTZYNHVvR0FvOXFRWkNmMXhtYnZnRzNpOF9zVmN5MU42VklRX1JPRzlhSWJQbHNnSG9DeXhSUQ?oc=5",
+      "resolved_url": "https://www.bbc.com/news/articles/c1jy512r19ro",
+      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqduvoqhH35JX0FOyL8DnP3pJgbXBRdiaAN7iaxAxoibU3897xZrXia6qUqcxdqicgChBhPTnRNT8ECXeRHVweicqsGqNXaDELaoz4E/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsVjGkVXyKLPls1yv0ew6tMyx5nFkWqsyICSt0iCkOM-9",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBqduvoqhH35JX0FOyL8DnP3pJgbXBRdiaAN7iaxAxoibU3897xZrXia6qUqcxdqicgChBhPTnRNT8ECXeRHVweicqsGqNXaDELaoz4E/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsVjGkVXyKLPls1yv0ew6tMyx5nFkWqsyICSt0iCkOM-9"
+      ],
+      "image_path": "assets/generated/2026-06-21/10-1-why-the-social-media-ban-is-about-so-much-more-than-social-m-5d0c8d46aa8d.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/10-1-why-the-social-media-ban-is-about-so-much-more-than-social-m-5d0c8d46aa8d.jpg"
+      ],
+      "image_source": "https://ichef.bbci.co.uk/news/1024/branded_news/5d09/live/48cc8790-6bf1-11f1-b1db-af71d47507d6.jpg",
+      "image_caption": "Why the social media ban is about so much more than social media - BBC",
+      "pub_date": "Sat, 20 Jun 2026 23:18:12 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "3dd84788addba9f515673dca5119c44e",
+      "index": 11,
+      "title": "Spain: PM's wife must face corruption trial, judge rules - dw.com",
+      "summary": "Spain: PM's wife must face corruption trial, judge rules &nbsp;&nbsp; dw.com Wife of Spanish Prime Minister to Stand Trial for Corruption &nbsp;&nbsp; The New York Times Court bans Spanish PM’s wife from leaving country amid corruption prob",
+      "google_news_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVVNMbHVNOFJOQkdYX2QzbVFPUXJaekFjbzZVTXh3a3ZzLWliU3N2eWFkODVReUJ0SENkZDdoZ0IxOUN6QXVFN1dsZUJaMXVPSElYcjRnQWI1LUhXNTRpVVB6SjdkWlZsNm9QUjFxZmt0UFRhUjhGNzdtelViVy1LR0Z3WGFuT0Z5UTZocWRRY9IBjwFBVV95cUxOdXdCQmlYd3BHZV9obnBpVW8yNjUyc1JtZEVzZWtCUEpVT1ZZTWc2Nmc3UzJ2QTBKRmh4TnhWczBnaXdtSU9NblpzRVBxQjk2a00xNUowY3U1cU5KUmlwdEFycXc2dkszZVNRTlgtNEI0ZzNfNGNjNTgtbW1ObEdpWW9keFJLVmpnTTdQeEk0NA?oc=5",
+      "resolved_url": "https://www.dw.com/en/spain-pms-wife-must-face-corruption-trial-judge-rules/a-77638811",
+      "image_url": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAAkeUsKK56JnIma3hcCD9XS9ChMJfX0y1DaxBHSGUDgaUeuseojWUiaaKI5WvQ4ibUv9k2ICcMgbXRNrBoSFDaAyvcciatK4kh0M/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLseqlVC-VXmV6r-_y-LH4U8Hio6swZUXQrqCKaUuKMsfp",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAAkeUsKK56JnIma3hcCD9XS9ChMJfX0y1DaxBHSGUDgaUeuseojWUiaaKI5WvQ4ibUv9k2ICcMgbXRNrBoSFDaAyvcciatK4kh0M/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLseqlVC-VXmV6r-_y-LH4U8Hio6swZUXQrqCKaUuKMsfp",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBMS6YiapxYAcO3icMJ7dbj7a2skLnuicIDe8CV0DwZVYPT24gicGiaevSIiaw8hsickwG86NNAyUQWlOwnLNhuq1Xeo1YJM3iabeKWweQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsajgzvQDAwCxK54tyccYhHU7i9PhG7aaA_qVzhBYG4k-"
+      ],
+      "image_path": "assets/generated/2026-06-21/11-1-spain-pm-s-wife-must-face-corruption-trial-judge-rules-dw-co-bd19cb528b61.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/11-1-spain-pm-s-wife-must-face-corruption-trial-judge-rules-dw-co-bd19cb528b61.jpg",
+        "assets/generated/2026-06-21/11-3-spain-pm-s-wife-must-face-corruption-trial-judge-rules-dw-co-d1783ecdd354.jpg"
+      ],
+      "image_source": "https://static.dw.com/image/69264315_6.jpg",
+      "image_caption": "Spain: PM's wife must face corruption trial, judge rules - dw.com",
+      "pub_date": "Sat, 20 Jun 2026 20:26:04 GMT",
+      "author": "dw.com"
+    },
+    {
+      "guid": "1ec7eb0c70e4ba6ebab4f2b0c968258c",
+      "index": 12,
+      "title": "Trump claims he can control IDF actions in Lebanon because Israelis respect him - The Times of Israel",
+      "summary": "Trump claims he can control IDF actions in Lebanon because Israelis respect him &nbsp;&nbsp; The Times of Israel U.S. intelligence warns Israel is likely to undermine Iran peace deal, officials say &nbsp;&nbsp; The Washington Post Trump cal",
+      "google_news_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZ25aQlR1alFBTjk5Y0p1TmhfYk53U1h0SjZUelN4VUZ1R2RXQmQzR0k4STdhY1hWUFRjeFRaSUtwSmRCb25VOG0yZTVtYlZoSXNOaWNvMTJhV243Q2R1NXRWMXY1RWZOWF95RzNqanI1UmJJRVRjNk5qX1NoNURXUnR5NzRoYXlPZlVQcE42ZmZSTjVuTlpUREktYlp0bjNyWlI0QlZyVzhHM0h2NWVB0gG0AUFVX3lxTFAwVmFTLUpCRG9pNGN5eUVac0NuZUJ2dlRmZ3gzTXFnVlVnR0JLdDVOaGpJN3otbURnQnYwcnIyR0ExT1pPTEVkRmhzSGdzelc4Q0VKQzFRN1VmdkEwNmRnSi1tNC1Ga1QzTGczY3UtdUZGaXM4LW92Xzk4WF96NzFXWnZIVFNqeDVRbkoyc1BMNnVNUlItU0xBTzk4NTVobVRycThLUlVvYXFYbTlBSnEtbmlleA?oc=5",
+      "resolved_url": "https://www.timesofisrael.com/trump-claims-he-can-control-idf-actions-in-lebanon-because-israelis-respect-him/",
+      "image_url": "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAA8CGOCr5CtHDklsyQRCP6ic9BR2HGnbQomp2vic1jd4NOmJbazNkNnCIsCxicjeB25USq5dBm6Xb5txjNaK3R329Od7gbkKNloc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsV3FX_Fbfij1mMGcaON-UcxK9qsMZ1BjZzoH63ubAzRZ",
+      "image_urls": [
+        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOAA8CGOCr5CtHDklsyQRCP6ic9BR2HGnbQomp2vic1jd4NOmJbazNkNnCIsCxicjeB25USq5dBm6Xb5txjNaK3R329Od7gbkKNloc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsV3FX_Fbfij1mMGcaON-UcxK9qsMZ1BjZzoH63ubAzRZ",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOClPIG3lBB9AOM12aYuSEBpdZ3eyboFHib697rUicdUBZ2zVGWxHYOQibS2UxGXKvhKARVCicr06yuWHVMyoibfusTS7UffuRPosX2U/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLse2fj0SfOusfzJvqf5j2G3po-6Dfg2Ax1wPrLXB1c8ZM",
+        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCwp0ibslsNibwp6jk9SkYc5GCtgUyiaiaP6xKiczl5M9wD93JIibsporfo74v5MAmGjoGQ0QyEWsDtRbAJIEnWXbzfwzX81WZ5u0sCc/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLscmzhvlXYJ82vESoK7qX2eGyjhNKyWNXlQpmwt1Ul39F"
+      ],
+      "image_path": "assets/generated/2026-06-21/12-1-trump-claims-he-can-control-idf-actions-in-lebanon-because-i-472a36b32f74.jpg",
+      "image_paths": [
+        "assets/generated/2026-06-21/12-1-trump-claims-he-can-control-idf-actions-in-lebanon-because-i-472a36b32f74.jpg",
+        "assets/generated/2026-06-21/12-2-trump-claims-he-can-control-idf-actions-in-lebanon-because-i-5521676b182c.jpg",
+        "assets/generated/2026-06-21/12-3-trump-claims-he-can-control-idf-actions-in-lebanon-because-i-91fc20084d95.jpg"
+      ],
+      "image_source": "https://static-cdn.toi-media.com/www/uploads/2026/01/AFP__20251229__899A8MG__v1__HighRes__IsraeliPmBenjaminNetanyahuVisits.jpg",
+      "image_caption": "Trump claims he can control IDF actions in Lebanon because Israelis respect him - The Times of Israel",
+      "pub_date": "Sat, 20 Jun 2026 19:37:00 GMT",
+      "author": "The Times of Israel"
+    },
+    {
+      "guid": "1cddc9161fb40b73ec5c87a4ae3272c8",
+      "index": 13,
+      "title": "Tens of thousands of Albanians join ‘Flamingo Revolution’ protest - Financial Times",
+      "summary": "Tens of thousands of Albanians join ‘Flamingo Revolution’ protest &nbsp;&nbsp; Financial Times Luxury Kushner Project Collides With Albanian Discontent &nbsp;&nbsp; The New York Times Albanian Protesters Demand Premier Quit Over Kushner-Lin",
+      "google_news_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSUU3WWZlaFcxOE1KTU5wX3F5cGZrTlA5dU1sMXNvVXBJMlMySkZIbXdpb3JOTDNFdVFOcGVYTnFEbFM4WERZVWJfTGR3d1pxVUJsTGQwQ0w3Vzd5VlIzcDVzOXdHRWlGejBPQ1NHd2RUMGoxZU9mZFhnQ1l0MzA1TXVUVEY?oc=5",
+      "resolved_url": "",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 18:29:41 GMT",
+      "author": "Financial Times"
+    },
+    {
+      "guid": "1e3025c9412edf6e41b76797280f3984",
+      "index": 14,
+      "title": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job - CNBC",
+      "summary": "Report says UK PM Starmer ready to quit, but source says he is still focused on the job &nbsp;&nbsp; CNBC See more headlines & perspectives on Google News",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRFRzR0JGMHNZRmtoY2RScW5kV05GQTBFT2pmTExFRnpxbmpwN1pwNkRnVHlseUpCemgtc0paSkVXcFp2cXhSZ2pfbDZjUkUxQS1LSzliMFJwR0pRMDhIMmVocXItcXlQcGw5NHVWUVU2bGlaSnFQdXljTTNvcjNZUml1eTNveWhDdElSLURXN3RLbDl1SmJ6Sjl2WUJrdExCcGZJS0JoNGgwUdIBrwFBVV95cUxObzg4OVZVeW9SOWlZM2Y0eVZySnFEM1c4V3V1MzB6MUxQdnRUaFFqd1FEZVJkVjJWZ0xNMTN1MnM5ZEVMTk5QNXRCdXBHQnhMd2tqTzY5WkJscGcyRjhTeDdORDFEQnJtb0ViQk5ETE5pLXBwb1pCaFNZQmt0QXNiZld2alBOMFVuSDZRSk5VR0FaSEhTTHMxU25KU1plSGxUUklFRnVDTnd6Yk9kMG5V?oc=5",
+      "resolved_url": "",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 22:44:41 GMT",
+      "author": "CNBC"
     },
     {
       "guid": "3638f011e1d00f600ec47282b6638a3e",
-      "index": 8,
+      "index": 15,
       "title": "Nine people critically injured in fatal Bedford train crash - BBC",
-      "summary": "Nine people critically injured in fatal Bedford train crash &nbsp;&nbsp; BBC Nine people in critical condition among 100 injured in fatal Bedford train crash &nbsp;&nbsp; BBC U.K. police investigate cause of deadly train collision &nbsp;&nb",
+      "summary": "Nine people critically injured in fatal Bedford train crash &nbsp;&nbsp; BBC Nine people in critical condition among 100 injured in fatal Bedford train crash &nbsp;&nbsp; BBC Trains Collide in UK, Killing at Least One and Injuring Dozens of",
       "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02LTN0UjFKY2s0VmpjekxHa3dqV2JmZlRDRGlGX0J5a1dSVVVWbGpCTHgzdjRrTDdPN19KWUUzRDRadGdLX2ZtZk1sZTUwcHB4bUNTR205MXlidw?oc=5",
-      "resolved_url": "https://www.bbc.com/news/articles/ce8j33e30neo",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCicaIz6LyGdibGrIxkzZbnyjauomFwcRUI9q53ltQNqcia1ibL8VAzv7KT1HEBYlvbXmR4MRRbOXgY0E9J7agiaFhOwmJicqPgJsXgQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdlQ8CKnsYvp_6uX-Z2SWnV8VGtvUX9E3zl1B3UFU1i-",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOCicaIz6LyGdibGrIxkzZbnyjauomFwcRUI9q53ltQNqcia1ibL8VAzv7KT1HEBYlvbXmR4MRRbOXgY0E9J7agiaFhOwmJicqPgJsXgQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdlQ8CKnsYvp_6uX-Z2SWnV8VGtvUX9E3zl1B3UFU1i-"
-      ],
-      "image_path": "assets/generated/2026-06-21/08-1-nine-people-critically-injured-in-fatal-bedford-train-crash--247cda43d353.jpg",
-      "image_paths": [
-        "assets/generated/2026-06-21/08-1-nine-people-critically-injured-in-fatal-bedford-train-crash--247cda43d353.jpg"
-      ],
-      "image_source": "https://ichef.bbci.co.uk/news/1024/branded_news/1997/live/851c01e0-6cbd-11f1-8546-8f19e4fe30f4.jpg",
-      "image_caption": "Nine people critically injured in fatal Bedford train crash - BBC",
+      "resolved_url": "",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
       "pub_date": "Sat, 20 Jun 2026 15:30:12 GMT",
       "author": "BBC"
     },
     {
-      "guid": "5aeda65b18388a4fc091b419c41e6e87",
-      "index": 9,
-      "title": "Ghost of far-right paramilitaries hovers over Colombia’s presidential runoff vote - The Guardian",
-      "summary": "Ghost of far-right paramilitaries hovers over Colombia’s presidential runoff vote &nbsp;&nbsp; The Guardian Trump Called Him a ‘Radical Left Marxist.’ Can He Be Colombia’s President? &nbsp;&nbsp; The New York Times How Ivan Cepeda emerged a",
-      "google_news_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVUduQXhfZ3VMbGw5U3RURUtyREZYVGFEd3UzcDFXZHJHZkFMdzI1VXlSaEZycFpvUF9BbzlGcm41RExrYmh2amRENlFuS05VNjFLZGZRRXRKWXp0Tl8wX3pmN0xnRFl5RURuYVVnX3BjNHBWZUNaTXRKZVFJNXROV1ZIVndQdnY1TV95R0k2ZDdGRGc1NHF3WTBzTkxtWjIwZW1PN3RCOA?oc=5",
-      "resolved_url": "https://www.theguardian.com/world/2026/jun/20/colombia-presidential-election-paramilitary-militia-runoff",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOA8HTHPDHiavAy7d93daYShSBqaaicHA0FP7C5sGf9XCvXwM63jSYiaUQasIH39AkXGicvb7LmVDkhjlDlDR16wf3CzDjlwSciaEvhM/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsaRi5TQlrhDfPVjrODzMDBM16W_uW23pmERNJTY4tZfU",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOA8HTHPDHiavAy7d93daYShSBqaaicHA0FP7C5sGf9XCvXwM63jSYiaUQasIH39AkXGicvb7LmVDkhjlDlDR16wf3CzDjlwSciaEvhM/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsaRi5TQlrhDfPVjrODzMDBM16W_uW23pmERNJTY4tZfU",
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHODc13ibQwbibmytaic4FXCPAV1MV9XRVIn53ro8tsOMsjLUA0YI7xrrAYZJLUTmkE6UqvVd8y65cUZ8qiasrzj2oQWhUVaPYcU8Zx4/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsRlapXLP5pPT9MUd-ZcUye1otdbgkW-ze-IlwMLihjxZ",
-        "http://mmbiz.qpic.cn/sz_mmbiz_jpg/79uC8IloHOARnQILiaQGkBicmAUeBDsQZjicPyG95UopyuTX466LEnN1gH1kYwMjfQjv7WTTnLTaZWicUsp6gbqByvkZYc6eANPBb2ETdZUKj1s/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQfPdAjFaALj_s5HFXT7DtznYezS9DO9TnG46gT9HtMp"
-      ],
-      "image_path": "assets/generated/2026-06-21/09-1-ghost-of-far-right-paramilitaries-hovers-over-colombia-s-pre-6577ecab0b7d.jpg",
-      "image_paths": [
-        "assets/generated/2026-06-21/09-1-ghost-of-far-right-paramilitaries-hovers-over-colombia-s-pre-6577ecab0b7d.jpg",
-        "assets/generated/2026-06-21/09-2-ghost-of-far-right-paramilitaries-hovers-over-colombia-s-pre-6577ecab0b7d.jpg",
-        "assets/generated/2026-06-21/09-3-ghost-of-far-right-paramilitaries-hovers-over-colombia-s-pre-6068d3b78541.jpg"
-      ],
-      "image_source": "https://i.guim.co.uk/img/media/f582edc18880a8e1e14582718c9b69dd07cb29b1/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8860f611d3471210127f91190d87c941",
-      "image_caption": "Ghost of far-right paramilitaries hovers over Colombia’s presidential runoff vote - The Guardian",
-      "pub_date": "Sat, 20 Jun 2026 12:01:00 GMT",
-      "author": "The Guardian"
-    },
-    {
-      "guid": "cae190cd4e7b315187e608bea319615a",
-      "index": 10,
-      "title": "Wife of Spanish Prime Minister to Stand Trial for Corruption - The New York Times",
-      "summary": "Wife of Spanish Prime Minister to Stand Trial for Corruption &nbsp;&nbsp; The New York Times Spanish PM’s wife to stand trial on corruption charges and banned from leaving country &nbsp;&nbsp; The Guardian Spain: PM's wife must face corrupt",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObXRzZ0pxUHU5NW5pelVJR3IwaU9pYXpsODJxVExSN0hSYlRiUncyTGNUempmTnJlNFU2dks3eXpfQnVtMzRRTF9XcTdhSlFSSE4ySDZJTHVpZzd2V0lLV0xpb2IwdWRZN0JJVF9oa0ViOFpNZlM1ZnZraWpZTlFHS2pKZ3lZb1Ru?oc=5",
-      "resolved_url": "https://www.nytimes.com/2026/06/20/world/europe/gomez-spain-trial-corruption.html",
+      "guid": "84e2e5dcac1a1b05e1011d5e87ea0ad3",
+      "index": 16,
+      "title": "Man Is Arrested in Scotland After Rampage Leaves 5 Hurt - The New York Times",
+      "summary": "Man Is Arrested in Scotland After Rampage Leaves 5 Hurt &nbsp;&nbsp; The New York Times Man charged after suspected anti-Muslim attacks in Edinburgh &nbsp;&nbsp; BBC Terror probe into suspected anti-Muslim attacks in Edinburgh &nbsp;&nbsp; ",
+      "google_news_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcWxkSnpIakFERk41bEwtbmM3TGVFVkFpN3BKQ3JOQ2tJcm52dG01OHl3YUNtX2VlR3YtLVBRclVGbW0ySTN2QW9ScG1vSW0tSGpVcXFCbnNWd3BKSmNaLU5hMkh4MzNzckswMEt4TTlhUUNEUDlYX3pYTWhaMm9Uc0ZjUG1KTEo5b2lMdURFYng?oc=5",
+      "resolved_url": "",
       "image_url": "",
       "image_urls": [],
       "image_path": "",
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 19:11:10 GMT",
+      "pub_date": "Sat, 20 Jun 2026 21:04:26 GMT",
       "author": "The New York Times"
     },
     {
-      "guid": "a6c54d4ce0c3afcdb137b2f95e2c28a4",
-      "index": 11,
-      "title": "Trump threatens to charge US tolls in Strait of Hormuz if final Iran deal not reached in 60 days - AP News",
-      "summary": "Trump threatens to charge US tolls in Strait of Hormuz if final Iran deal not reached in 60 days &nbsp;&nbsp; AP News Trump vows Iran will not charge Strait of Hormuz tolls, but says US might &nbsp;&nbsp; Al Jazeera Trump says no toll on St",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZU83bXR0RDhtTHExa0dVVFJOTWlvNS1DMVM0WUdqX0JyNWQ0RnRTcUNzQlkzR2xtWDdnTVA0NEt3NDVMZXBZcl83X2lEVU9jRktXNlc4SjhKMWMxRUZidDJvdDBreDZLbmpsRklMU01GNkJiYVJVWnhyZnlzUkFhYzY1VFdtUjRUbTh6aHlCVkFQUGttSU44TDBWVDZZTlRJbUhTY3JzRHA?oc=5",
-      "resolved_url": "https://apnews.com/article/iran-us-israel-lebanon-hezbollah-june-20-2026-6e23fb5f37e23427dbfc2bc80c59bda8",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODZO7aWMPhQ9tLfnSmkicibkdl5ITgqOicApFmGZIvj30JCzALuYoOzIFicRHvHA0RUzia0yEjs6w1d5pKx1avECvQ1OQnicciaFzicGLE/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZr-ejqPdX6u01aQ4OD2a9YXTJJtU38zeyXjgHVd0bMU",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHODZO7aWMPhQ9tLfnSmkicibkdl5ITgqOicApFmGZIvj30JCzALuYoOzIFicRHvHA0RUzia0yEjs6w1d5pKx1avECvQ1OQnicciaFzicGLE/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsZr-ejqPdX6u01aQ4OD2a9YXTJJtU38zeyXjgHVd0bMU"
-      ],
-      "image_path": "assets/generated/2026-06-21/11-1-trump-threatens-to-charge-us-tolls-in-strait-of-hormuz-if-fi-024221d1a0b4.jpg",
-      "image_paths": [
-        "assets/generated/2026-06-21/11-1-trump-threatens-to-charge-us-tolls-in-strait-of-hormuz-if-fi-024221d1a0b4.jpg"
-      ],
-      "image_source": "https://dims.apnews.com/dims4/default/f11762d/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb8%2F80%2F78735b675a132ea6921612d1f3a1%2F9d0d5b8b4f64476b9a0b3120248f988e",
-      "image_caption": "Trump threatens to charge US tolls in Strait of Hormuz if final Iran deal not reached in 60 days - AP News",
-      "pub_date": "Sat, 20 Jun 2026 20:54:00 GMT",
-      "author": "AP News"
-    },
-    {
-      "guid": "140621c1c0255c77c397419d5e5efaec",
-      "index": 12,
-      "title": "'King of the North' Set to Challenge UK PM After Big Win - Newser",
-      "summary": "'King of the North' Set to Challenge UK PM After Big Win &nbsp;&nbsp; Newser Burnham allies confident of No 10 ‘coronation’ after surge in backers &nbsp;&nbsp; The Guardian Burnham Wins Makerfield By-Election, Clearing Path to Challenge Sta",
-      "google_news_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmxwOGtKREZpUmpOck5WWVg5NlFuTWE2TDBqTTZ3RWEtWEplTTk3a3lvSUVPdmVUajNfN2ZOTzVCSnVXUWhNaXVOX2ZEblc5YmtBSmRWV1VCcS0zR0E0aXZlcjBMeWRwbnd6YTFLLVZUdmtEX3RIMVd0RFBlNmY2WlpWOENXcldhU1NGRnpsZ0k2VmxrbkhGOEN2UQ?oc=5",
-      "resolved_url": "https://www.newser.com/story/391349/king-of-the-north-set-to-challenge-uk-pm-after-big-win.html",
-      "image_url": "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAD07qy1LOKCzCPTchq6Hbm0wPaABb1bfAeXGvkVkCX7AFibRW4n3R6DXc7y2ZBB6eMBCfQpia1mXh92oC31YibJVhhO1IewJK0pI/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdB2-eZ2BWJzgRutblLLmGzA0nXwrsHQ499qzx5W8dK_",
-      "image_urls": [
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOAD07qy1LOKCzCPTchq6Hbm0wPaABb1bfAeXGvkVkCX7AFibRW4n3R6DXc7y2ZBB6eMBCfQpia1mXh92oC31YibJVhhO1IewJK0pI/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsdB2-eZ2BWJzgRutblLLmGzA0nXwrsHQ499qzx5W8dK_",
-        "http://mmbiz.qpic.cn/mmbiz_jpg/79uC8IloHOBVxyx56WicVtY3T02Tia7O0hOHlfZRKmKicCWEm7ialxr5wVI0lMs9EIwhxZ3BxrHH88zA9yjuxXp7hpicqKx6tFHTUyqpY0w5h2KQ/0?wx_fmt=jpeg&media_id=6pMyx5iVnuzGNvPxaGYLsQ5vLhQLUNCCbHNCXqfMlSsIXfYjhwdO_Asq8kiL35cF"
-      ],
-      "image_path": "assets/generated/2026-06-21/12-1-king-of-the-north-set-to-challenge-uk-pm-after-big-win-newse-65ff8aa1d044.jpg",
-      "image_paths": [
-        "assets/generated/2026-06-21/12-1-king-of-the-north-set-to-challenge-uk-pm-after-big-win-newse-65ff8aa1d044.jpg",
-        "assets/generated/2026-06-21/12-2-king-of-the-north-set-to-challenge-uk-pm-after-big-win-newse-2d936e5f5c65.jpg"
-      ],
-      "image_source": "https://img2-azrcdn.newser.com/image/1693133-12-20260619050447.jpeg",
-      "image_caption": "'King of the North' Set to Challenge UK PM After Big Win - Newser",
-      "pub_date": "Fri, 19 Jun 2026 09:30:00 GMT",
-      "author": "Newser"
-    },
-    {
-      "guid": "5e557a9f300a178e83aade7089bea61f",
-      "index": 13,
-      "title": "These nuns spent a lifetime helping others. In their last years, who will help them? - NPR",
-      "summary": "These nuns spent a lifetime helping others. In their last years, who will help them? &nbsp;&nbsp; NPR",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxV3o4VW9BWVJBYVI0VGp3eTdaWE4wVDNRQ1pNTVZHa1lyRFF6X1NLSE5jek9rZ0lrMWtWbzdPMHg1VUlfTDZDMnBuU1NnbWZzUzFrUHVMMWgtdHVMZmp1Mkd3TnVKUXZrVS0tUDRVaU5WOE5fSEFUVzBn?oc=5",
+      "guid": "cbd1a86e71a3785d0e10fcb21b177110",
+      "index": 17,
+      "title": "Pope in Pavia: \"The city is both a gift and a task\" - Vatican News",
+      "summary": "Pope in Pavia: \"The city is both a gift and a task\" &nbsp;&nbsp; Vatican News Pope in Pavia: St Augustine shows us ‘the need to turn inward’ &nbsp;&nbsp; Vatican News Pope Leo prays at relics of St. Augustine, then visits Mother Cabrini's b",
+      "google_news_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc0EwRUFyZU1WOV9BRXYtbUF1R0pLRmxBUUdxVTlUUVJlbnZVa0Q4QVVHWERSSGhRNEhfYTZfckZ6RTlSbWdyemZ5Z0VjOEtNSjJzaWcwR0NycHpteF9XaGRDU1ZPMk5GLVlwWnluRWhmcnYxaldBMXpPX0dyd1IzVlozZFl3a2tXUDBxNkhaWHcyMFJIQ29fTWZ6QUc?oc=5",
       "resolved_url": "",
       "image_url": "",
       "image_urls": [],
@@ -557,15 +709,15 @@
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 10:45:09 GMT",
-      "author": "NPR"
+      "pub_date": "Sat, 20 Jun 2026 16:14:03 GMT",
+      "author": "Vatican News"
     },
     {
-      "guid": "b896b32a564482689f0e81e1594b2f99",
-      "index": 14,
-      "title": "Europe swelters under heatwave, France restricts alcohol consumption - Reuters",
-      "summary": "Europe swelters under heatwave, France restricts alcohol consumption &nbsp;&nbsp; Reuters Western Europe Braces for Another Round of Heat &nbsp;&nbsp; The New York Times France swelters in heatwave as temperatures look set to hit 40C &nbsp;",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdEtVZWxoSnhzR3BkMnRVbjVlZ0tjdGduQXNpWDR1cVhXeDhsR21iUS1oT2pKS2dnYTRNaDg1TjJqSm42eURTRjB5dDZZZ2pxZzhXQVdsRVhVV180MHlJX3F4LWVDQjhHMmJjaXNud3d6NE5ENlBBd25LTmhhaG80ZEE0ZDU5U1M4VWgxdzM0N0NtaEZvaEtQWEdEVU53YWlkVnZrUE9NelYtaURsWW5SQ18wRHBxQ1RL?oc=5",
+      "guid": "b5e641aacb05ff7ebf2d344076a13ecd",
+      "index": 18,
+      "title": "'I've banned most men from my massage clinic because of their behaviour' - BBC",
+      "summary": "'I've banned most men from my massage clinic because of their behaviour' &nbsp;&nbsp; BBC",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FcFNTRUFEOVhGQWVBTDV3OFU0QXdvREQ3eE5rc3NmeUxFUFhpYWJnbW1VQ0dKUjVrbFF3cC1xcTRfOWFTVzlSS0k1QUhkNnJZblhHdHRXUk5FZw?oc=5",
       "resolved_url": "",
       "image_url": "",
       "image_urls": [],
@@ -573,14 +725,46 @@
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 22:01:10 GMT",
-      "author": "Reuters"
+      "pub_date": "Sat, 20 Jun 2026 22:46:47 GMT",
+      "author": "BBC"
+    },
+    {
+      "guid": "99c6a6359cfb297782981990ed78cb00",
+      "index": 19,
+      "title": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might - Al Jazeera",
+      "summary": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might &nbsp;&nbsp; Al Jazeera Trump threatens to charge U.S. tolls in Strait of Hormuz if final Iran deal not reached in 60 days &nbsp;&nbsp; PBS Trump says no toll on Stra",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXlmZWNTSGJHQkNpenFiQUpjS3U0T3FpdnRJdjR6YTRJcF83YkhUWTBfX1hWR2h0X19qX1lrWFVtTU5HUHdqbUN3SV91Ymx6UjhtWVRlYVNpOVhWaWtIUE9OMGh1aGRjYXAxaC02cWpBM2hic2tzWHFrODBaMEI5VDhBRUo3cFZhVGZLdlM4cVg2eVBPSTJ3MWxGOGhtQnFtODVCYzdpdDBGZnNub1pfejllVdIBuAFBVV95cUxQanU1MkNJc1U5UHJuMGFpY0tQMjNKbDhBNG04elFKUlp6bUR1UF9PQV93X1k3cWtrcDY3LUY5WHc5aEJiSFNwNW5OeHZVYXN3VmxJb3l0dVhEc21iMVJnQmdBaU50WjVYRTVsZm1mWGh6alJVSGhmTFd4M1M3U3lhSXFHUmFhYkt4clVYRk5Sc0tnbzdpdEhSVmJtLUVxTXROU3JwSUdJRzdxUDBHa0pla3FQNk45WGxn?oc=5",
+      "resolved_url": "",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 22:01:11 GMT",
+      "author": "Al Jazeera"
+    },
+    {
+      "guid": "a1c2465011c2498710d1c89c904700ed",
+      "index": 20,
+      "title": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash - CBS News",
+      "summary": "Claude Guillemot, co-founder of video game maker Ubisoft, dies in plane crash &nbsp;&nbsp; CBS News Claude Guillemot, Ubisoft Co-Founder, Is Dead After Plane Crash in France &nbsp;&nbsp; The New York Times A founder of Assassin's Creed make",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUW5mSHlNUmFIbHNna0xEamxaZXhSeXp3d0RkSE85dWxtODFJOTc2WHFQYkJ3bldUQ3Buck9SYU9rRWp0UEpCbzQ5ZDdYc0Z6ZlhlbDY5eVZOX2Z3bDNBUndvZVhNREc3d3MxVUFkR29EUHNybC1vdkF5YkstRzdySi1CdGtKZThkRlE?oc=5",
+      "resolved_url": "",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 16:34:59 GMT",
+      "author": "CBS News"
     },
     {
       "guid": "4640af2fc6edfd5d6ba6e571ca4c2310",
-      "index": 15,
+      "index": 21,
       "title": "Boy, 3, ‘critical but stable’ after man throws him into crocodile pen - NewsNation",
-      "summary": "Boy, 3, ‘critical but stable’ after man throws him into crocodile pen &nbsp;&nbsp; NewsNation Man Forced Boy, 3, Into Crocodile Pen at English Zoo, Police Say &nbsp;&nbsp; The New York Times Mother, father and son rescued boy ‘thrown into c",
+      "summary": "Boy, 3, ‘critical but stable’ after man throws him into crocodile pen &nbsp;&nbsp; NewsNation Boy, 3, was attacked by crocodile at zoo in Cambridgeshire &nbsp;&nbsp; BBC Man arrested in UK after toddler ends up in zoo crocodile enclosure &n",
       "google_news_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPazA3YlZjRDUxQUNuaFd5LVY1ekhPVUdmbTJHMEFGN0VrWU05YVhkUzd2X3Y5dlVxb1pHWjF6Q3dkT0liUWlBZjZ2aXZmSVF0bXI1ajRKX2pjYU5GdFNxc1o2Rnl5OG40MlNvQ3prQlFRcWZRUXlrN2p1al9fU3Vic2N4aE5RU0xr0gGOAUFVX3lxTE4xeG9lX3dLMks3Wm1qLTZIR1hpcUtMVW02ODIxZ0xkQ0dFLXBfRFpHRHNLSGdTaEdtd0pScEd4Z1BwQWlwRUhQdGFUdGJCVVBRdkp2Y0pZVldiWGZVT1BoWG1HUGx0NWQ2RkVMLXZ3ak9Qc3pzMDRjR1NwUWlqbFMwWmdDQjRiT2RhVnlmZUE?oc=5",
       "resolved_url": "",
       "image_url": "",
@@ -589,15 +773,15 @@
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 21:37:01 GMT",
+      "pub_date": "Sun, 21 Jun 2026 03:28:49 GMT",
       "author": "NewsNation"
     },
     {
-      "guid": "bccaa2bf27cd905116a41a81a6485710",
-      "index": 16,
-      "title": "Russia Faces Spreading Fuel Shortages After Ukrainian Drones Pummel Refineries - WSJ",
-      "summary": "Russia Faces Spreading Fuel Shortages After Ukrainian Drones Pummel Refineries &nbsp;&nbsp; WSJ Russian Offensive Campaign Assessment, June 16, 2026 &nbsp;&nbsp; Institute for the Study of War Petrol shortages and ‘oil rain’ bring Russia-Uk",
-      "google_news_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTklqRFIteUVPb1cyUzdEQ1YxYTBnQ21FWWhWbnJ1VVlNbGlzMzdWU0pqQ1JELUd4bjdEMXlhb1dXNEczMm5YQ1NrdWh0ZGV4ZU5tZWU5M3ZFOFJVdGsxVjJhbWg0YXo1ZWpFWVBCSE5nVjdRZVlKaHljTnRDNVhqWF9iblJkd0VxT3EybGR1SEZmQ0NRYWlGMWoxRF9QV3h1bDNIYk5WbjRBQ2ktS1pMVnJ1SQ?oc=5",
+      "guid": "78f8dad6538d5793d7ee442c583c6e43",
+      "index": 22,
+      "title": "New global order: AI CEOs as heads of nation-states at G7 - Axios",
+      "summary": "New global order: AI CEOs as heads of nation-states at G7 &nbsp;&nbsp; Axios CEOs of Anthropic and Google DeepMind call for U.S.-led AI coalition in meeting at G7 &nbsp;&nbsp; CNBC AI's most powerful bosses deliver message to world leaders ",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45WlV4dzAwenB0NjJubFM1d0VJSThjT1U3RjBZWkxYNDc4SzZkekRIS0dNczd4ejc2LVB6X1VlR3pfSVNiSW5VeHB0WDlYQlNzRnFlRnVEbFpYLXpRclkw?oc=5",
       "resolved_url": "",
       "image_url": "",
       "image_urls": [],
@@ -605,15 +789,15 @@
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 12:44:00 GMT",
-      "author": "WSJ"
+      "pub_date": "Sat, 20 Jun 2026 13:46:20 GMT",
+      "author": "Axios"
     },
     {
-      "guid": "4b613da8700e8df1f1190a1bf4588bfb",
-      "index": 17,
-      "title": "‘They Do As I Say’ Trump Says Of Israel Amid Disagreement Over Iran Deal - Forbes",
-      "summary": "‘They Do As I Say’ Trump Says Of Israel Amid Disagreement Over Iran Deal &nbsp;&nbsp; Forbes U.S. intelligence warns Israel is likely to undermine Iran peace deal, officials say &nbsp;&nbsp; The Washington Post Trump claims he can control I",
-      "google_news_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNLXAtSDBUcE5LZ2Zva2RUTDMwWnVSRXFEOHlyd2twQ09xa0ZhY1pqRzV6U0FfaFhyNmh6RF9aeTI3OGd6YlVvRUF4LWg4M29peDV2QXd6clFDX0JVc0pFdkVHLUZCcEItQzV3ZTlmU1A4LTRLSUFTM05PR2ZJMXRnVEFJVEoydGxsNWxrdWRYVlpDRVBxVk4tMmtJdWYyNWhCY1hGM3kzQ0xKYjhDbnpyaDZpc2ozU1l5cFBvUQ?oc=5",
+      "guid": "fa34cc678e40bf9e028658d4927c06a9",
+      "index": 23,
+      "title": "African and Caribbean nations call for formal apology for transatlantic slavery - BBC",
+      "summary": "African and Caribbean nations call for formal apology for transatlantic slavery &nbsp;&nbsp; BBC Barbados prime minister announces manifesto for slavery reparations &nbsp;&nbsp; The Guardian African and Caribbean leaders call for payments, ",
+      "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RZjUzZ0xKeWV6N3IzMC1oLWJCdjc2Y1E3NWR6TzY1NDVFc0tDcFljNThwbk83V3FoWHVCZjRzcWhLeFpiUU5FN2lFczFtYThvUnBGZE5CNWJrZw?oc=5",
       "resolved_url": "",
       "image_url": "",
       "image_urls": [],
@@ -621,28 +805,12 @@
       "image_paths": [],
       "image_source": "",
       "image_caption": "",
-      "pub_date": "Fri, 19 Jun 2026 19:20:27 GMT",
-      "author": "Forbes"
-    },
-    {
-      "guid": "2f786553c1950271a5b50dd051121bdf",
-      "index": 18,
-      "title": "No fuel, no weapons: How Ukraine’s new drone strategy is mauling Russian supply lines - CNN",
-      "summary": "No fuel, no weapons: How Ukraine’s new drone strategy is mauling Russian supply lines &nbsp;&nbsp; CNN ‘This War Has Now Reached Your Homes’: Ukraine’s Startling New Message for Russia &nbsp;&nbsp; Politico Are Ukraine drones really exposin",
-      "google_news_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONmx4a0Q4R21PeTY5THM2Skl2VTRUb1QwTU9UY2xCVUZ4N3ZmTTVQc3VrR2xMSDdTbTlWUEJ4SXN3OG1kWkhjTHNhVkxLaDJ5akVUWjB5QUxBcUMySzVCSXE5cGVwU3pDcFZpdXZTWmszOTNUdGZNSy04SnluT0ktSUx1cnRqdWtJOHhDb3VmUTJKdw?oc=5",
-      "resolved_url": "",
-      "image_url": "",
-      "image_urls": [],
-      "image_path": "",
-      "image_paths": [],
-      "image_source": "",
-      "image_caption": "",
-      "pub_date": "Sat, 20 Jun 2026 04:01:26 GMT",
-      "author": "CNN"
+      "pub_date": "Sat, 20 Jun 2026 02:33:30 GMT",
+      "author": "BBC"
     },
     {
       "guid": "a10a316d7596d0ded45273864d62ec01",
-      "index": 19,
+      "index": 24,
       "title": "Iran deputy FM says ‘ready to move forward’ in deal with US - Al Jazeera",
       "summary": "Iran deputy FM says ‘ready to move forward’ in deal with US &nbsp;&nbsp; Al Jazeera Lebanon Emerges as Weak Link in U.S.-Iran Deal to End War &nbsp;&nbsp; The New York Times Lebanese villagers return to find homes in ruins &nbsp;&nbsp; Reut",
       "google_news_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzg0X0I0TmtWT1I1azgyaTloRng0VEdOVlBzSzJ6bWxNbXd0cldDWHhoTXp1bXZaZDg3OTItX2lXeElkVTRpQmVDVzJ5ejdrQ0dMY2RNM3drT1RFQVJ0ZU0wS1lnUmJPM3l2cEZvaHQ5d3lYUUJ2NWQwSHY2c3gyTnZ0ZWdMWGxJdWVGOTBoaEt2b0JSMGtSTjk2UV9UMm_SAaQBQVVfeXFMT25MQlVzaUVjNWpPYk55M2ZaZy1TMWltTGJFS05FRFV1Smh2Unl2NWVfUGlOU1RIRjJIWFdmNVRkSzRhOTl3XzVYa3V6SVljZ2NiN3Q4NWJXQUt0SE1hWW90WjFLS3BnY3pLcHA4aHQzdExRSUk2bzRtbG0wbTlpejNUZ2lsM0RHbE9SaktrQzEwWjRBTXNqcDVkYnpwSDJVVnNhQ1g?oc=5",
@@ -655,6 +823,22 @@
       "image_caption": "",
       "pub_date": "Fri, 19 Jun 2026 20:05:51 GMT",
       "author": "Al Jazeera"
+    },
+    {
+      "guid": "0e893b2633167ae29effd757d2af9f92",
+      "index": 25,
+      "title": "3 more instructors arrested in harrowing death of bungee jumper without cord in Brazil - New York Post",
+      "summary": "3 more instructors arrested in harrowing death of bungee jumper without cord in Brazil &nbsp;&nbsp; New York Post Rope Jumper Falls to Her Death After Operators Fail to Secure Harness &nbsp;&nbsp; The New York Times Three instructors charge",
+      "google_news_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQY0JZSVg0Tk5Fbk40WDN2S0dYQ0FmcjhyNFlhSERhdWFkSTlXV2haU3c0NjFRUGtncldnaGk2R0hwX2hDU3lOdl82TFBJcmtFZEhqLUdyUUk4NWRBMVEyWTU2blZCYUZFSVNLNDZvWEtZTGR0YVFGZ2YzemxiTW5HV19IWk9wVXhIcHJHUE9tekxiTWI5Wlk0cHQ1SDBjSHdKTXVpVlRpdWdoUk1wcFAtWm1wTFlVN242S0tSbnJMWU00d0NzYlZN?oc=5",
+      "resolved_url": "",
+      "image_url": "",
+      "image_urls": [],
+      "image_path": "",
+      "image_paths": [],
+      "image_source": "",
+      "image_caption": "",
+      "pub_date": "Sat, 20 Jun 2026 21:58:57 GMT",
+      "author": "New York Post"
     }
   ]
 }
